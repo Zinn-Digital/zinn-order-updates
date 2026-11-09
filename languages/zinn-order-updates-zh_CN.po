@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-order-updates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-order-updates\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-order-updates.php
+#: includes/class-zinn-order-updates-admin.php:34
+#: includes/class-zinn-order-updates-admin.php:125
+msgid "Zinn® Order Updates"
+msgstr "Zinn® Order Updates"
+
+#. Plugin URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+
+#. Description of the plugin
+#: zinn-order-updates.php
+msgid "SMS and WhatsApp order updates for your store, sent through Zinn® Campaigns under your store's own name. Connect in one click; no keys to paste."
+msgstr "通过 Zinn® Campaigns 以您网店自有的名称，为您的网店发送短信和 WhatsApp 订单更新。一键连接；无需粘贴密钥。"
+
+#. Author of the plugin
+#: zinn-order-updates.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-admin.php:35
+msgid "Order Updates"
+msgstr "订单更新"
+
+#: includes/class-zinn-order-updates-admin.php:86
+msgid "Your store is connected to Zinn® Campaigns."
+msgstr "您的商店已连接到 Zinn® Campaigns。"
+
+#: includes/class-zinn-order-updates-admin.php:87
+msgid "Your store is disconnected. No messages will be sent."
+msgstr "您的商店已断开连接。将不会发送任何消息。"
+
+#: includes/class-zinn-order-updates-admin.php:88
+msgid "That connection took too long or was started in another browser. Press Connect again."
+msgstr "该连接耗时过长或已在其他浏览器中启动。请再次点击“连接”。"
+
+#: includes/class-zinn-order-updates-admin.php:89
+msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
+msgstr "Zinn® 未接受连接。请再次点击“连接”；如果问题仍未解决，请联系 Zinn® 支持团队。"
+
+#: includes/class-zinn-order-updates-admin.php:90
+msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
+msgstr "您的站点无法访问 Zinn®。请检查您的主机是否允许对外连接，然后再次点击“连接”。"
+
+#: includes/class-zinn-order-updates-admin.php:128
+msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
+msgstr "以您店铺的名义，通过短信和 WhatsApp 向您的客户发送有关其订单的最新动态，费用从您的 Zinn® 额度中扣除。"
+
+#: includes/class-zinn-order-updates-admin.php:129
+msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
+msgstr "“连接”将在当前窗口中打开 Zinn®。登录或创建账户，批准此商店，您便可直接返回此处。您无需粘贴任何密钥。"
+
+#: includes/class-zinn-order-updates-admin.php:130
+msgid "Connect to Zinn® Campaigns"
+msgstr "连接到 Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:136
+msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
+msgstr "已连接，但刚才无法联系到 Zinn®。我们稍后会再次尝试。"
+
+#: includes/class-zinn-order-updates-admin.php:141
+msgid "Store"
+msgstr "商店"
+
+#: includes/class-zinn-order-updates-admin.php:147
+msgid "Connected"
+msgstr "已连接"
+
+#: includes/class-zinn-order-updates-admin.php:152
+msgid "Zinn® Campaigns"
+msgstr "Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:154
+msgid "Open for your account"
+msgstr "为您的账户开启"
+
+#: includes/class-zinn-order-updates-admin.php:155
+msgid "Not open for your account yet. Zinn® will e-mail you when it is."
+msgstr "尚未对您的账户开放。开放后，Zinn® 将通过电子邮件通知您。"
+
+#: includes/class-zinn-order-updates-admin.php:159
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: includes/class-zinn-order-updates-connect.php:77
+msgid "You are not allowed to connect this store."
+msgstr "您无权连接此商店。"
+
+#: includes/class-zinn-order-updates-connect.php:152
+msgid "You are not allowed to disconnect this store."
+msgstr "您无权断开此商店的连接。"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-order-updates-promo.php:349
+#: includes/class-zinn-order-updates-promo.php:407
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — 指南与服务"
+
+#: includes/class-zinn-order-updates-promo.php:364
+msgid "User guides"
+msgstr "用户指南"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-order-updates-promo.php:414
+#, php-format
+msgid "Read the %s user guide"
+msgstr "阅读 %s 用户指南"
+
+#: includes/class-zinn-order-updates-promo.php:422
+msgid "Hide this"
+msgstr "隐藏此项"
+
+#: includes/class-zinn-order-updates-promo.php:535
+msgid "Zinn® hosting for WordPress"
+msgstr "适用于 WordPress 的 Zinn® 托管"
+
+#: includes/class-zinn-order-updates-promo.php:536
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed、每日备份、免费迁移，以及专为管理多个站点的用户打造的控制面板。"
+
+#: includes/class-zinn-order-updates-promo.php:542
+msgid "The Zinn® marketplace"
+msgstr "Zinn® 市场"
+
+#: includes/class-zinn-order-updates-promo.php:543
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "买卖成熟网站、域名和链接位，资金安全托管，直至买卖双方均满意为止。"
+
+#: includes/class-zinn-order-updates-promo.php:590
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — 聘请以此为生的专业人士"
+
+#: includes/class-zinn-order-updates-promo.php:591
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "我们的全球自由职业者市场：浏览来自作者、设计师、开发者和 SEO 专家的 10,000 多项现成服务，或者发布项目让他们进行竞标。"
+
+#: includes/class-zinn-order-updates-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "查看 Zinn Digital® 发行说明。"
+
+#: includes/class-zinn-order-updates-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® 更新服务未提供此更新的下载链接。请检查此站点是否可以访问 Zinn® 平台，然后重试。"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-order-updates-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "无法从 Zinn® 更新服务（%s）下载更新。请在几分钟后重试。"
+
+#: includes/class-zinn-order-updates-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "下载的更新未通过完整性检查，未被安装。"

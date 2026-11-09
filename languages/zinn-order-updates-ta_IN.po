@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-order-updates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ta_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-order-updates\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-order-updates.php
+#: includes/class-zinn-order-updates-admin.php:34
+#: includes/class-zinn-order-updates-admin.php:125
+msgid "Zinn® Order Updates"
+msgstr "Zinn® Order Updates"
+
+#. Plugin URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+
+#. Description of the plugin
+#: zinn-order-updates.php
+msgid "SMS and WhatsApp order updates for your store, sent through Zinn® Campaigns under your store's own name. Connect in one click; no keys to paste."
+msgstr "உங்கள் கடைக்கான SMS மற்றும் WhatsApp ஆர்டர் புதுப்பிப்புகள், உங்கள் கடையின் சொந்த பெயரில் Zinn® Campaigns மூலம் அனுப்பப்படும். ஒரே கிளிக்கில் இணையுங்கள்; ஒட்டுவதற்கு எந்த சாவியும் இல்லை."
+
+#. Author of the plugin
+#: zinn-order-updates.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-admin.php:35
+msgid "Order Updates"
+msgstr "ஆர்டர் புதுப்பிப்புகள்"
+
+#: includes/class-zinn-order-updates-admin.php:86
+msgid "Your store is connected to Zinn® Campaigns."
+msgstr "உங்கள் அங்காடி Zinn® Campaigns உடன் இணைக்கப்பட்டுள்ளது."
+
+#: includes/class-zinn-order-updates-admin.php:87
+msgid "Your store is disconnected. No messages will be sent."
+msgstr "உங்கள் கடை துண்டிக்கப்பட்டுள்ளது. எந்த செய்திகளும் அனுப்பப்படாது."
+
+#: includes/class-zinn-order-updates-admin.php:88
+msgid "That connection took too long or was started in another browser. Press Connect again."
+msgstr "அந்த இணைப்பு அதிக நேரம் எடுத்தது அல்லது மற்றொரு உலாவியில் தொடங்கப்பட்டது. மீண்டும் இணை என்பதை அழுத்தவும்."
+
+#: includes/class-zinn-order-updates-admin.php:89
+msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
+msgstr "Zinn® இணைப்பை ஏற்கவில்லை. மீண்டும் \"இணை\" என்பதை அழுத்தவும்; தொடர்ந்து தோல்வியடைந்தால், Zinn® ஆதரவைத் தொடர்பு கொள்ளவும்."
+
+#: includes/class-zinn-order-updates-admin.php:90
+msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
+msgstr "உங்கள் தளத்தால் Zinn®-ஐ அணுக முடியவில்லை. உங்கள் ஹோஸ்ட் வெளிச்செல்லும் இணைப்புகளை அனுமதிக்கிறதா என்பதைச் சரிபார்த்து, பின்னர் மீண்டும் \"இணை\" என்பதை அழுத்தவும்."
+
+#: includes/class-zinn-order-updates-admin.php:128
+msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
+msgstr "உங்கள் வாடிக்கையாளர்களுக்கு அவர்களின் ஆர்டர்கள் குறித்த SMS மற்றும் WhatsApp அறிவிப்புகளை உங்கள் கடையின் பெயரிலேயே அனுப்புங்கள், இதற்கு உங்கள் Zinn® கிரெடிட்டிலிருந்து கட்டணம் செலுத்தப்படும்."
+
+#: includes/class-zinn-order-updates-admin.php:129
+msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
+msgstr "இணைக்கவும் இந்தச் சாளரத்தில் Zinn®-ஐத் திறக்கும். உள்நுழையவும் அல்லது கணக்கை உருவாக்கவும், இந்த அங்காடிக்கு ஒப்புதல் அளிக்கவும், நீங்கள் நேரடியாக இங்கே திரும்பி வருவீர்கள். நீங்கள் ஒருபோதும் சாவியை ஒட்ட வேண்டியதில்லை."
+
+#: includes/class-zinn-order-updates-admin.php:130
+msgid "Connect to Zinn® Campaigns"
+msgstr "Zinn® Campaigns உடன் இணைக்கவும்"
+
+#: includes/class-zinn-order-updates-admin.php:136
+msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
+msgstr "இணைக்கப்பட்டது, ஆனால் தற்போது Zinn®-ஐத் தொடர்பு கொள்ள முடியவில்லை. விரைவில் மீண்டும் முயற்சிப்போம்."
+
+#: includes/class-zinn-order-updates-admin.php:141
+msgid "Store"
+msgstr "ஸ்டோர்"
+
+#: includes/class-zinn-order-updates-admin.php:147
+msgid "Connected"
+msgstr "இணைக்கப்பட்டது"
+
+#: includes/class-zinn-order-updates-admin.php:152
+msgid "Zinn® Campaigns"
+msgstr "Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:154
+msgid "Open for your account"
+msgstr "உங்கள் கணக்கிற்குத் திறக்கப்பட்டுள்ளது"
+
+#: includes/class-zinn-order-updates-admin.php:155
+msgid "Not open for your account yet. Zinn® will e-mail you when it is."
+msgstr "தங்கள் கணக்கிற்கு இன்னும் திறக்கப்படவில்லை. அது தயாரானதும் Zinn® தங்களுக்கு மின்னஞ்சல் அனுப்பும்."
+
+#: includes/class-zinn-order-updates-admin.php:159
+msgid "Disconnect"
+msgstr "இணைப்பைத் துண்டி"
+
+#: includes/class-zinn-order-updates-connect.php:77
+msgid "You are not allowed to connect this store."
+msgstr "இந்தக் கடையை இணைக்க உங்களுக்கு அனுமதி இல்லை."
+
+#: includes/class-zinn-order-updates-connect.php:152
+msgid "You are not allowed to disconnect this store."
+msgstr "இந்தக் கடையை துண்டிக்க உங்களுக்கு அனுமதி இல்லை."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-order-updates-promo.php:349
+#: includes/class-zinn-order-updates-promo.php:407
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — வழிகாட்டிகள் மற்றும் சேவைகள்"
+
+#: includes/class-zinn-order-updates-promo.php:364
+msgid "User guides"
+msgstr "பயனர் வழிகாட்டிகள்"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-order-updates-promo.php:414
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s பயனர் வழிகாட்டியைப் படிக்கவும்"
+
+#: includes/class-zinn-order-updates-promo.php:422
+msgid "Hide this"
+msgstr "இதை மறைக்கவும்"
+
+#: includes/class-zinn-order-updates-promo.php:535
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress-க்கான Zinn® ஹோஸ்டிங்"
+
+#: includes/class-zinn-order-updates-promo.php:536
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, தினசரி காப்புப் பிரதிகள், இலவச இடம்பெயர்வு மற்றும் ஒன்றுக்கும் மேற்பட்ட தளங்களை நிர்வகிப்பவர்களுக்காக உருவாக்கப்பட்ட கட்டுப்பாட்டுப் பலகை."
+
+#: includes/class-zinn-order-updates-promo.php:542
+msgid "The Zinn® marketplace"
+msgstr "Zinn® சந்தை"
+
+#: includes/class-zinn-order-updates-promo.php:543
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "இரு தரப்பினரும் திருப்தியடையும் வரை பணம் பாதுகாப்பாக வைத்திருக்கப்பட்டு, நிறுவப்பட்ட தளங்கள், டொமைன்கள் மற்றும் இணைப்பு இடவமைப்புகளை வாங்கி விற்கவும்."
+
+#: includes/class-zinn-order-updates-promo.php:590
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — இதைத் தொழிலாகச் செய்யும் நபர்களை பணியமர்த்தவும்"
+
+#: includes/class-zinn-order-updates-promo.php:591
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "எங்கள் உலகளாவிய ஃப்ரீலான்ஸ் சந்தை: எழுத்தாளர்கள், வடிவமைப்பாளர்கள், டெவலப்பர்கள் மற்றும் எஸ்சிஓ நிபுணர்களின் 10,000-க்கும் மேற்பட்ட ஆயத்த சேவைகளை உலாவவும், அல்லது ஒரு திட்டத்தைப் பதிவிட்டு அவர்களை ஏலமிட அனுமதிக்கவும்."
+
+#: includes/class-zinn-order-updates-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® வெளியீட்டுக் குறிப்புகளைப் பார்க்கவும்."
+
+#: includes/class-zinn-order-updates-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® புதுப்பிப்புச் சேவை இந்த புதுப்பிப்புக்கான பதிவிறக்க இணைப்பை வழங்கவில்லை. இந்த தளத்தால் Zinn® தளத்தை அணுக முடிகிறதா என்பதைச் சரிபார்த்து, மீண்டும் முயற்சிக்கவும்."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-order-updates-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® புதுப்பிப்பு சேவையிலிருந்து (%s) புதுப்பிப்பைப் பதிவிறக்க முடியவில்லை. சில நிமிடங்களில் மீண்டும் முயற்சிக்கவும்."
+
+#: includes/class-zinn-order-updates-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "பதிவிறக்கப்பட்ட புதுப்பிப்பு அதன் நம்பகத்தன்மை சரிபார்ப்பில் தோல்வியடைந்தது, அதனால் நிறுவப்படவில்லை."

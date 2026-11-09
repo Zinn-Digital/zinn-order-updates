@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-order-updates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-order-updates\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-order-updates.php
+#: includes/class-zinn-order-updates-admin.php:34
+#: includes/class-zinn-order-updates-admin.php:125
+msgid "Zinn® Order Updates"
+msgstr "Zinn® Order Updates"
+
+#. Plugin URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+
+#. Description of the plugin
+#: zinn-order-updates.php
+msgid "SMS and WhatsApp order updates for your store, sent through Zinn® Campaigns under your store's own name. Connect in one click; no keys to paste."
+msgstr "SMS- és WhatsApp-rendelésfrissítések az áruház számára, a Zinn® Campaigns segítségével elküldve a saját áruháznév alatt. Csatlakozás egyetlen kattintással; nincsenek beillesztendő kulcsok."
+
+#. Author of the plugin
+#: zinn-order-updates.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-admin.php:35
+msgid "Order Updates"
+msgstr "Rendelésfrissítések"
+
+#: includes/class-zinn-order-updates-admin.php:86
+msgid "Your store is connected to Zinn® Campaigns."
+msgstr "Az áruház csatlakoztatva van a(z) Zinn® Campaigns szolgáltatáshoz."
+
+#: includes/class-zinn-order-updates-admin.php:87
+msgid "Your store is disconnected. No messages will be sent."
+msgstr "Az áruház kapcsolata megszakadt. Nem kerülnek elküldésre üzenetek."
+
+#: includes/class-zinn-order-updates-admin.php:88
+msgid "That connection took too long or was started in another browser. Press Connect again."
+msgstr "A kapcsolatfelvétel túl sokáig tartott, vagy egy másik böngészőben indult el. Kattintson újra a Csatlakozás gombra."
+
+#: includes/class-zinn-order-updates-admin.php:89
+msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
+msgstr "A Zinn® nem fogadta a kapcsolatot. Nyomja meg újra a „Csatlakozás” gombot; ha a hiba továbbra is fennáll, lépjen kapcsolatba a Zinn® ügyfélszolgálatával."
+
+#: includes/class-zinn-order-updates-admin.php:90
+msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
+msgstr "A webhely nem tudta elérni a Zinn® szolgáltatást. Ellenőrizni kell, hogy a tárhelyszolgáltató engedélyezi-e a kimenő kapcsolatokat, majd meg kell nyomni az „Újracsatlakozás” gombot."
+
+#: includes/class-zinn-order-updates-admin.php:128
+msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
+msgstr "Küldjünk az ügyfeleknek SMS- és WhatsApp-frissítéseket a megrendeléseikről a saját áruházunk neve alatt, a Zinn®-egyenlegből fizetve."
+
+#: includes/class-zinn-order-updates-admin.php:129
+msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
+msgstr "A Csatlakozás megnyitja a Zinn® szolgáltatást ebben az ablakban. Bejelentkezés vagy fiók létrehozása után hagyja jóvá ezt az áruházat, és azonnal visszatérhet ide. Nem szükséges kulcsot beilleszteni."
+
+#: includes/class-zinn-order-updates-admin.php:130
+msgid "Connect to Zinn® Campaigns"
+msgstr "Kapcsolódás a következőhöz: Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:136
+msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
+msgstr "A kapcsolat létrejött, de a Zinn® jelenleg nem érhető el. Rövidesen újra megpróbáljuk."
+
+#: includes/class-zinn-order-updates-admin.php:141
+msgid "Store"
+msgstr "Áruház"
+
+#: includes/class-zinn-order-updates-admin.php:147
+msgid "Connected"
+msgstr "Kapcsolódva"
+
+#: includes/class-zinn-order-updates-admin.php:152
+msgid "Zinn® Campaigns"
+msgstr "Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:154
+msgid "Open for your account"
+msgstr "Nyitva a fiók számára"
+
+#: includes/class-zinn-order-updates-admin.php:155
+msgid "Not open for your account yet. Zinn® will e-mail you when it is."
+msgstr "Ez a funkció ezen a fiókon még nem érhető el. A Zinn® e-mailt küld, amint elérhetővé válik."
+
+#: includes/class-zinn-order-updates-admin.php:159
+msgid "Disconnect"
+msgstr "Kapcsolat bontása"
+
+#: includes/class-zinn-order-updates-connect.php:77
+msgid "You are not allowed to connect this store."
+msgstr "Nincs jogosultság az áruház csatlakoztatására."
+
+#: includes/class-zinn-order-updates-connect.php:152
+msgid "You are not allowed to disconnect this store."
+msgstr "Nincs jogosultság az áruház szétkapcsolásához."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-order-updates-promo.php:349
+#: includes/class-zinn-order-updates-promo.php:407
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s – útmutatók és szolgáltatások"
+
+#: includes/class-zinn-order-updates-promo.php:364
+msgid "User guides"
+msgstr "Felhasználói útmutatók"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-order-updates-promo.php:414
+#, php-format
+msgid "Read the %s user guide"
+msgstr "A(z) %s felhasználói útmutató elolvasása"
+
+#: includes/class-zinn-order-updates-promo.php:422
+msgid "Hide this"
+msgstr "Elrejtés"
+
+#: includes/class-zinn-order-updates-promo.php:535
+msgid "Zinn® hosting for WordPress"
+msgstr "Zinn® tárhely WordPress-hez"
+
+#: includes/class-zinn-order-updates-promo.php:536
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, napi biztonsági mentések, ingyenes költöztetés és több webhelyet kezelők számára tervezett vezérlőpult."
+
+#: includes/class-zinn-order-updates-promo.php:542
+msgid "The Zinn® marketplace"
+msgstr "A Zinn® piactér"
+
+#: includes/class-zinn-order-updates-promo.php:543
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Már bejáratott webhelyek, domainek és hivatkozás-elhelyezések adásvétele, ahol a pénz biztonságban van, amíg mindkét fél elégedett nem lesz."
+
+#: includes/class-zinn-order-updates-promo.php:590
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — érdemes olyan szakembereket megbízni, akik ebből élnek"
+
+#: includes/class-zinn-order-updates-promo.php:591
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Globális szabadúszó piactér: böngésszen több mint 10 000 kész szolgáltatás között íróktól, tervezőktől, fejlesztőktől és SEO-szakemberektől, vagy hozzon létre egy projektet, és fogadja az ajánlatokat."
+
+#: includes/class-zinn-order-updates-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "A Zinn Digital® kiadási megjegyzéseinek megtekintése."
+
+#: includes/class-zinn-order-updates-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "A Zinn® frissítési szolgáltatás nem adott letöltési hivatkozást ehhez a frissítéshez. Ellenőrizni kell, hogy az oldal eléri-e a Zinn® platformot, majd újra kell próbálni."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-order-updates-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "A frissítést nem sikerült letölteni a Zinn® frissítési szolgáltatásból (%s). Próbálkozzon újra néhány perc múlva."
+
+#: includes/class-zinn-order-updates-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "A letöltött frissítés ellenőrző összege érvénytelen, ezért nem lett telepítve."

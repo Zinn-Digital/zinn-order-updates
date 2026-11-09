@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-order-updates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n%100>0 && n%100<20) ? 1 : 2);\n"
+"X-Domain: zinn-order-updates\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-order-updates.php
+#: includes/class-zinn-order-updates-admin.php:34
+#: includes/class-zinn-order-updates-admin.php:125
+msgid "Zinn® Order Updates"
+msgstr "Zinn® Order Updates"
+
+#. Plugin URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+
+#. Description of the plugin
+#: zinn-order-updates.php
+msgid "SMS and WhatsApp order updates for your store, sent through Zinn® Campaigns under your store's own name. Connect in one click; no keys to paste."
+msgstr "Actualizări ale comenzilor prin SMS și WhatsApp pentru magazinul tău, trimise prin Zinn® Campaigns sub numele propriu al magazinului tău. Conectează-te cu un singur clic; fără chei de inserat."
+
+#. Author of the plugin
+#: zinn-order-updates.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-admin.php:35
+msgid "Order Updates"
+msgstr "Actualizări comandă"
+
+#: includes/class-zinn-order-updates-admin.php:86
+msgid "Your store is connected to Zinn® Campaigns."
+msgstr "Magazinul tău este conectat la Zinn® Campaigns."
+
+#: includes/class-zinn-order-updates-admin.php:87
+msgid "Your store is disconnected. No messages will be sent."
+msgstr "Magazinul tău este deconectat. Nu se va trimite niciun mesaj."
+
+#: includes/class-zinn-order-updates-admin.php:88
+msgid "That connection took too long or was started in another browser. Press Connect again."
+msgstr "Conexiunea a durat prea mult sau a fost inițiată într-un alt navigator. Apasă din nou pe Conectare."
+
+#: includes/class-zinn-order-updates-admin.php:89
+msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
+msgstr "Zinn® nu a acceptat conexiunea. Apasă din nou pe „Conectare”; dacă problema persistă, contactează asistența Zinn®."
+
+#: includes/class-zinn-order-updates-admin.php:90
+msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
+msgstr "Site-ul tău nu a putut accesa Zinn®. Verifică dacă găzduirea ta permite conexiuni de ieșire, apoi apasă din nou pe „Conectare”."
+
+#: includes/class-zinn-order-updates-admin.php:128
+msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
+msgstr "Trimite clienților tăi actualizări prin SMS și WhatsApp despre comenzile lor, sub numele magazinului tău, plătite din creditul tău Zinn®."
+
+#: includes/class-zinn-order-updates-admin.php:129
+msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
+msgstr "Conectare deschide Zinn® în această fereastră. Conectează-te sau creează un cont, aprobă acest magazin și te vei întoarce direct aici. Nu introduci niciodată o cheie."
+
+#: includes/class-zinn-order-updates-admin.php:130
+msgid "Connect to Zinn® Campaigns"
+msgstr "Conectează-te la Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:136
+msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
+msgstr "Conectat, dar Zinn® nu a putut fi contactat chiar acum. Vom încerca din nou în curând."
+
+#: includes/class-zinn-order-updates-admin.php:141
+msgid "Store"
+msgstr "Magazin"
+
+#: includes/class-zinn-order-updates-admin.php:147
+msgid "Connected"
+msgstr "Conectat"
+
+#: includes/class-zinn-order-updates-admin.php:152
+msgid "Zinn® Campaigns"
+msgstr "Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:154
+msgid "Open for your account"
+msgstr "Deschis pentru contul tău"
+
+#: includes/class-zinn-order-updates-admin.php:155
+msgid "Not open for your account yet. Zinn® will e-mail you when it is."
+msgstr "Nu este încă deschis pentru contul tău. Zinn® îți va trimite un e-mail când va fi disponibil."
+
+#: includes/class-zinn-order-updates-admin.php:159
+msgid "Disconnect"
+msgstr "Deconectează"
+
+#: includes/class-zinn-order-updates-connect.php:77
+msgid "You are not allowed to connect this store."
+msgstr "Nu ai permisiunea de a conecta acest magazin."
+
+#: includes/class-zinn-order-updates-connect.php:152
+msgid "You are not allowed to disconnect this store."
+msgstr "Nu ai permisiunea de a deconecta acest magazin."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-order-updates-promo.php:349
+#: includes/class-zinn-order-updates-promo.php:407
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — ghiduri și servicii"
+
+#: includes/class-zinn-order-updates-promo.php:364
+msgid "User guides"
+msgstr "Ghiduri de utilizare"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-order-updates-promo.php:414
+#, php-format
+msgid "Read the %s user guide"
+msgstr "Citește ghidul de utilizare %s"
+
+#: includes/class-zinn-order-updates-promo.php:422
+msgid "Hide this"
+msgstr "Ascunde"
+
+#: includes/class-zinn-order-updates-promo.php:535
+msgid "Zinn® hosting for WordPress"
+msgstr "Găzduire Zinn® pentru WordPress"
+
+#: includes/class-zinn-order-updates-promo.php:536
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, copii de rezervă zilnice, migrare gratuită și un panou de control creat pentru persoanele care gestionează mai multe site-uri."
+
+#: includes/class-zinn-order-updates-promo.php:542
+msgid "The Zinn® marketplace"
+msgstr "Piața Zinn®"
+
+#: includes/class-zinn-order-updates-promo.php:543
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Cumpără și vinde site-uri consacrate, domenii și plasări de linkuri, banii fiind păstrați în siguranță până când ambele părți sunt mulțumite."
+
+#: includes/class-zinn-order-updates-promo.php:590
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — angajează oameni care fac asta ca profesie"
+
+#: includes/class-zinn-order-updates-promo.php:591
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Piața noastră globală de freelancing: răsfoiește peste 10.000 de servicii gata pregătite de la scriitori, designeri, dezvoltatori și specialiști SEO, sau publică un proiect și lasă-i să liciteze."
+
+#: includes/class-zinn-order-updates-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "Vezi notele de lansare pentru Zinn Digital®."
+
+#: includes/class-zinn-order-updates-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Serviciul de actualizare Zinn® nu a furnizat un link de descărcare pentru această actualizare. Verifică dacă acest site poate accesa platforma Zinn®, apoi încearcă din nou."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-order-updates-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Actualizarea nu a putut fi descărcată de la serviciul de actualizare Zinn® (%s). Încearcă din nou peste câteva minute."
+
+#: includes/class-zinn-order-updates-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Actualizarea descărcată a eșuat la verificarea integrității și nu a fost instalată."

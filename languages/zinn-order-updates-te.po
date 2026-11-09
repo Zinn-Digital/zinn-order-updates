@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-order-updates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: te\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-order-updates\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-order-updates.php
+#: includes/class-zinn-order-updates-admin.php:34
+#: includes/class-zinn-order-updates-admin.php:125
+msgid "Zinn® Order Updates"
+msgstr "Zinn® Order Updates"
+
+#. Plugin URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+
+#. Description of the plugin
+#: zinn-order-updates.php
+msgid "SMS and WhatsApp order updates for your store, sent through Zinn® Campaigns under your store's own name. Connect in one click; no keys to paste."
+msgstr "మీ స్టోర్ కోసం SMS మరియు WhatsApp ఆర్డర్ అప్‌డేట్‌లు, మీ స్టోర్ స్వంత పేరుతో Zinn® Campaigns ద్వారా పంపబడతాయి. ఒకే క్లిక్‌తో కనెక్ట్ అవ్వండి; అతికించడానికి ఎటువంటి కీలు అవసరం లేదు."
+
+#. Author of the plugin
+#: zinn-order-updates.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-admin.php:35
+msgid "Order Updates"
+msgstr "ఆర్డర్ అప్‌డేట్‌లు"
+
+#: includes/class-zinn-order-updates-admin.php:86
+msgid "Your store is connected to Zinn® Campaigns."
+msgstr "మీ స్టోర్ Zinn® Campaigns కి కనెక్ట్ చేయబడింది."
+
+#: includes/class-zinn-order-updates-admin.php:87
+msgid "Your store is disconnected. No messages will be sent."
+msgstr "మీ స్టోర్ డిస్‌కనెక్ట్ చేయబడింది. సందేశాలేవీ పంపబడవు."
+
+#: includes/class-zinn-order-updates-admin.php:88
+msgid "That connection took too long or was started in another browser. Press Connect again."
+msgstr "ఆ కనెక్షన్‌కు చాలా సమయం పట్టింది లేదా మరొక బ్రౌజర్‌లో ప్రారంభించబడింది. దయచేసి మళ్లీ కనెక్ట్ చేయిని నొక్కండి."
+
+#: includes/class-zinn-order-updates-admin.php:89
+msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
+msgstr "Zinn® కనెక్షన్‌ను అంగీకరించలేదు. మళ్లీ \"కనెక్ట్ చేయండి\" నొక్కండి; సమస్య కొనసాగితే, Zinn® మద్దతును సంప్రదించండి."
+
+#: includes/class-zinn-order-updates-admin.php:90
+msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
+msgstr "మీ సైట్ Zinn®ను చేరుకోలేకపోయింది. మీ హోస్ట్ అవుట్‌గోయింగ్ కనెక్షన్‌లను అనుమతిస్తుందో లేదో తనిఖీ చేయండి, ఆపై మళ్లీ \"కనెక్ట్ చేయండి\" నొక్కండి."
+
+#: includes/class-zinn-order-updates-admin.php:128
+msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
+msgstr "మీ కస్టమర్‌లకు వారి ఆర్డర్‌ల గురించిన SMS మరియు WhatsApp అప్‌డేట్‌లను మీ స్వంత స్టోర్ పేరుతో పంపండి, దీనికి మీ Zinn® క్రెడిట్ నుండి చెల్లించబడుతుంది."
+
+#: includes/class-zinn-order-updates-admin.php:129
+msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
+msgstr "కనెక్ట్ చేయండి ఈ విండోలో Zinn®ను తెరుస్తుంది. సైన్ ఇన్ చేయండి లేదా ఖాతాను సృష్టించండి, ఈ స్టోర్‌ను ఆమోదించండి మరియు మీరు నేరుగా ఇక్కడికి తిరిగి వస్తారు. మీరు ఎప్పుడూ కీని అతికించాల్సిన అవసరం లేదు."
+
+#: includes/class-zinn-order-updates-admin.php:130
+msgid "Connect to Zinn® Campaigns"
+msgstr "Zinn® Campaignsకు కనెక్ట్ చేయండి"
+
+#: includes/class-zinn-order-updates-admin.php:136
+msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
+msgstr "కనెక్ట్ చేయబడింది, కానీ ప్రస్తుతం Zinn®ని సంప్రదించడం సాధ్యపడలేదు. మేము త్వరలోనే మళ్లీ ప్రయత్నిస్తాము."
+
+#: includes/class-zinn-order-updates-admin.php:141
+msgid "Store"
+msgstr "స్టోర్"
+
+#: includes/class-zinn-order-updates-admin.php:147
+msgid "Connected"
+msgstr "కనెక్ట్ చేయబడింది"
+
+#: includes/class-zinn-order-updates-admin.php:152
+msgid "Zinn® Campaigns"
+msgstr "Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:154
+msgid "Open for your account"
+msgstr "మీ ఖాతా కోసం తెరిచి ఉంది"
+
+#: includes/class-zinn-order-updates-admin.php:155
+msgid "Not open for your account yet. Zinn® will e-mail you when it is."
+msgstr "మీ ఖాతా కోసం ఇంకా అందుబాటులోకి రాలేదు. అందుబాటులోకి వచ్చినప్పుడు Zinn® మీకు ఇమెయిల్ పంపుతుంది."
+
+#: includes/class-zinn-order-updates-admin.php:159
+msgid "Disconnect"
+msgstr "సంధానాన్ని తెంచు"
+
+#: includes/class-zinn-order-updates-connect.php:77
+msgid "You are not allowed to connect this store."
+msgstr "ఈ స్టోర్‌ను కనెక్ట్ చేయడానికి మీకు అనుమతి లేదు."
+
+#: includes/class-zinn-order-updates-connect.php:152
+msgid "You are not allowed to disconnect this store."
+msgstr "ఈ స్టోర్‌ను డిస్‌కనెక్ట్ చేయడానికి మీకు అనుమతి లేదు."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-order-updates-promo.php:349
+#: includes/class-zinn-order-updates-promo.php:407
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — గైడ్‌లు మరియు సేవలు"
+
+#: includes/class-zinn-order-updates-promo.php:364
+msgid "User guides"
+msgstr "వినియోగదారు మార్గదర్శకాలు"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-order-updates-promo.php:414
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s వినియోగదారు గైడ్‌ను చదవండి"
+
+#: includes/class-zinn-order-updates-promo.php:422
+msgid "Hide this"
+msgstr "దీన్ని దాచండి"
+
+#: includes/class-zinn-order-updates-promo.php:535
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress కొరకు Zinn® హోస్టింగ్"
+
+#: includes/class-zinn-order-updates-promo.php:536
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, రోజువారీ బ్యాకప్‌లు, ఉచిత మైగ్రేషన్ మరియు ఒకటి కంటే ఎక్కువ సైట్‌లను నిర్వహించే వ్యక్తుల కోసం రూపొందించబడిన నియంత్రణ ప్యానెల్."
+
+#: includes/class-zinn-order-updates-promo.php:542
+msgid "The Zinn® marketplace"
+msgstr "Zinn® మార్కెట్‌ప్లేస్"
+
+#: includes/class-zinn-order-updates-promo.php:543
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "రెండు పక్షాలు సంతృప్తి చెందే వరకు నిధులు సురక్షితంగా ఉంచబడి, ఇప్పటికే స్థిరపడిన సైట్‌లు, డొమైన్‌లు మరియు లింక్ ప్లేస్‌మెంట్‌లను కొనండి మరియు అమ్మండి."
+
+#: includes/class-zinn-order-updates-promo.php:590
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — దీన్నే వృత్తిగా చేసుకున్న వ్యక్తులను నియమించుకోండి"
+
+#: includes/class-zinn-order-updates-promo.php:591
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "మా గ్లోబల్ ఫ్రీలాన్స్ మార్కెట్‌ప్లేస్: రచయితలు, డిజైనర్లు, డెవలపర్లు మరియు SEO నిపుణుల నుండి 10,000 కంటే ఎక్కువ సిద్ధంగా ఉన్న సేవలను బ్రౌజ్ చేయండి లేదా ప్రాజెక్ట్‌ను పోస్ట్ చేసి వారిని బిడ్ చేయనివ్వండి."
+
+#: includes/class-zinn-order-updates-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® విడుదల గమనికలను చూడండి."
+
+#: includes/class-zinn-order-updates-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® అప్‌డేట్ సేవ ఈ అప్‌డేట్ కోసం డౌన్‌లోడ్ లింక్‌ను విడుదల చేయలేదు. ఈ సైట్ Zinn® ప్లాట్‌ఫామ్‌ను చేరుకోగలదో లేదో తనిఖీ చేసి, ఆపై మళ్లీ ప్రయత్నించండి."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-order-updates-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® నవీకరణ సేవ (%s) నుండి నవీకరణ డౌన్‌లోడ్ చేయబడలేదు. దయచేసి కొన్ని నిమిషాల తర్వాత మళ్లీ ప్రయత్నించండి."
+
+#: includes/class-zinn-order-updates-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "డౌన్‌లోడ్ చేయబడిన నవీకరణ సమగ్రత తనిఖీలో విఫలమైంది మరియు ఇన్‌స్టాల్ చేయబడలేదు."

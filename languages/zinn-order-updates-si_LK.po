@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-order-updates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: si_LK\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: zinn-order-updates\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-order-updates.php
+#: includes/class-zinn-order-updates-admin.php:34
+#: includes/class-zinn-order-updates-admin.php:125
+msgid "Zinn® Order Updates"
+msgstr "Zinn® Order Updates"
+
+#. Plugin URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+
+#. Description of the plugin
+#: zinn-order-updates.php
+msgid "SMS and WhatsApp order updates for your store, sent through Zinn® Campaigns under your store's own name. Connect in one click; no keys to paste."
+msgstr "ඔබගේ වෙළඳසැල සඳහා වන SMS සහ WhatsApp ඇණවුම් යාවත්කාලීන කිරීම්, ඔබගේ වෙළඳසැලේම නමින් Zinn® Campaigns හරහා යවනු ලැබේ. එක් ක්ලික් කිරීමකින් සම්බන්ධ වන්න; ඇලවීමට යතුරු කිසිවක් නැත."
+
+#. Author of the plugin
+#: zinn-order-updates.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-admin.php:35
+msgid "Order Updates"
+msgstr "ඇණවුම් යාවත්කාලීන කිරීම්"
+
+#: includes/class-zinn-order-updates-admin.php:86
+msgid "Your store is connected to Zinn® Campaigns."
+msgstr "ඔබගේ වෙළඳසැල Zinn® Campaigns වෙත සම්බන්ධ කර ඇත."
+
+#: includes/class-zinn-order-updates-admin.php:87
+msgid "Your store is disconnected. No messages will be sent."
+msgstr "ඔබගේ ගබඩාව විසන්ධි වී ඇත. කිසිදු පණිවිඩයක් නොයවනු ඇත."
+
+#: includes/class-zinn-order-updates-admin.php:88
+msgid "That connection took too long or was started in another browser. Press Connect again."
+msgstr "එම සම්බන්ධතාවයට වැඩි වේලාවක් ගත විය හෝ වෙනත් බ්‍රවුසරයක ආරම්භ කරන ලදී. නැවත සම්බන්ධ වන්න ඔබන්න."
+
+#: includes/class-zinn-order-updates-admin.php:89
+msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
+msgstr "Zinn® සම්බන්ධතාව පිළිගත්තේ නැත. නැවත \"සම්බන්ධ කරන්න\" ඔබන්න; එය දිගටම අසාර්ථක වන්නේ නම්, Zinn® සහාය අමතන්න."
+
+#: includes/class-zinn-order-updates-admin.php:90
+msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
+msgstr "ඔබගේ අඩවියට Zinn® වෙත ළඟා වීමට නොහැකි විය. ඔබගේ සත්කාරකයා පිටතට යන සබඳතාවලට ඉඩ දෙන්නේ දැයි පරීක්ෂා කරන්න, ඉන්පසු නැවත \"සම්බන්ධ වන්න\" ඔබන්න."
+
+#: includes/class-zinn-order-updates-admin.php:128
+msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
+msgstr "ඔබගේ Zinn® ණය මුදලින් ගෙවා, ඔබගේ ගබඩාවේම නමින් පාරිභෝගිකයින් වෙත ඔවුන්ගේ ඇණවුම් පිළිබඳ SMS සහ WhatsApp යාවත්කාලීන යවන්න."
+
+#: includes/class-zinn-order-updates-admin.php:129
+msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
+msgstr "සම්බන්ධ කරන්න මඟින් මෙම කවුළුව තුළ Zinn® විවෘත වේ. පුරනය වන්න හෝ ගිණුමක් සාදන්න, මෙම වෙළඳසැල අනුමත කරන්න, එවිට ඔබ නැවත කෙලින්ම මෙහි පැමිණෙනු ඇත. ඔබට කිසි විටෙකත් යතුරක් ඇලවීමට සිදු නොවේ."
+
+#: includes/class-zinn-order-updates-admin.php:130
+msgid "Connect to Zinn® Campaigns"
+msgstr "Zinn® Campaigns වෙත සම්බන්ධ වන්න"
+
+#: includes/class-zinn-order-updates-admin.php:136
+msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
+msgstr "සම්බන්ධ විය, නමුත් මේ මොහොතේ Zinn® වෙත ළඟා වීමට නොහැකි විය. අපි සුළු වේලාවකින් නැවත උත්සාහ කරන්නෙමු."
+
+#: includes/class-zinn-order-updates-admin.php:141
+msgid "Store"
+msgstr "වෙළඳසැල"
+
+#: includes/class-zinn-order-updates-admin.php:147
+msgid "Connected"
+msgstr "සම්බන්ධ විය"
+
+#: includes/class-zinn-order-updates-admin.php:152
+msgid "Zinn® Campaigns"
+msgstr "Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:154
+msgid "Open for your account"
+msgstr "ඔබගේ ගිණුම සඳහා විවෘතයි"
+
+#: includes/class-zinn-order-updates-admin.php:155
+msgid "Not open for your account yet. Zinn® will e-mail you when it is."
+msgstr "ඔබගේ ගිණුම සඳහා තවමත් විවෘත නැත. එය සූදානම් වූ විට Zinn® ඔබට විද්‍යුත් තැපෑලක් එවනු ඇත."
+
+#: includes/class-zinn-order-updates-admin.php:159
+msgid "Disconnect"
+msgstr "විසන්ධි කරන්න"
+
+#: includes/class-zinn-order-updates-connect.php:77
+msgid "You are not allowed to connect this store."
+msgstr "මෙම ගබඩාව සම්බන්ධ කිරීමට ඔබට අවසර නැත."
+
+#: includes/class-zinn-order-updates-connect.php:152
+msgid "You are not allowed to disconnect this store."
+msgstr "මෙම ගබඩාව විසන්ධි කිරීමට ඔබට අවසර නැත."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-order-updates-promo.php:349
+#: includes/class-zinn-order-updates-promo.php:407
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — මාර්ගෝපදේශ සහ සේවා"
+
+#: includes/class-zinn-order-updates-promo.php:364
+msgid "User guides"
+msgstr "පරිශීලක මාර්ගෝපදේශ"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-order-updates-promo.php:414
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s පරිශීලක මාර්ගෝපදේශය කියවන්න"
+
+#: includes/class-zinn-order-updates-promo.php:422
+msgid "Hide this"
+msgstr "මෙය සඟවන්න"
+
+#: includes/class-zinn-order-updates-promo.php:535
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress සඳහා Zinn® සත්කාරකත්වය"
+
+#: includes/class-zinn-order-updates-promo.php:536
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, දෛනික උපස්ථයන්, නොමිලේ සංක්‍රමණය සහ එක් වෙබ් අඩවියකට වඩා පවත්වාගෙන යන පුද්ගලයින් සඳහාම සකස් කළ පාලක පුවරුවක්."
+
+#: includes/class-zinn-order-updates-promo.php:542
+msgid "The Zinn® marketplace"
+msgstr "Zinn® වෙළඳපොළ"
+
+#: includes/class-zinn-order-updates-promo.php:543
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "දෙපාර්ශ්වයම සෑහීමකට පත්වන තෙක් මුදල් සුරක්ෂිතව රඳවා තබා ගනිමින්, ස්ථාපිත වෙබ් අඩවි, ඩොමේන සහ සබැඳි ස්ථානගත කිරීම් මිලදී ගැනීම සහ විකිණීම සිදු කරන්න."
+
+#: includes/class-zinn-order-updates-promo.php:590
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — මෙම කාර්යය වෘත්තියක් ලෙස කරන පුද්ගලයින් සේවයට බඳවා ගන්න"
+
+#: includes/class-zinn-order-updates-promo.php:591
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "අපගේ ගෝලීය නිදහස් වෙළඳපොළ: ලේඛකයින්, නිර්මාණකරුවන්, සංවර්ධකයින් සහ SEO විශේෂඥයින්ගෙන් සූදානම් කළ සේවාවන් 10,000 කට වඩා පිරික්සන්න, නැතහොත් ව්‍යාපෘතියක් පළ කර ඔවුන්ට ලංසු තැබීමට ඉඩ දෙන්න."
+
+#: includes/class-zinn-order-updates-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® නිකුත් කිරීමේ සටහන් බලන්න."
+
+#: includes/class-zinn-order-updates-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® යාවත්කාලීන සේවාව මෙම යාවත්කාලීනය සඳහා බාගැනීම් සබැඳියක් නිකුත් නොකළේය. මෙම වෙබ් අඩවියට Zinn® වේදිකාවට ප්‍රවේශ විය හැකිදැයි පරීක්ෂා කර, පසුව නැවත උත්සාහ කරන්න."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-order-updates-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® යාවත්කාලීන සේවාවෙන් (%s) යාවත්කාලීනය බාගත කිරීමට නොහැකි විය. කරුණාකර මිනිත්තු කිහිපයකින් නැවත උත්සාහ කරන්න."
+
+#: includes/class-zinn-order-updates-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "බාගත කරන ලද යාවත්කාලීනයේ අඛණ්ඩතා පරීක්ෂාව අසාර්ථක වූ බැවින් එය ස්ථාපනය නොකරන ලදී."

@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-order-updates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-order-updates\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-order-updates.php
+#: includes/class-zinn-order-updates-admin.php:34
+#: includes/class-zinn-order-updates-admin.php:125
+msgid "Zinn® Order Updates"
+msgstr "Zinn® Order Updates"
+
+#. Plugin URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+
+#. Description of the plugin
+#: zinn-order-updates.php
+msgid "SMS and WhatsApp order updates for your store, sent through Zinn® Campaigns under your store's own name. Connect in one click; no keys to paste."
+msgstr "Përditësime të porosive me SMS dhe WhatsApp për dyqanin tuaj, të dërguara nëpërmjet Zinn® Campaigns nën emrin e vetë dyqanit tuaj. Lidheni me një klikim; nuk ka çelësa për t'u ngjitur."
+
+#. Author of the plugin
+#: zinn-order-updates.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-admin.php:35
+msgid "Order Updates"
+msgstr "Përditësimet e porosisë"
+
+#: includes/class-zinn-order-updates-admin.php:86
+msgid "Your store is connected to Zinn® Campaigns."
+msgstr "Dyqani juaj është i lidhur me Zinn® Campaigns."
+
+#: includes/class-zinn-order-updates-admin.php:87
+msgid "Your store is disconnected. No messages will be sent."
+msgstr "Dyqani juaj është shkëputur. Nuk do të dërgohet asnjë mesazh."
+
+#: includes/class-zinn-order-updates-admin.php:88
+msgid "That connection took too long or was started in another browser. Press Connect again."
+msgstr "Ajo lidhje zgjati shumë ose u nis në një shfletues tjetër. Shtypni sërish Lidhu."
+
+#: includes/class-zinn-order-updates-admin.php:89
+msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
+msgstr "Zinn® nuk e pranoi lidhjen. Shtypni përsëri «Lidhu»; nëse vazhdon të dështojë, lidhuni me mbështetjen e Zinn®."
+
+#: includes/class-zinn-order-updates-admin.php:90
+msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
+msgstr "Faqja juaj nuk mundi të lidhej me Zinn®. Kontrolloni nëse pritësi juaj lejon lidhje dalëse, pastaj shtypni përsëri «Lidhu»."
+
+#: includes/class-zinn-order-updates-admin.php:128
+msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
+msgstr "Dërgojuni klientëve tuaj përditësime me SMS dhe WhatsApp për porositë e tyre, me emrin e dyqanit tuaj, të paguara nga krediti juaj Zinn®."
+
+#: includes/class-zinn-order-updates-admin.php:129
+msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
+msgstr "Lidhja hap Zinn® në këtë dritare. Identifikohuni ose krijoni një llogari, miratoni këtë dyqan dhe do të ktheheni menjëherë këtu. Nuk keni nevojë të ngjitni kurrë një çelës."
+
+#: includes/class-zinn-order-updates-admin.php:130
+msgid "Connect to Zinn® Campaigns"
+msgstr "Lidhu me Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:136
+msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
+msgstr "U lidh, por nuk u arrit të kontaktohej me Zinn® tani. Do të provojmë përsëri së shpejti."
+
+#: includes/class-zinn-order-updates-admin.php:141
+msgid "Store"
+msgstr "Dyqani"
+
+#: includes/class-zinn-order-updates-admin.php:147
+msgid "Connected"
+msgstr "E lidhur"
+
+#: includes/class-zinn-order-updates-admin.php:152
+msgid "Zinn® Campaigns"
+msgstr "Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:154
+msgid "Open for your account"
+msgstr "E hapur për llogarinë tuaj"
+
+#: includes/class-zinn-order-updates-admin.php:155
+msgid "Not open for your account yet. Zinn® will e-mail you when it is."
+msgstr "Nuk është hapur ende për llogarinë tuaj. Zinn® do t'ju dërgojë një email kur të jetë hapur."
+
+#: includes/class-zinn-order-updates-admin.php:159
+msgid "Disconnect"
+msgstr "Shkëputu"
+
+#: includes/class-zinn-order-updates-connect.php:77
+msgid "You are not allowed to connect this store."
+msgstr "Nuk ju lejohet ta lidhni këtë dyqan."
+
+#: includes/class-zinn-order-updates-connect.php:152
+msgid "You are not allowed to disconnect this store."
+msgstr "Nuk ju lejohet të shkëputni këtë dyqan."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-order-updates-promo.php:349
+#: includes/class-zinn-order-updates-promo.php:407
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — udhëzues dhe shërbime"
+
+#: includes/class-zinn-order-updates-promo.php:364
+msgid "User guides"
+msgstr "Udhëzuesit e përdoruesit"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-order-updates-promo.php:414
+#, php-format
+msgid "Read the %s user guide"
+msgstr "Lexoni udhëzuesin e përdoruesit të %s"
+
+#: includes/class-zinn-order-updates-promo.php:422
+msgid "Hide this"
+msgstr "Fshiheni këtë"
+
+#: includes/class-zinn-order-updates-promo.php:535
+msgid "Zinn® hosting for WordPress"
+msgstr "Pritje Zinn® për WordPress"
+
+#: includes/class-zinn-order-updates-promo.php:536
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, kopje rezervë të përditshme, migrim falas dhe një panel kontrolli i ndërtuar për personat që menaxhojnë më shumë se një faqe."
+
+#: includes/class-zinn-order-updates-promo.php:542
+msgid "The Zinn® marketplace"
+msgstr "Tregu i Zinn®"
+
+#: includes/class-zinn-order-updates-promo.php:543
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Blini dhe shisni sajte të konsoliduara, domene dhe vendosje lidhjesh, me paratë e mbajtura të sigurta derisa të dyja palët të jenë të kënaqura."
+
+#: includes/class-zinn-order-updates-promo.php:590
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — punësoni njerëz që e bëjnë këtë si profesion"
+
+#: includes/class-zinn-order-updates-promo.php:591
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Tregu ynë global për punë të pavarur: shfletoni mbi 10.000 shërbime të gatshme nga autorë, stilistë, zhvillues dhe specialistë SEO, ose postoni një projekt dhe lërini të bëjnë ofertat e tyre."
+
+#: includes/class-zinn-order-updates-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "Shihni shënimet e publikimit të Zinn Digital®."
+
+#: includes/class-zinn-order-updates-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Shërbimi i përditësimit Zinn® nuk lëshoi një lidhje shkarkimi për këtë përditësim. Kontrolloni nëse kjo faqe mund të lidhet me platformën Zinn®, pastaj provoni përsëri."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-order-updates-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Përditësimi nuk mund të shkarkohej nga shërbimi i përditësimeve të Zinn® (%s). Ju lutemi provoni përsëri pas disa minutash."
+
+#: includes/class-zinn-order-updates-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Përditësimi i shkarkuar dështoi në kontrollin e integritetit dhe nuk u instalua."

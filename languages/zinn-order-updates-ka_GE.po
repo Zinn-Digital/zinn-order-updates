@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-order-updates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka_GE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-order-updates\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-order-updates.php
+#: includes/class-zinn-order-updates-admin.php:34
+#: includes/class-zinn-order-updates-admin.php:125
+msgid "Zinn® Order Updates"
+msgstr "Zinn® Order Updates"
+
+#. Plugin URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-order-updates"
+
+#. Description of the plugin
+#: zinn-order-updates.php
+msgid "SMS and WhatsApp order updates for your store, sent through Zinn® Campaigns under your store's own name. Connect in one click; no keys to paste."
+msgstr "SMS და WhatsApp შეკვეთის განახლებები თქვენი მაღაზიისთვის, გაგზავნილი Zinn® Campaigns-ის მეშვეობით თქვენი მაღაზიის საკუთარი სახელით. დაუკავშირდით ერთი დაწკაპუნებით; გასაღებების ჩასმა საჭირო არ არის."
+
+#. Author of the plugin
+#: zinn-order-updates.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-order-updates.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-admin.php:35
+msgid "Order Updates"
+msgstr "შეკვეთის განახლებები"
+
+#: includes/class-zinn-order-updates-admin.php:86
+msgid "Your store is connected to Zinn® Campaigns."
+msgstr "თქვენი მაღაზია დაკავშირებულია Zinn® Campaigns-თან."
+
+#: includes/class-zinn-order-updates-admin.php:87
+msgid "Your store is disconnected. No messages will be sent."
+msgstr "თქვენი მაღაზია გათიშულია. შეტყობინებები არ გაიგზავნება."
+
+#: includes/class-zinn-order-updates-admin.php:88
+msgid "That connection took too long or was started in another browser. Press Connect again."
+msgstr "ამ კავშირმა ძალიან დიდი დრო წაიღო ან სხვა ბრაუზერში დაიწყო. კვლავ დააჭირეთ დაკავშირებას."
+
+#: includes/class-zinn-order-updates-admin.php:89
+msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
+msgstr "Zinn®-მა არ მიიღო კავშირი. კვლავ დააჭირეთ ღილაკს „დაკავშირება“; თუ შეცდომა განმეორდება, დაუკავშირდით Zinn®-ის მხარდაჭერის გუნდს."
+
+#: includes/class-zinn-order-updates-admin.php:90
+msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
+msgstr "თქვენი საიტი ვერ დაუკავშირდა Zinn®-ს. შეამოწმეთ, უშვებს თუ არა თქვენი ჰოსტინგი გამავალ კავშირებს, შემდეგ კი კვლავ დააჭირეთ „დაკავშირებას“."
+
+#: includes/class-zinn-order-updates-admin.php:128
+msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
+msgstr "გაუგზავნეთ თქვენს მომხმარებლებს შეკვეთების შესახებ განახლებები SMS-ით და WhatsApp-ით, თქვენი მაღაზიის სახელით, თქვენი Zinn® კრედიტიდან გადახდით."
+
+#: includes/class-zinn-order-updates-admin.php:129
+msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
+msgstr "დაკავშირება ხსნის Zinn®-ს ამ ფანჯარაში. შედით სისტემაში ან შექმენით ანგარიში, დაამტკიცეთ ეს მაღაზია და პირდაპირ აქ დაბრუნდებით. გასაღების ჩასმა არასდროს დაგჭირდებათ."
+
+#: includes/class-zinn-order-updates-admin.php:130
+msgid "Connect to Zinn® Campaigns"
+msgstr "დაუკავშირდით Zinn® Campaigns-ს"
+
+#: includes/class-zinn-order-updates-admin.php:136
+msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
+msgstr "დაკავშირებულია, მაგრამ ამჟამად Zinn®-თან დაკავშირება ვერ მოხერხდა. მალე ხელახლა ვცდით."
+
+#: includes/class-zinn-order-updates-admin.php:141
+msgid "Store"
+msgstr "მაღაზია"
+
+#: includes/class-zinn-order-updates-admin.php:147
+msgid "Connected"
+msgstr "დაკავშირებულია"
+
+#: includes/class-zinn-order-updates-admin.php:152
+msgid "Zinn® Campaigns"
+msgstr "Zinn® Campaigns"
+
+#: includes/class-zinn-order-updates-admin.php:154
+msgid "Open for your account"
+msgstr "ღიაა თქვენი ანგარიშისთვის"
+
+#: includes/class-zinn-order-updates-admin.php:155
+msgid "Not open for your account yet. Zinn® will e-mail you when it is."
+msgstr "თქვენი ანგარიშისთვის ჯერ არ არის ხელმისაწვდომი. Zinn® გამოგიგზავნით ელფოსტას, როგორც კი ხელმისაწვდომი გახდება."
+
+#: includes/class-zinn-order-updates-admin.php:159
+msgid "Disconnect"
+msgstr "კავშირის გაწყვეტა"
+
+#: includes/class-zinn-order-updates-connect.php:77
+msgid "You are not allowed to connect this store."
+msgstr "თქვენ არ გაქვთ ამ მაღაზიის დაკავშირების უფლება."
+
+#: includes/class-zinn-order-updates-connect.php:152
+msgid "You are not allowed to disconnect this store."
+msgstr "თქვენ არ გაქვთ ამ მაღაზიის გათიშვის უფლება."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-order-updates-promo.php:349
+#: includes/class-zinn-order-updates-promo.php:407
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — გზამკვლევები და სერვისები"
+
+#: includes/class-zinn-order-updates-promo.php:364
+msgid "User guides"
+msgstr "მომხმარებლის სახელმძღვანელოები"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-order-updates-promo.php:414
+#, php-format
+msgid "Read the %s user guide"
+msgstr "წაიკითხეთ %s-ის მომხმარებლის სახელმძღვანელო"
+
+#: includes/class-zinn-order-updates-promo.php:422
+msgid "Hide this"
+msgstr "ამის დამალვა"
+
+#: includes/class-zinn-order-updates-promo.php:535
+msgid "Zinn® hosting for WordPress"
+msgstr "Zinn® ჰოსტინგი WordPress-ისთვის"
+
+#: includes/class-zinn-order-updates-promo.php:536
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, ყოველდღიური სარეზერვო ასლები, უფასო მიგრაცია და მართვის პანელი, შექმნილი მათთვის, ვინც ერთზე მეტ საიტს მართავს."
+
+#: includes/class-zinn-order-updates-promo.php:542
+msgid "The Zinn® marketplace"
+msgstr "Zinn®-ის ბაზარი"
+
+#: includes/class-zinn-order-updates-promo.php:543
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "იყიდეთ და გაყიდეთ დამკვიდრებული ვებსაიტები, დომენები და ბმულების განთავსებები ისე, რომ თანხა უსაფრთხოდ ინახება, სანამ ორივე მხარე კმაყოფილი არ დარჩება."
+
+#: includes/class-zinn-order-updates-promo.php:590
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — დაიქირავეთ ადამიანები, რომელთა პროფესიაც სწორედ ეს არის"
+
+#: includes/class-zinn-order-updates-promo.php:591
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ჩვენი გლობალური ფრილანს პლატფორმა: დაათვალიერეთ ავტორების, დიზაინერების, დეველოპერებისა და SEO სპეციალისტების 10 000-ზე მეტი მზა სერვისი, ან გამოაქვეყნეთ პროექტი და მიიღეთ მათი შემოთავაზებები."
+
+#: includes/class-zinn-order-updates-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "იხილეთ Zinn Digital®-ის გამოშვების შენიშვნები."
+
+#: includes/class-zinn-order-updates-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn®-ის განახლების სერვისმა არ გასცა ჩამოტვირთვის ბმული ამ განახლებისთვის. შეამოწმეთ, შეუძლია თუ არა ამ საიტს Zinn®-ის პლატფორმასთან დაკავშირება, შემდეგ კი სცადეთ ხელახლა."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-order-updates-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "განახლების ჩამოტვირთვა Zinn®-ის განახლების სერვისიდან (%s) ვერ მოხერხდა. გთხოვთ, სცადოთ კვლავ რამდენიმე წუთში."
+
+#: includes/class-zinn-order-updates-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ჩამოტვირთულმა განახლებამ მთლიანობის შემოწმება ვერ გაიარა და არ დაინსტალირდა."
