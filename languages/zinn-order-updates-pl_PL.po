@@ -13,6 +13,7 @@ msgstr ""
 #: zinn-order-updates.php
 #: includes/class-zinn-order-updates-admin.php:34
 #: includes/class-zinn-order-updates-admin.php:125
+#: includes/class-zinn-order-updates-help.php:45
 msgid "Zinn® Order Updates"
 msgstr "Zinn® Order Updates"
 
@@ -59,6 +60,12 @@ msgstr "Zinn® nie zaakceptował połączenia. Naciśnij ponownie „Połącz”
 #: includes/class-zinn-order-updates-admin.php:90
 msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
 msgstr "Twoja witryna nie mogła połączyć się z Zinn®. Sprawdź, czy twój hosting zezwala na połączenia wychodzące, a następnie naciśnij ponownie „Połącz”."
+
+#: includes/class-zinn-order-updates-admin.php:125
+#: includes/class-zinn-order-updates-help.php:56
+#: includes/class-zinn-order-updates-help.php:57
+msgid "Help"
+msgstr "Pomoc"
 
 #: includes/class-zinn-order-updates-admin.php:128
 msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
@@ -107,6 +114,235 @@ msgstr "Nie masz uprawnień do połączenia tego sklepu."
 #: includes/class-zinn-order-updates-connect.php:152
 msgid "You are not allowed to disconnect this store."
 msgstr "Nie masz uprawnień, aby odłączyć ten sklep."
+
+#: includes/class-zinn-order-updates-help.php:46
+msgid "Connection"
+msgstr "Połączenie"
+
+#: includes/class-zinn-order-updates-help.php:88
+msgid "You are not allowed to do that."
+msgstr "Nie masz uprawnień, aby to zrobić."
+
+#: includes/class-zinn-order-updates-help.php:215
+msgid "Thank you. You can now ask for help and send reports to Zinn® support."
+msgstr "Dziękujemy. Możesz teraz poprosić o pomoc i wysyłać zgłoszenia do wsparcia Zinn®."
+
+#: includes/class-zinn-order-updates-help.php:216
+msgid "Consent withdrawn. Nothing is sent to Zinn® support until you agree again."
+msgstr "Zgoda wycofana. Nic nie zostanie wysłane do pomocy technicznej Zinn®, dopóki ponownie nie wyrazisz zgody."
+
+#: includes/class-zinn-order-updates-help.php:217
+#: includes/class-zinn-order-updates-help.php:357
+msgid "The Zinn® AI could not answer just now. Send your question to the team below; a person will reply."
+msgstr "Sztuczna inteligencja Zinn® nie mogła teraz odpowiedzieć. Wyślij swoje pytanie do poniższego zespołu; odpowie człowiek."
+
+#: includes/class-zinn-order-updates-help.php:218
+msgid "Glad that solved it."
+msgstr "Cieszę się, że to pomogło."
+
+#. translators: %s: the ticket reference, such as ZT-7KQ3MX.
+#: includes/class-zinn-order-updates-help.php:220
+#, php-format
+msgid "Sent. Your ticket is %s; the team replies here and by e-mail."
+msgstr "Wysłano. Twój zgłoszenie to %s; zespół odpowiada tutaj oraz przez e-mail."
+
+#: includes/class-zinn-order-updates-help.php:221
+msgid "Fill in the subject, the message and, while your store is not connected, your e-mail address."
+msgstr "Wpisz temat, treść wiadomości oraz, dopóki twój sklep nie jest połączony, swój adres e-mail."
+
+#: includes/class-zinn-order-updates-help.php:222
+msgid "Zinn® did not accept the ticket. Check the fields and try again; if it keeps failing, e-mail support@zinndigital.com."
+msgstr "Zinn® nie zaakceptował zgłoszenia. Sprawdź pola i spróbuj ponownie; jeśli błąd nadal występuje, wyślij wiadomość e-mail na adres support@zinndigital.com."
+
+#: includes/class-zinn-order-updates-help.php:223
+msgid "Too many requests in a short time. Wait a few minutes and try again."
+msgstr "Zbyt wiele żądań w krótkim czasie. Poczekaj kilka minut i spróbuj ponownie."
+
+#: includes/class-zinn-order-updates-help.php:224
+msgid "Reply sent."
+msgstr "Odpowiedź wysłana."
+
+#: includes/class-zinn-order-updates-help.php:225
+msgid "That ticket is closed. Send a new ticket instead."
+msgstr "To zgłoszenie jest zamknięte. Wyślij nowe zgłoszenie zamiast tego."
+
+#: includes/class-zinn-order-updates-help.php:226
+msgid "Your reply could not be sent. Try again in a moment."
+msgstr "Nie udało się wysłać twojej odpowiedzi. Spróbuj ponownie za chwilę."
+
+#: includes/class-zinn-order-updates-help.php:241
+msgid "Waiting on Zinn® support"
+msgstr "Oczekiwanie na wsparcie Zinn®"
+
+#: includes/class-zinn-order-updates-help.php:243
+msgid "Waiting on you"
+msgstr "Czeka na ciebie"
+
+#: includes/class-zinn-order-updates-help.php:245
+msgid "Answered"
+msgstr "Z odpowiedzią"
+
+#: includes/class-zinn-order-updates-help.php:247
+msgid "Closed"
+msgstr "Zamknięte"
+
+#: includes/class-zinn-order-updates-help.php:260
+msgid "Report a bug"
+msgstr "Zgłoś błąd"
+
+#: includes/class-zinn-order-updates-help.php:262
+msgid "Send feedback"
+msgstr "Prześlij opinię"
+
+#: includes/class-zinn-order-updates-help.php:264
+msgid "Request a feature"
+msgstr "Zaproponuj funkcję"
+
+#: includes/class-zinn-order-updates-help.php:266
+msgid "Ask for help"
+msgstr "Poproś o pomoc"
+
+#: includes/class-zinn-order-updates-help.php:277
+msgid "Versions: WordPress, PHP, this plugin, WooCommerce (and whether it uses HPOS) and the supported plugins we detected"
+msgstr "Wersje: WordPress, PHP, ta wtyczka, WooCommerce (oraz czy używa HPOS) i wykryte przez nas obsługiwane wtyczki"
+
+#: includes/class-zinn-order-updates-help.php:279
+msgid "Your active theme and its version"
+msgstr "Twój aktywny motyw i jego wersja"
+
+#: includes/class-zinn-order-updates-help.php:281
+msgid "The list of installed plugins, their versions and whether each is active"
+msgstr "Lista zainstalowanych wtyczek, ich wersje oraz informacja, czy każda z nich jest aktywna"
+
+#: includes/class-zinn-order-updates-help.php:283
+msgid "Connection: your store address, whether it is connected, this install's id and whether Zinn® answered its last check (never the store's token)"
+msgstr "Połączenie: adres twojego sklepu, to, czy jest połączony, identyfikator tej instalacji oraz to, czy Zinn® odpowiedział na ostatnie sprawdzenie (nigdy token sklepu)"
+
+#: includes/class-zinn-order-updates-help.php:304
+msgid "Zinn® Order Updates: Help"
+msgstr "Aktualizacje zamówień Zinn®: Pomoc"
+
+#: includes/class-zinn-order-updates-help.php:318
+msgid "Withdraw my consent to send help requests"
+msgstr "Wycofaj moją zgodę na wysyłanie próśb o pomoc"
+
+#: includes/class-zinn-order-updates-help.php:326
+msgid "Help here is answered by Zinn Digital® Ltd. Before anything leaves your site, this is exactly what is sent, and where:"
+msgstr "Odpowiedzi na pytania udziela tutaj Zinn Digital® Ltd. Zanim cokolwiek opuści twoją witrynę, oto dokładnie co i dokąd jest wysyłane:"
+
+#: includes/class-zinn-order-updates-help.php:328
+msgid "A question you type: sent to the Zinn® AI at api.zinndigital.com, which answers from the Zinn® help articles."
+msgstr "Wpisane pytanie: przesyłane do Zinn® AI pod adresem api.zinndigital.com, która odpowiada na podstawie artykułów pomocy Zinn®."
+
+#: includes/class-zinn-order-updates-help.php:329
+msgid "A ticket you send: its subject, your message, your admin language and a reply e-mail address, sent to Zinn® support."
+msgstr "Zgłoszenie, które wysyłasz: jego temat, twoja wiadomość, twój język panelu administracyjnego oraz adres e-mail do odpowiedzi, przesłane do pomocy technicznej Zinn®."
+
+#: includes/class-zinn-order-updates-help.php:330
+msgid "Diagnostics: only the blocks you tick, each shown in full before you send. Never the store's token, passwords or your customers' details."
+msgstr "Diagnostyka: tylko zaznaczone przez ciebie bloki, każdy wyświetlony w całości przed wysłaniem. Nigdy token sklepu, hasła ani dane twoich klientów."
+
+#: includes/class-zinn-order-updates-help.php:331
+msgid "Your tickets: while your store is connected, this screen reads your tickets and the team's replies from Zinn®."
+msgstr "Twoje zgłoszenia: dopóki twój sklep jest połączony, ten ekran odczytuje twoje zgłoszenia i odpowiedzi zespołu z Zinn®."
+
+#: includes/class-zinn-order-updates-help.php:333
+msgid "We record who agreed and when. You can withdraw at any time on this screen."
+msgstr "Zapisujemy, kto i kiedy wyraził zgodę. W każdej chwili możesz ją wycofać na tym ekranie."
+
+#: includes/class-zinn-order-updates-help.php:335
+msgid "Agree and continue"
+msgstr "Zaakceptuj i kontynuuj"
+
+#: includes/class-zinn-order-updates-help.php:344
+msgid "Ask the Zinn® AI"
+msgstr "Zapytaj Zinn® AI"
+
+#: includes/class-zinn-order-updates-help.php:346
+msgid "What do you need help with?"
+msgstr "W czym potrzebujesz pomocy?"
+
+#: includes/class-zinn-order-updates-help.php:348
+msgid "Ask"
+msgstr "Zapytaj"
+
+#: includes/class-zinn-order-updates-help.php:363
+msgid "Help articles"
+msgstr "Artykuły pomocy"
+
+#: includes/class-zinn-order-updates-help.php:378
+msgid "That solved it"
+msgstr "To rozwiązało problem"
+
+#: includes/class-zinn-order-updates-help.php:379
+msgid "Still need help? Send it to the team below."
+msgstr "Nadal potrzebujesz pomocy? Wyślij to do poniższego zespołu."
+
+#: includes/class-zinn-order-updates-help.php:391
+msgid "Send it to the Zinn® team"
+msgstr "Wyślij to do zespołu Zinn®"
+
+#: includes/class-zinn-order-updates-help.php:396
+msgid "What is it?"
+msgstr "Co to jest?"
+
+#: includes/class-zinn-order-updates-help.php:401
+msgid "Subject"
+msgstr "Temat"
+
+#: includes/class-zinn-order-updates-help.php:402
+msgid "What happened? For a bug, the steps that show it."
+msgstr "Co się stało? W przypadku błędu kroki, które go pokazują."
+
+#: includes/class-zinn-order-updates-help.php:403
+msgid "Reply e-mail"
+msgstr "Adres e-mail do odpowiedzi"
+
+#: includes/class-zinn-order-updates-help.php:406
+msgid "Leave empty to use the e-mail of the Zinn® member who connected this store."
+msgstr "Pozostaw puste, aby użyć adresu e-mail członka Zinn®, który połączył ten sklep."
+
+#: includes/class-zinn-order-updates-help.php:410
+msgid "Your store is not connected, so the team replies by e-mail."
+msgstr "Twój sklep nie jest połączony, więc zespół odpowiada przez e-mail."
+
+#: includes/class-zinn-order-updates-help.php:413
+msgid "Diagnostics (optional). Tick a block to attach it; this is exactly what is sent."
+msgstr "Diagnostyka (opcjonalnie). Zaznacz blok, aby go dołączyć; dokładnie to zostanie wysłane."
+
+#: includes/class-zinn-order-updates-help.php:420
+msgid "Send to Zinn® support"
+msgstr "Wyślij do pomocy technicznej Zinn®"
+
+#: includes/class-zinn-order-updates-help.php:429
+msgid "My tickets"
+msgstr "Moje zgłoszenia"
+
+#: includes/class-zinn-order-updates-help.php:431
+msgid "Connect your store to follow your tickets here. Until then the team replies by e-mail."
+msgstr "Połącz swój sklep, aby śledzić tutaj swoje zgłoszenia. Do tego czasu zespół odpowiada przez e-mail."
+
+#: includes/class-zinn-order-updates-help.php:436
+msgid "Your tickets could not be loaded just now. Try again in a moment."
+msgstr "Twoje zgłoszenia nie mogły zostać teraz załadowane. Spróbuj ponownie za chwilę."
+
+#: includes/class-zinn-order-updates-help.php:441
+msgid "No tickets yet."
+msgstr "Brak zgłoszeń."
+
+#. translators: %s: the date and time of the reply.
+#: includes/class-zinn-order-updates-help.php:459
+#, php-format
+msgid "Zinn® support replied on %s:"
+msgstr "Wsparcie Zinn® odpowiedziało w dniu %s:"
+
+#: includes/class-zinn-order-updates-help.php:466
+msgid "Your reply"
+msgstr "Twoja odpowiedź"
+
+#: includes/class-zinn-order-updates-help.php:468
+msgid "Send reply"
+msgstr "Wyślij odpowiedź"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

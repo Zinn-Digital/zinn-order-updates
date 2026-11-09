@@ -122,7 +122,7 @@ final class Zinn_Order_Updates_Admin {
 		}
 		$status = self::status();
 		echo '<div class="wrap">';
-		echo '<h1>' . esc_html__( 'Zinn® Order Updates', 'zinn-order-updates' ) . '</h1>';
+		echo '<h1>' . esc_html__( 'Zinn® Order Updates', 'zinn-order-updates' ) . ' <a class="page-title-action" href="' . esc_url( Zinn_Order_Updates_Help::url() ) . '">' . esc_html__( 'Help', 'zinn-order-updates' ) . '</a></h1>';
 		self::notice();
 		if ( null === $status ) {
 			echo '<p>' . esc_html__( 'Send your customers SMS and WhatsApp updates about their orders, under your store\'s own name, paid from your Zinn® credit.', 'zinn-order-updates' ) . '</p>';

@@ -64,12 +64,68 @@ final class Zinn_Order_Updates_Api {
 		if ( class_exists( 'WooCommerce' ) ) {
 			$found[] = 'woocommerce';
 		}
+		// Zinn® plugins that change what an order message can carry (docs/1297 §12.2, 1108#8).
+		if ( defined( 'TRANZLY_VERSION' ) || function_exists( 'tranzly_current_language' ) ) {
+			$found[] = 'tranzly';
+		}
+		if ( defined( 'PBSW_VERSION' ) ) {
+			$found[] = 'page-builder-sandwich';
+		}
 		/**
 		 * Filters the integration keys this store reports.
 		 *
 		 * @param string[] $found Integration keys, lower case.
 		 */
 		return array_values( array_unique( array_map( 'strval', (array) apply_filters( 'zinn_order_updates_integrations', $found ) ) ) );
+	}
+
+	/**
+	 * Each active integration with its version where the plugin publishes one (diagnostics).
+	 *
+	 * @return array<string, string>
+	 */
+	public static function integration_versions(): array {
+		$versions = array(
+			'woocommerce'           => defined( 'WC_VERSION' ) ? (string) WC_VERSION : '',
+			'tranzly'               => defined( 'TRANZLY_VERSION' ) ? (string) TRANZLY_VERSION : '',
+			'page-builder-sandwich' => defined( 'PBSW_VERSION' ) ? (string) PBSW_VERSION : '',
+		);
+		$out      = array();
+		foreach ( self::integrations() as $key ) {
+			$out[ $key ] = $versions[ $key ] ?? '';
+		}
+		return $out;
+	}
+
+	/**
+	 * The store's languages as one comma string of at most 40 characters (`languages` flag):
+	 * Tranzly's, else WPML's, else Polylang's, else the site language. Default first.
+	 */
+	public static function languages(): string {
+		$codes = array();
+		if ( function_exists( 'tranzly_languages' ) ) {
+			foreach ( (array) tranzly_languages() as $row ) {
+				$codes[] = is_array( $row ) ? (string) ( $row['code'] ?? '' ) : '';
+			}
+		} elseif ( has_filter( 'wpml_active_languages' ) ) {
+			// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- WPML's own documented API filter, read here, never added.
+			foreach ( (array) apply_filters( 'wpml_active_languages', null, array( 'skip_missing' => 0 ) ) as $row ) {
+				$codes[] = is_array( $row ) ? (string) ( $row['default_locale'] ?? $row['code'] ?? '' ) : '';
+			}
+		} elseif ( function_exists( 'pll_languages_list' ) ) {
+			$codes = array_map( 'strval', (array) pll_languages_list( array( 'fields' => 'locale' ) ) );
+		}
+		$codes[] = (string) get_locale();
+		$out     = '';
+		foreach ( array_unique( array_filter( array_map( 'trim', $codes ) ) ) as $code ) {
+			$code = (string) preg_replace( '/[^A-Za-z0-9_-]/', '', $code );
+			$next = '' === $out ? $code : $out . ',' . $code;
+			if ( '' === $code || strlen( $next ) > 40 ) {
+				continue;
+			}
+			$out = $next;
+		}
+		return $out;
 	}
 
 	/**
@@ -82,6 +138,7 @@ final class Zinn_Order_Updates_Api {
 			'woocommerce' => defined( 'WC_VERSION' ) ? (string) WC_VERSION : null,
 			'multisite'   => is_multisite(),
 			'php'         => PHP_VERSION,
+			'languages'   => self::languages(),
 		);
 	}
 
