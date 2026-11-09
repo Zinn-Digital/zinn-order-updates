@@ -47,7 +47,9 @@ final class Zinn_Order_Updates_Help {
 			Zinn_Order_Updates_Connect::CAPABILITY,
 			Zinn_Order_Updates_Connect::PAGE
 		);
-		$answered = current_user_can( Zinn_Order_Updates_Connect::CAPABILITY ) ? Zinn_Order_Updates_Support::answered() : 0;
+		// On the Help screen itself the count is read now (shared with My tickets: one call), so
+		// the badge never lags the list below it by a page load.
+		$answered = current_user_can( Zinn_Order_Updates_Connect::CAPABILITY ) ? Zinn_Order_Updates_Support::answered( self::is_help_screen() ) : 0;
 		$badge    = $answered > 0
 			? ' <span class="awaiting-mod count-' . (int) $answered . '"><span class="pending-count">' . (int) $answered . '</span></span>'
 			: '';
@@ -67,6 +69,14 @@ final class Zinn_Order_Updates_Help {
 				}
 			}
 		}
+	}
+
+	/**
+	 * Whether this request is the Help screen (a read of the page slug only; nothing is changed).
+	 */
+	private static function is_help_screen(): bool {
+		// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- the admin page slug, compared to a constant; no state changes.
+		return isset( $_GET['page'] ) && self::PAGE === sanitize_key( wp_unslash( (string) $_GET['page'] ) );
 	}
 
 	/**

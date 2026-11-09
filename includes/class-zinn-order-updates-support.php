@@ -32,6 +32,13 @@ final class Zinn_Order_Updates_Support {
 	/** The menu badge: tickets support answered, cached ten minutes. */
 	public const ANSWERED_CACHE = 'zinn_order_updates_support_answered';
 
+	/**
+	 * This request's ticket list, once read.
+	 *
+	 * @var array<string, mixed>|null
+	 */
+	private static $listed = null;
+
 	/** The ticket kinds the engine accepts. */
 	public const KINDS = array( 'help', 'bug', 'feedback', 'feature_request' );
 
@@ -76,7 +83,7 @@ final class Zinn_Order_Updates_Support {
 	 */
 	public static function withdraw_consent(): void {
 		delete_option( self::CONSENT );
-		delete_transient( self::ANSWERED_CACHE );
+		self::forget();
 	}
 
 	/**
@@ -231,6 +238,12 @@ final class Zinn_Order_Updates_Support {
 		if ( ! is_string( $value ) || wp_is_uuid( $value ) ) {
 			return $value; // An install id is not a phone number, even when it is mostly digits.
 		}
+		// A URL's scheme and host are the site's own address (support needs it intact, and
+		// `installscreens-1793646822.example.com` is a name, not a phone); only the path and
+		// query, where a customer value could sit, are redacted.
+		if ( preg_match( '#^(https?://[^/?\#\s]+)(.*)$#is', $value, $url ) ) {
+			return $url[1] . self::redact( $url[2] );
+		}
 		return (string) preg_replace_callback(
 			'/\+?\d[\d \-().]{7,}\d/',
 			static function ( array $m ): string {
@@ -335,7 +348,7 @@ final class Zinn_Order_Updates_Support {
 			$body['website'] = '';
 			$result          = Zinn_Order_Updates_Api::call( 'POST', '/v1/plugin-support/tickets', $body, false );
 		}
-		delete_transient( self::ANSWERED_CACHE );
+		self::forget();
 		return $result;
 	}
 
@@ -349,12 +362,24 @@ final class Zinn_Order_Updates_Support {
 		if ( ! self::has_consent() || '' === Zinn_Order_Updates_Api::token() ) {
 			return null;
 		}
+		if ( null !== self::$listed ) {
+			return self::$listed; // One read per request: the menu badge and My tickets share it.
+		}
 		list( $code, $body ) = Zinn_Order_Updates_Api::call( 'GET', '/v1/store-connect/support/tickets' );
 		if ( 200 !== $code ) {
 			return null;
 		}
 		set_transient( self::ANSWERED_CACHE, (int) ( $body['answered'] ?? 0 ), 10 * MINUTE_IN_SECONDS );
-		return $body;
+		self::$listed = is_array( $body ) ? $body : array();
+		return self::$listed;
+	}
+
+	/**
+	 * Forgets this request's ticket list (after a write, or between tests).
+	 */
+	public static function forget(): void {
+		self::$listed = null;
+		delete_transient( self::ANSWERED_CACHE );
 	}
 
 	/**
@@ -373,19 +398,23 @@ final class Zinn_Order_Updates_Support {
 			'/v1/store-connect/support/tickets/' . rawurlencode( $reference ) . '/replies',
 			array( 'message' => mb_substr( $message, 0, 20000 ) )
 		);
-		delete_transient( self::ANSWERED_CACHE );
+		self::forget();
 		return $code;
 	}
 
 	/**
 	 * How many tickets support answered and wait on the store: the menu badge. Cached ten
 	 * minutes; a failed read caches 0 so a down API is not asked on every admin page.
+	 * `$fresh` (the Help screen itself) reads the list now, so the badge and My tickets agree
+	 * on the same page load; the read is shared with My tickets, so it is still one call.
+	 *
+	 * @param bool $fresh Skip the cached count.
 	 */
-	public static function answered(): int {
+	public static function answered( bool $fresh = false ): int {
 		if ( ! self::has_consent() || '' === Zinn_Order_Updates_Api::token() ) {
 			return 0;
 		}
-		$cached = get_transient( self::ANSWERED_CACHE );
+		$cached = $fresh ? false : get_transient( self::ANSWERED_CACHE );
 		if ( false !== $cached ) {
 			return (int) $cached;
 		}
