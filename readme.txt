@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.1
+Stable tag: 0.2.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,9 @@ Yes. Press Connect and you can create one on the way.
 No. This version connects the store and stores each new order's language on the order, on your site. Nothing about your orders or customers is sent. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.2 =
+* The store's languages (Tranzly, WPML or Polylang) now reach Zinn® Campaigns on every heartbeat, all of them, not only the first 40 characters.
 
 = 0.2.1 =
 * Help: the menu badge updates on the same page load as My tickets, and diagnostics keep the site address intact while still masking phone numbers.

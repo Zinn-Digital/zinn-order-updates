@@ -61,6 +61,8 @@ final class Zinn_Order_Updates_Admin {
 					'plugin_version' => ZINN_ORDER_UPDATES_VERSION,
 					'wp_version'     => get_bloginfo( 'version' ),
 					'integrations'   => implode( ',', Zinn_Order_Updates_Api::integrations() ),
+					// A language added in Tranzly (or WPML/Polylang) reaches Zinn® Campaigns on the next heartbeat (1108#8).
+					'languages'      => Zinn_Order_Updates_Api::languages( 400 ),
 				)
 			)
 		);

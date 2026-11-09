@@ -98,10 +98,13 @@ final class Zinn_Order_Updates_Api {
 	}
 
 	/**
-	 * The store's languages as one comma string of at most 40 characters (`languages` flag):
-	 * Tranzly's, else WPML's, else Polylang's, else the site language. Default first.
+	 * The store's languages as one comma string of at most `$max` characters: Tranzly's, else
+	 * WPML's, else Polylang's, else the site language. Default first. 40 fits the connect-time
+	 * `languages` flag; the heartbeat sends up to 400 so a store with many languages is seen whole.
+	 *
+	 * @param int $max The longest string to return.
 	 */
-	public static function languages(): string {
+	public static function languages( int $max = 40 ): string {
 		$codes = array();
 		if ( function_exists( 'tranzly_languages' ) ) {
 			foreach ( (array) tranzly_languages() as $row ) {
@@ -120,7 +123,7 @@ final class Zinn_Order_Updates_Api {
 		foreach ( array_unique( array_filter( array_map( 'trim', $codes ) ) ) as $code ) {
 			$code = (string) preg_replace( '/[^A-Za-z0-9_-]/', '', $code );
 			$next = '' === $out ? $code : $out . ',' . $code;
-			if ( '' === $code || strlen( $next ) > 40 ) {
+			if ( '' === $code || strlen( $next ) > $max ) {
 				continue;
 			}
 			$out = $next;
