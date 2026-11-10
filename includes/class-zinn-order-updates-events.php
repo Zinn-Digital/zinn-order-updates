@@ -295,14 +295,17 @@ final class Zinn_Order_Updates_Events {
 		$minor    = static function ( $amount ) use ( $decimals ): int {
 			return (int) round( (float) $amount * ( 10 ** $decimals ) );
 		};
-		$event    = array(
+		$locale   = (string) $order->get_meta( Zinn_Order_Updates_Locale::META );
+		// A signed-in shopper's My Account order page; a guest's order-received page (its key opens it without a login).
+		$view  = (int) $order->get_customer_id() > 0 ? (string) $order->get_view_order_url() : (string) $order->get_checkout_order_received_url();
+		$event = array(
 			'id'           => Zinn_Order_Updates_Api::site_uuid() . ':woocommerce:' . $order->get_id() . ':' . $kind . ':' . $seq,
 			'kind'         => $kind,
 			'integration'  => 'woocommerce',
 			'ref'          => (string) $order->get_id(),
 			'order_number' => (string) $order->get_order_number(),
 			'occurred_at'  => gmdate( DATE_ATOM ),
-			'locale'       => (string) $order->get_meta( Zinn_Order_Updates_Locale::META ),
+			'locale'       => $locale,
 			'store_name'   => wp_specialchars_decode( (string) get_bloginfo( 'name' ), ENT_QUOTES ),
 			'customer'     => array(
 				'first_name' => (string) $order->get_billing_first_name(),
@@ -312,7 +315,8 @@ final class Zinn_Order_Updates_Events {
 				'minor'    => $minor( $order->get_total() ),
 				'currency' => $currency,
 			),
-			'pay_url'      => 'payment_failed' === $kind ? (string) $order->get_checkout_payment_url() : '',
+			'order_url'    => Zinn_Order_Updates_Locale::url( $view, $locale ),
+			'pay_url'      => 'payment_failed' === $kind ? Zinn_Order_Updates_Locale::url( (string) $order->get_checkout_payment_url(), $locale ) : '',
 		);
 		if ( 'refunded' === $kind ) {
 			$event['refund'] = array(

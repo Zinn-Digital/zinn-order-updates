@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.3
+Stable tag: 0.2.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,9 +65,12 @@ Yes. Press Connect and you can create one on the way.
 
 = Does the plugin send my customers' data anywhere? =
 
-Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status and total), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
+Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status, total and the link to their order), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.4 =
+* Order updates by SMS: the order-received and order-complete texts end with a link to the shopper's order, and the pay-again link opens in the language they bought in (Tranzly, WPML, Polylang or TranslatePress). A guest's link opens their order without a login.
 
 = 0.2.3 =
 * Order updates by SMS: an unticked checkout box (classic and block checkout); when a shopper ticks it, each status change is texted to them in their language by Zinn® Campaigns. Orders without the tick send nothing.

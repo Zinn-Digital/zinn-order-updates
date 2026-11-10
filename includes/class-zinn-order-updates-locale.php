@@ -124,6 +124,38 @@ final class Zinn_Order_Updates_Locale {
 	}
 
 	/**
+	 * A store link in the shopper's language (docs/1297 §12.2, §15.2): the first language plugin
+	 * present adapts it (Tranzly, WPML, Polylang, TranslatePress); otherwise it is returned as is.
+	 * A link that cannot be adapted is still a working link, so a failure never drops it.
+	 *
+	 * @param string $url    A URL on this store.
+	 * @param string $locale The order's language (`_zinn_ou_locale`).
+	 */
+	public static function url( string $url, string $locale ): string {
+		$locale = self::clean( $locale );
+		if ( '' === $url || '' === $locale ) {
+			return $url;
+		}
+		$adapted = '';
+		if ( function_exists( 'tranzly_language_url' ) ) {
+			$adapted = (string) tranzly_language_url( $locale, $url );
+		} elseif ( defined( 'ICL_SITEPRESS_VERSION' ) ) {
+			$adapted = (string) apply_filters( 'wpml_permalink', $url, $locale ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- WPML's own filter.
+		} elseif ( function_exists( 'PLL' ) && is_object( PLL() ) && isset( PLL()->links_model, PLL()->model ) ) {
+			$language = PLL()->model->get_language( $locale );
+			if ( $language ) {
+				$adapted = (string) PLL()->links_model->switch_language_in_link( $url, $language );
+			}
+		} elseif ( class_exists( '\TRP_Translate_Press' ) ) {
+			$converter = \TRP_Translate_Press::get_trp_instance()->get_component( 'url_converter' );
+			if ( is_object( $converter ) && method_exists( $converter, 'get_url_for_language' ) ) {
+				$adapted = (string) $converter->get_url_for_language( $locale, $url, '' );
+			}
+		}
+		return '' !== $adapted && wp_http_validate_url( $adapted ) ? $adapted : $url;
+	}
+
+	/**
 	 * A locale or language code, at most 16 characters of letters, digits, `_` and `-`.
 	 *
 	 * @param string $code A code.
