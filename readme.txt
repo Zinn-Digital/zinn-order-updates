@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.6
+Stable tag: 0.2.7
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,11 @@ Sign-up form (the block, the shortcode, or our consent field in a Page Builder S
 
 * **Consent** (`POST /v1/store-connect/consents`, once, when they send the form): the mobile number, the channel (SMS or WhatsApp), the wording shown, its version and language, the page it was on, and when. It is the proof of their marketing consent. The visitor's IP address is never sent; a one-way hash of it is kept on your site for ten minutes to stop repeated sign-ups.
 
+My Account "Messages" tab (and the "Zinn® message settings" block): only for a signed-in shopper, and only for a number that is on one of their own orders (any other number shows nothing and cannot be changed; only texts about their own orders are listed). Then:
+
+* **Shopper read** (`POST /v1/store-connect/shopper`, when the panel opens): that shopper's phone number. The answer is their consent settings for your store and the last 20 texts your store sent them; nothing from any other store is shown.
+* **Consent** (`POST /v1/store-connect/consents`, when they save): only the settings they changed, with the wording shown and its language. Stop all messages withdraws every one. Changing the number withdraws the old number's consents.
+
 Help (Order Updates → Help) sends nothing until you press "Agree and continue" there; who agreed and when is recorded on your site. Then:
 
 * **Ask the Zinn® AI** (`POST /v1/public/support/deflect`, when you press Ask): your question, your admin language and the name of this plugin. The answer and matching help articles come back. **That solved it** (`POST /v1/public/support/deflect/{id}/solved`) records only that the answer helped.
@@ -73,6 +78,10 @@ Yes. Press Connect and you can create one on the way.
 Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status, total and the link to their order), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.7 =
+* My Account "Messages" tab: a signed-in shopper sees the number your store texts, switches order updates by SMS, offers by SMS and offers on WhatsApp on or off, can stop every message at once, and sees the last 20 texts your store sent them. Only a setting they change is recorded, so the consent they gave at checkout stays as proof. Changing the number moves their choices to the new one.
+* "Zinn® message settings" block: the same panel on any page you choose.
 
 = 0.2.6 =
 * WhatsApp button block: a "Chat on WhatsApp" button that links your store's own WhatsApp Business number, shown only when one is connected; it can hide itself from shoppers who already get order updates. Page Builder Sandwich Pro pages can read "opted in", the channel and the WhatsApp link as dynamic data.

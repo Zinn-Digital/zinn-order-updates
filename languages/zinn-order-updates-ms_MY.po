@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "Sambungkan kedai ini ke Zinn® Campaigns untuk memaparkan borang pendaftaran ini."
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "Nombor telefon bimbit"
 
@@ -450,6 +451,131 @@ msgstr "Terlalu banyak pendaftaran dari sini. Sila tunggu beberapa minit dan cub
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "Kami tidak dapat menyimpan pendaftaran anda. Sila semak nombor anda dan cuba lagi."
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "Mesej"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "Mesej"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "Hantarkan saya kemas kini tentang pesanan saya melalui SMS"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "Hantarkan tawaran dan berita dari kedai ini kepada saya melalui SMS"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "Hantarkan tawaran dan berita daripada kedai ini kepada saya di WhatsApp"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "Pesanan diterima"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "Bayaran diterima"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "Pesanan ditahan"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "Pesanan dihantar"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "Pesanan selesai"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "Sedia untuk diambil"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "Pembayaran gagal"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "Pesanan dibatalkan"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "Pesanan dikembalikan wang"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "Kemas kini pesanan"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "Tetapan mesej anda meliputi nombor mudah alih pada pesanan anda dengan kedai ini. Gunakan nombor daripada salah satu pesanan anda."
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "Tetapan mesej anda telah disimpan."
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "Selesai. Kedai ini tidak akan menghantar sebarang mesej lagi kepada anda."
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "Sila masukkan nombor telefon bimbit bersama kod negaranya, contohnya +44 7700 900123."
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "Kami tidak dapat menyimpan tetapan anda sekarang. Sila cuba sebentar lagi."
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "Tetapan mesej anda tidak dapat dipaparkan sekarang. Sila cuba sebentar lagi."
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "Mesej daripada kedai ini"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "Simpan"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "Hentikan semua mesej"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "Mesej terkini"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "Kedai ini belum menghantar sebarang mesej kepada anda lagi."
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s, pesanan %2$s, %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "Log masuk untuk menguruskan mesej yang dihantar oleh kedai ini kepada anda."
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "Tetapan mesej Zinn®"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "Membolehkan pembeli yang telah log masuk menukar mesej teks yang dihantar oleh kedai anda kepada mereka, menghentikan semuanya, dan melihat 20 mesej yang terakhir."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

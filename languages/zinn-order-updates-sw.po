@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "Unganisha duka hili na Zinn® Campaigns ili kuonyesha fomu hii ya kujisajili."
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "Nambari ya simu ya mkononi"
 
@@ -450,6 +451,131 @@ msgstr "Usajili mwingi mno kutoka hapa. Tafadhali subiri dakika chache kisha uja
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "Hatuwezi kuhifadhi usajili wako. Tafadhali angalia nambari yako kisha ujaribu tena."
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "Ujumbe"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "Ujumbe"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "Nitumie masasisho kuhusu maagizo yangu kwa njia ya ujumbe"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "Nitumie ofa na habari kutoka kwa duka hili kwa njia ya ujumbe mfupi"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "Nitumie ofa na habari kutoka duka hili kwenye WhatsApp"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "Agizo limepokelewa"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "Malipo yamepokelewa"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "Agizo limesitishwa"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "Agizo limesafirishwa"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "Agizo limekamilika"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "Tayari kuchukuliwa"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "Malipo yameshindikana"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "Agizo limeghairiwa"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "Agizo limerejeshwa fedha"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "Sasisho la agizo"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "Mipangilio ya ujumbe wako inahusu nambari ya simu ya mkononi kwenye maagizo yako katika duka hili. Tumia nambari kutoka kwa mojawapo ya maagizo yako."
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "Mipangilio yako ya ujumbe imehifadhiwa."
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "Imekamilika. Duka hili halitakutumia ujumbe wowote zaidi."
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "Tafadhali weka nambari ya simu ya mkononi ikiwa na msimbo wa nchi, kwa mfano +44 7700 900123."
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "Hatuwezi kuhifadhi mipangilio yako sasa hivi. Tafadhali jaribu tena baada ya dakika moja."
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "Mipangilio ya ujumbe wako haiwezi kuonyeshwa sasa hivi. Tafadhali jaribu tena baada ya dakika moja."
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "Ujumbe kutoka duka hili"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "Hifadhi"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "Simamisha jumbe zote"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "Ujumbe wa hivi karibuni"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "Duka hili bado halijakutumia ujumbe wowote."
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s, agizo %2$s, %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "Ingia ili udhibiti ujumbe ambao duka hili linakutumia."
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "Mipangilio ya ujumbe wa Zinn®"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "Humruhusu mnunuzi aliyeingia kwenye akaunti kubadilisha ujumbe wa maandishi unaotumwa na duka lako, kusitisha yote, na kuona 20 za mwisho."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "Kết nối cửa hàng này với Zinn® Campaigns để hiển thị biểu mẫu đăng ký này."
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "Số điện thoại di động"
 
@@ -450,6 +451,131 @@ msgstr "Quá nhiều lượt đăng ký từ đây. Vui lòng đợi vài phút 
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "Chúng tôi không thể lưu thông tin đăng ký của bạn. Vui lòng kiểm tra lại số của bạn và thử lại."
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "Tin nhắn"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "Tin nhắn"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "Gửi cho tôi thông tin cập nhật về đơn hàng qua tin nhắn SMS"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "Gửi cho tôi các ưu đãi và tin tức từ cửa hàng này qua SMS"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "Gửi cho tôi các ưu đãi và tin tức từ cửa hàng này qua WhatsApp"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "Đã nhận đơn hàng"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "Đã nhận thanh toán"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "Đơn hàng bị tạm giữ"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "Đơn hàng đã giao"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "Đơn hàng đã hoàn thành"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "Sẵn sàng để nhận"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "Thanh toán thất bại"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "Đơn hàng đã hủy"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "Đơn hàng đã hoàn tiền"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "Cập nhật đơn hàng"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "Cài đặt tin nhắn của bạn áp dụng cho số di động trong các đơn hàng của bạn với cửa hàng này. Hãy sử dụng số từ một trong các đơn hàng của bạn."
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "Cài đặt tin nhắn của bạn đã được lưu."
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "Đã xong. Cửa hàng này sẽ không gửi thêm tin nhắn nào cho bạn nữa."
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "Vui lòng nhập số điện thoại di động kèm mã quốc gia, ví dụ: +44 7700 900123."
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "Chúng tôi không thể lưu cài đặt của bạn ngay lúc này. Vui lòng thử lại sau một phút."
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "Cài đặt tin nhắn của bạn hiện không thể hiển thị. Vui lòng thử lại sau một phút."
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "Tin nhắn từ cửa hàng này"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "Lưu"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "Dừng tất cả tin nhắn"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "Tin nhắn gần đây"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "Cửa hàng này chưa gửi cho bạn bất kỳ tin nhắn nào."
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s, đơn hàng %2$s, %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "Đăng nhập để quản lý các tin nhắn mà cửa hàng này gửi cho bạn."
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "Cài đặt tin nhắn Zinn®"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "Cho phép người mua hàng đã đăng nhập thay đổi tin nhắn văn bản mà cửa hàng của bạn gửi cho họ, dừng tất cả tin nhắn và xem 20 tin nhắn gần nhất."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

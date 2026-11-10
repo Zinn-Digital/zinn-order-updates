@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "So ile-itaja yii pọ mọ Zinn® Campaigns lati ṣafihan fọọmu iforukọsilẹ yii."
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "Nọ́mbà fóònù àgbélékè"
 
@@ -450,6 +451,131 @@ msgstr "Ìforúkọsílẹ̀ pọ̀ jù láti ibí yìí. Jọ̀wọ́ dúró f�
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "A ko le fi iforukọsilẹ rẹ pamọ. Jọwọ ṣayẹwo nọmba rẹ ki o tun gbiyanju lẹẹkansi."
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "Àwọn ìránṣẹ́"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "Àwọn ìfiranṣẹ́"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "Fi ifiranṣẹ ranṣẹ si mi nipa awọn imudojuiwọn lori awọn aṣẹ mi"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "Fi àwọn ìfilọ́ àti ìròyìn láti inú ilé-ìtajà yìí ránṣẹ́ sí mi lórí àtẹ̀jísẹ́"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "Fi awọn ipese ati awọn iroyin lati ile-itaja yii ranṣẹ si mi lori WhatsApp"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "A ti gba àṣẹ"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "A ti gba owo sisan"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "Aṣẹ wa ni idaduro"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "A ti fi àṣẹ ránṣẹ́"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "Aṣẹ ti pari"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "Ṣetan fun gbigba"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "Isanwo kuna"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "A fagi lé àṣẹ náà"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "A ti san owó àṣẹ padà"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "Ìmúdàgbàsókè àṣẹ"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "Àwọn ètò ìránṣẹ́ rẹ kan nọ́mbà fóònù alágbèéká lórí àwọn àṣẹ rẹ pẹ̀lú ilé-ìtajà yìí. Lo nọ́mbà láti inú ọ̀kan lára àwọn àṣẹ rẹ."
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "A ti fi àwọn ètò ìránṣẹ́ rẹ pamọ́."
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "Ti parí. Ile-itaja yi kò ní fi àwọn ifiranṣẹ ranṣẹ sí yín mọ."
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "Jọ̀wọ́ tẹ nọ́ńbà tẹlifóònù alágbèéká pẹ̀lú kóòdù orílẹ̀-èdè rẹ̀, fún àpẹẹrẹ +44 7700 900123."
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "A ko le fi àwọn ètò rẹ pamọ́ ní báyìí. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan síi lẹ́yìn ìṣẹ́jú kan."
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "A ko le ṣe afihan awọn eto ifiranṣẹ rẹ ni akoko yii. Jọwọ gbiyanju lẹẹkansi ni iṣẹju kan."
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "Àwọn ifiranṣẹ́ láti ilé-ìtajà yìí"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "Fipamọ́"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "Dá gbogbo àwọn iṣẹ́ dúró"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "Àwọn ìránṣẹ́ àìpẹ́"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "Ile-itaja yi ko tii ran ifiranṣẹ eyikeyi si ọ."
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s, àṣẹ %2$s, %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "Wọlé láti ṣàkóso àwọn ifiranṣẹ tí ilé-itaja yìí ń fi ránṣẹ́ sí ọ."
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "Àwọn ètò ìránṣẹ́ Zinn®"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "Ó gba oníbàárà tó ti wọlé láàyè láti yí àwọn àtẹ̀jísẹ́ tí ilé-ìtajà rẹ ń fi ránṣẹ́ sí wọn padà, dẹ́kun gbogbo wọn, kí ó sì wo 20 tó kẹ́yìn."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

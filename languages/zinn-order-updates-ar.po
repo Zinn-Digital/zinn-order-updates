@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "اربط هذا المتجر بـ Zinn® Campaigns لعرض نموذج التسجيل هذا."
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "رقم الجوال"
 
@@ -450,6 +451,131 @@ msgstr "هناك محاولات تسجيل كثيرة جداً من هذا ال�
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "تعذر علينا حفظ تسجيلك. يُرجى التحقق من رقمك والمحاولة مرة أخرى."
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "رسائل"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "الرسائل"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "أرسل لي تحديثات حول طلباتي عبر الرسائل النصية"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "أرسل لي العروض والأخبار من هذا المتجر عبر الرسائل النصية"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "أرسل لي العروض والأخبار من هذا المتجر عبر WhatsApp"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "تم استلام الطلب"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "تم استلام الدفعة"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "الطلب معلّق"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "تم شحن الطلب"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "اكتمل الطلب"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "جاهز للاستلام"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "فشلت عملية الدفع"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "تم إلغاء الطلب"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "تم استرداد الطلب"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "تحديث الطلب"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "تغطي إعدادات رسائلك رقم الهاتف المحمول الموجود في طلباتك من هذا المتجر. استخدم الرقم الموجود في أحد طلباتك."
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "تم حفظ إعدادات الرسائل الخاصة بك."
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "تم. لن يرسل لك هذا المتجر أي رسائل أخرى."
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "يرجى إدخال رقم هاتف محمول مع رمز الدولة، على سبيل المثال +44 7700 900123."
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "تعذر علينا حفظ إعداداتك الآن. يُرجى المحاولة مرة أخرى بعد دقيقة."
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "لا يمكن عرض إعدادات رسائلك في الوقت الحالي. يُرجى إعادة المحاولة بعد دقيقة."
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "رسائل من هذا المتجر"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "حفظ"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "إيقاف كل الرسائل"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "الرسائل الأخيرة"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "لم يرسل لك هذا المتجر أي رسائل بعد."
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s، الطلب %2$s، %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "سجّل الدخول لإدارة الرسائل التي يرسلها هذا المتجر إليك."
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "إعدادات رسائل Zinn®"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "يتيح للمتسوق المسجل دخوله تعديل الرسائل النصية التي يرسلها متجرك إليه، أو إيقافها بالكامل، والاطلاع على آخر 20 رسالة."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

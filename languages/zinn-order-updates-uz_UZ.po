@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "Ushbu roʻyxatdan oʻtish formasini koʻrsatish uchun bu doʻkonni Zinn® Campaigns bilan ulang."
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "Mobil telefon raqami"
 
@@ -450,6 +451,131 @@ msgstr "Bu yerdan juda koʻp roʻyxatdan oʻtishlar amalga oshirildi. Iltimos, b
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "Roʻyxatdan oʻtishingizni saqlab boʻlmadi. Iltimos, raqamingizni tekshiring va qayta urinib koʻring."
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "Xabarlar"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "Xabarlar"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "Buyurtmalarim boʻyicha yangilanishlarni menga SMS orqali yuboring"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "Menga ushbu do‘kondan takliflar va yangiliklarni SMS orqali yuboring"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "Menga ushbu doʻkondan takliflar va yangiliklarni WhatsApp orqali yuboring"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "Buyurtma qabul qilindi"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "To‘lov qabul qilindi"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "Buyurtma ushlab turilibdi"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "Buyurtma yuborildi"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "Buyurtma bajarildi"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "Olib ketishga tayyor"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "To‘lov amalga oshmadi"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "Buyurtma bekor qilindi"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "Buyurtma puli qaytarildi"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "Buyurtmani yangilash"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "Xabarlar sozlamalaringiz ushbu do‘kondagi buyurtmalaringizda ko‘rsatilgan mobil raqamga taalluqlidir. Buyurtmalaringizdan biridagi raqamdan foydalaning."
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "Xabar sozlamalaringiz saqlandi."
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "Bajarildi. Ushbu doʻkon sizga boshqa xabar yubormaydi."
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "Iltimos, mobil telefon raqamini mamlakat kodi bilan birga kiriting, masalan +44 7700 900123."
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "Hozircha sozlamalaringizni saqlab boʻlmadi. Iltimos, bir daqiqadan soʻng qayta urinib koʻring."
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "Xabar sozlamalaringiz hozir koʻrsatib boʻlmayapti. Iltimos, bir daqiqadan soʻng qayta urinib koʻring."
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "Ushbu doʻkondan xabarlar"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "Saqlash"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "Barcha xabarlarni toʻxtatish"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "Soʻnggi xabarlar"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "Bu doʻkon sizga hali hech qanday xabar yubormagan."
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s, buyurtma %2$s, %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "Ushbu doʻkon sizga yuboradigan xabarlarni boshqarish uchun tizimga kiring."
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "Zinn® xabar sozlamalari"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "Tizimga kirgan xaridorga doʻkoningiz yuboradigan matnli xabarlarni oʻzgartirish, ularning barchasini toʻxtatish va oxirgi 20 tasini koʻrish imkonini beradi."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

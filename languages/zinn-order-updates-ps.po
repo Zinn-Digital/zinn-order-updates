@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "د دې نوم لیکنې فورمې ښودلو لپاره دا پلورنځی له Zinn® Campaigns سره وصل کړئ."
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "د ګرځنده ټلیفون شمېره"
 
@@ -450,6 +451,131 @@ msgstr "له دې ځایه خورا ډېر نوم لیکنې شوي دي. مهر
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "موږ ونشو کړای ستاسو نوملیکنه خوندي کړو. مهرباني وکړئ خپله شمیره وګورئ او بیا هڅه وکړئ."
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "پیغامونه"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "پيغامونه"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "زما د فرمایشونو په اړه ماته تازه معلومات په پیغام کې راولېږئ"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "له دې پلورنځي څخه ما ته د وړاندیزونو او خبرونو پیغام واستوئ"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "ما ته د دې پلورنځي وړاندیزونه او خبرونه پر WhatsApp واستوئ"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "فرمایش ترلاسه شو"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "تادیه ترلاسه شوه"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "فرمایش ځنډول شوی"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "فرمایش واستول شو"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "فرمایش بشپړ شو"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "د اخیستلو لپاره چمتو دی"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "تادیه ناکامه شوه"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "فرمایش لغوه شو"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "فرمایش بیرته ورکړل شو"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "د امر تازه کول"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "ستاسو د پیغام تنظیمات په دې پلورنځي کې ستاسو په سپارښتنو کې شامل ګرځنده شمېره پوښي. د خپلو سپارښتنو له ډلې څخه د یوې شمېره وکاروئ."
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "ستاسو د پیغام ترتیبات خوندي شول."
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "بشپړ شو. دا پلورنځی به تاسو ته نور پیغامونه ونه لیږي."
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "مهرباني وکړئ د خپل هېواد له کوډ سره د موبایل شمېره دننه کړئ، د بېلګې په توګه +44 7700 900123."
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "موږ اوس ستاسو امستنې خوندي نه کړای شوې. مهرباني وکړئ یوه دقیقه وروسته بیا هڅه وکړئ."
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "ستاسو د پیغام ترتیبات اوس نشي ښودل کیدی. مهرباني وکړئ یوه دقیقه وروسته بیا هڅه وکړئ."
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "د دې پلورنځي پیغامونه"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "خوندي کول"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "ټول پيغامونه ودروئ"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "وروستي پیغامونه"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "دې پلورنځي تاسو ته تراوسه کوم پیغام نه دی استولی."
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s، فرمایش %2$s، %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "د هغو پیغامونو اداره کولو لپاره ننوځئ چې دا پلورنځی تاسو ته لیږي."
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "د Zinn® پیغام تنظیمات"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "ننوتلي پیرودونکي ته اجازه ورکوي چې هغه متني پیغامونه بدل کړي چې ستاسو پلورنځی ورته لیږي، ټول بند کړي، او وروستي ۲۰ وګوري."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

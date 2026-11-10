@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "ဤမှတ်ပုံတင်ခြင်းဖောင်ကို ပြသရန်အတွက် ဤစတိုးကို Zinn® Campaigns သို့ ချိတ်ဆက်ပါ။"
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "မိုဘိုင်းဖုန်းနံပါတ်"
 
@@ -450,6 +451,131 @@ msgstr "ဤနေရာမှ အကောင့်ဖွင့်မှု မ�
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "သင်၏ အကောင့်ဖွင့်ခြင်းကို သိမ်းဆည်း၍ မရပါ။ ကျေးဇူးပြု၍ သင့်နံပါတ်ကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။"
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "မက်ဆေ့ဂျ်များ"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "မက်ဆေ့ဂျ်များ"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "ကျွန်ုပ်၏ အော်ဒါများနှင့် ပတ်သက်သည့် အပ်ဒိတ်များကို SMS ဖြင့် ပေးပို့ပါ"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "ဤဆိုင်မှ ပရိုမိုးရှင်းများနှင့် သတင်းများကို ကျွန်ုပ်ထံ SMS ဖြင့် ပို့ပေးပါ"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "ဤစတိုးမှ အထူးအစီအစဉ်များနှင့် သတင်းများကို WhatsApp သို့ ပို့ပေးပါ"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "အော်ဒါလက်ခံရရှိပါသည်"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "ငွေပေးချေမှု လက်ခံရရှိပါသည်"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "အော်ဒါဆိုင်းငံ့ထားသည်"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "အော်ဒါ ပို့ပြီးပါပြီ"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "အော်ဒါ ပြီးမြောက်ပါပြီ"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "လာယူရန် အသင့်ဖြစ်ပါပြီ"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "ငွေပေးချေမှု မအောင်မြင်ပါ"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "အော်ဒါ ပယ်ဖျက်ပြီးပါပြီ"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "အော်ဒါ ငွေပြန်အမ်းပြီး"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "အမှာစာ အပ်ဒိတ်"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "သင့်မက်ဆေ့ဂျ်ဆက်တင်များသည် ဤစတိုးတွင် သင်မှာယူထားသည့် အော်ဒါများရှိ မိုဘိုင်းလ်ဖုန်းနံပါတ်ကို လွှမ်းခြုံထားပါသည်။ သင်၏ အော်ဒါတစ်ခုခုမှ ဖုန်းနံပါတ်ကို အသုံးပြုပါ။"
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "သင့်မက်ဆေ့ဂျ်ဆက်တင်များကို သိမ်းဆည်းပြီးပါပြီ။"
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "ပြီးပါပြီ။ ဤစတိုးသည် သင့်ထံသို့ မည်သည့်မက်ဆေ့ဂျ်မျှ ထပ်မံပေးပို့မည်မဟုတ်ပါ။"
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "နိုင်ငံကုဒ်ပါဝင်သော မိုဘိုင်းလ်ဖုန်းနံပါတ်ကို ထည့်သွင်းပေးပါ၊ ဥပမာ +44 7700 900123။"
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "သင့်ဆက်တင်များကို ယခု သိမ်းဆည်း၍ မရသေးပါ။ တစ်မိနစ်အတွင်း ထပ်စမ်းကြည့်ပါ။"
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "သင့်မက်ဆေ့ဂျ်ဆက်တင်များကို ယခုပြသ၍မရပါ။ မိနစ်အနည်းငယ်အတွင်း ထပ်မံကြိုးစားကြည့်ပါ။"
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "ဤစတိုးမှ မက်ဆေ့ဂျ်များ"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "သိမ်းဆည်းပါ"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "မက်ဆေ့ဂျ်အားလုံးကို ရပ်တန့်ပါ"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "လတ်တလော မက်ဆေ့ဂျ်များ"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "ဤစတိုးသည် သင့်ထံသို့ မည်သည့်မက်ဆေ့ဂျ်မျှ မပို့သေးပါ။"
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s၊ အော်ဒါ %2$s၊ %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "ဤစတိုးမှ သင့်ထံပေးပို့သော မက်ဆေ့ဂျ်များကို စီမံခန့်ခွဲရန် အကောင့်ဝင်ပါ။"
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "Zinn® မက်ဆေ့ဂျ် ဆက်တင်များ"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "အကောင့်ဝင်ထားသော ဝယ်ယူသူအား သင့်ဆိုင်မှ ပေးပို့သည့် စာတိုများကို ပြောင်းလဲခွင့်၊ အားလုံးကို ရပ်တန့်ခွင့်နှင့် နောက်ဆုံး ၂၀ ခုကို ကြည့်ရှုခွင့် ပြုသည်။"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

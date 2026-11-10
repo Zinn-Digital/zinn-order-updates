@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "இந்தப் பதிவுப் படிவத்தைக் காட்ட இந்தக் கடையை Zinn® Campaigns உடன் இணைக்கவும்."
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "கைபேசி எண்"
 
@@ -450,6 +451,131 @@ msgstr "இங்கிருந்து அதிகப்படியான �
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "தங்களின் பதிவை எங்களால் சேமிக்க முடியவில்லை. தயவுசெய்து தங்களின் எண்ணைச் சரிபார்த்துவிட்டு மீண்டும் முயற்சிக்கவும்."
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "செய்திகள்"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "செய்திகள்"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "எனது ஆர்டர்கள் குறித்த புதுப்பிப்புகளை எனக்கு SMS மூலம் அனுப்பவும்"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "இந்தக் கடையின் சலுகைகளையும் செய்திகளையும் எனக்கு SMS மூலம் அனுப்பவும்"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "இந்தக் கடையின் சலுகைகளையும் செய்திகளையும் எனக்கு WhatsApp-இல் அனுப்பவும்"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "ஆர்டர் பெறப்பட்டது"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "பணம் பெறப்பட்டது"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "ஆர்டர் நிறுத்தி வைக்கப்பட்டுள்ளது"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "ஆர்டர் அனுப்பப்பட்டது"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "ஆர்டர் முடிந்தது"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "எடுத்துச் செல்ல தயார்"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "பணம் செலுத்துதல் தோல்வியடைந்தது"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "ஆர்டர் ரத்துசெய்யப்பட்டது"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "ஆர்டர் திரும்பப்பெறப்பட்டது"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "ஆர்டர் புதுப்பிப்பு"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "உங்கள் செய்தி அமைப்புகள் இந்தக் கடையிலான உங்கள் ஆர்டர்களில் உள்ள மொபைல் எண்ணை உள்ளடக்குகின்றன. உங்கள் ஆர்டர்களில் ஒன்றிலிருந்து எண்ணைப் பயன்படுத்தவும்."
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "உங்கள் செய்தி அமைப்புகள் சேமிக்கப்பட்டன."
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "முடிந்தது. இந்த அங்காடி இனி உங்களுக்கு எந்த செய்திகளையும் அனுப்பாது."
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "நாட்டின் குறியீட்டுடன் மொபைல் எண்ணை உள்ளிடவும், உதாரணமாக +44 7700 900123."
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "உங்கள் அமைப்புகளை இப்போது சேமிக்க முடியவில்லை. ஒரு நிமிடம் கழித்து மீண்டும் முயற்சிக்கவும்."
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "உங்கள் செய்தி அமைப்புகளை இப்போது காட்ட முடியாது. ஒரு நிமிடத்தில் மீண்டும் முயற்சிக்கவும்."
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "இந்தக் கடையிலிருந்து செய்திகள்"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "சேமி"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "எல்லா செய்திகளையும் நிறுத்துக"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "சமீபத்திய செய்திகள்"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "இந்த அங்காடி இன்னும் உங்களுக்கு எந்த செய்தியையும் அனுப்பவில்லை."
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s, ஆர்டர் %2$s, %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "இந்த அங்காடி உங்களுக்கு அனுப்பும் செய்திகளை நிர்வகிக்க உள்நுழையவும்."
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "Zinn® செய்தி அமைப்புகள்"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "உள்நுழைந்துள்ள ஒரு வாடிக்கையாளர் உங்கள் ஸ்டோர் அனுப்பும் உரைச் செய்திகளை மாற்றவும், அவை அனைத்தையும் நிறுத்தவும், கடைசி 20 செய்திகளைப் பார்க்கவும் அனுமதிக்கிறது."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

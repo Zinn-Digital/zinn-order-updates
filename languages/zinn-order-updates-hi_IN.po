@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "इस साइन-अप फ़ॉर्म को दिखाने के लिए इस स्टोर को Zinn® Campaigns से कनेक्ट करें।"
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "मोबाइल नंबर"
 
@@ -450,6 +451,131 @@ msgstr "यहाँ से बहुत अधिक साइन-अप हु
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "हम आपका साइन-अप सहेज नहीं सके। कृपया अपना नंबर जांचें और पुनः प्रयास करें।"
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "संदेश"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "संदेश"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "मुझे मेरे ऑर्डर के बारे में अपडेट एसएमएस द्वारा भेजें"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "मुझे इस स्टोर से ऑफ़र और समाचार एसएमएस करें"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "मुझे WhatsApp पर इस स्टोर के ऑफ़र और समाचार भेजें"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "ऑर्डर प्राप्त हुआ"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "भुगतान प्राप्त हुआ"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "ऑर्डर रोका गया"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "ऑर्डर भेज दिया गया"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "ऑर्डर पूरा हुआ"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "ले जाने के लिए तैयार"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "भुगतान विफल रहा"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "ऑर्डर रद्द कर दिया गया"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "ऑर्डर वापस किया गया"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "ऑर्डर अपडेट"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "आपकी संदेश सेटिंग्स इस स्टोर के साथ आपके ऑर्डर पर दिए गए मोबाइल नंबर को कवर करती हैं। अपने किसी एक ऑर्डर का नंबर उपयोग करें।"
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "आपकी संदेश सेटिंग्स सहेजी गईं।"
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "हो गया। यह स्टोर आपको अब और कोई संदेश नहीं भेजेगा।"
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "कृपया देश कोड के साथ एक मोबाइल नंबर दर्ज करें, उदाहरण के लिए +44 7700 900123।"
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "हम अभी आपकी सेटिंग्स सहेज नहीं सके। कृपया एक मिनट में पुनः प्रयास करें।"
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "आपकी संदेश सेटिंग्स अभी दिखाई नहीं जा सकती हैं। कृपया एक मिनट में पुनः प्रयास करें।"
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "इस स्टोर के संदेश"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "सहेजें"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "सभी संदेश रोकें"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "हाल के संदेश"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "इस स्टोर ने अभी तक आपको कोई संदेश नहीं भेजा है।"
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s, ऑर्डर %2$s, %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "यह स्टोर आपको जो संदेश भेजता है उन्हें प्रबंधित करने के लिए साइन इन करें।"
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "Zinn® संदेश सेटिंग्स"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "साइन-इन किए गए खरीदार को आपके स्टोर द्वारा भेजे जाने वाले टेक्स्ट संदेशों को बदलने, उन सभी को रोकने और पिछले 20 संदेशों को देखने की अनुमति देता है।"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349

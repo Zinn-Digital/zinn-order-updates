@@ -407,6 +407,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "Барои намоиш додани ин шакли сабти ном, ин мағозаро ба Zinn® Campaigns пайваст кунед."
 
 #: includes/class-zinn-order-updates-optin.php:255
+#: includes/class-zinn-order-updates-preferences.php:349
 msgid "Mobile number"
 msgstr "Рақами телефони мобилӣ"
 
@@ -450,6 +451,131 @@ msgstr "Аз ин ҷо сабти номҳо хеле зиёд шуд. Лутф�
 #: includes/class-zinn-order-updates-optin.php:297
 msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "Мо натавонистем сабти номи шуморо захира кунем. Лутфан, рақами худро санҷед ва дубора кӯшиш кунед."
+
+#. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
+#: includes/class-zinn-order-updates-preferences.php:73
+msgctxt "my account endpoint slug"
+msgid "messages"
+msgstr "Паёмҳо"
+
+#: includes/class-zinn-order-updates-preferences.php:110
+msgid "Messages"
+msgstr "Паёмҳо"
+
+#: includes/class-zinn-order-updates-preferences.php:276
+msgid "Text me updates about my orders"
+msgstr "Ба ман навигариҳоро дар бораи фармоишҳоям тавассути SMS фиристед"
+
+#: includes/class-zinn-order-updates-preferences.php:278
+msgid "Text me offers and news from this store"
+msgstr "Ба ман пешниҳодҳо ва хабарҳоро аз ин мағоза тавассути SMS фиристед"
+
+#: includes/class-zinn-order-updates-preferences.php:280
+msgid "Send me offers and news from this store on WhatsApp"
+msgstr "Ба ман пешниҳодҳо ва хабарҳои ин мағозаро тавассути WhatsApp фиристед"
+
+#: includes/class-zinn-order-updates-preferences.php:291
+msgid "Order received"
+msgstr "Фармоиш қабул шуд"
+
+#: includes/class-zinn-order-updates-preferences.php:292
+msgid "Payment received"
+msgstr "Пардохт қабул шуд"
+
+#: includes/class-zinn-order-updates-preferences.php:293
+msgid "Order on hold"
+msgstr "Фармоиш дар интизорӣ"
+
+#: includes/class-zinn-order-updates-preferences.php:294
+msgid "Order shipped"
+msgstr "Фармоиш фиристода шуд"
+
+#: includes/class-zinn-order-updates-preferences.php:295
+msgid "Order completed"
+msgstr "Фармоиш анҷом ёфт"
+
+#: includes/class-zinn-order-updates-preferences.php:296
+msgid "Ready for pickup"
+msgstr "Барои гирифтан омода аст"
+
+#: includes/class-zinn-order-updates-preferences.php:297
+msgid "Payment failed"
+msgstr "Пардохт ноком шуд"
+
+#: includes/class-zinn-order-updates-preferences.php:298
+msgid "Order cancelled"
+msgstr "Фармоиш бекор карда шуд"
+
+#: includes/class-zinn-order-updates-preferences.php:299
+msgid "Order refunded"
+msgstr "Маблағи фармоиш баргардонида шуд"
+
+#: includes/class-zinn-order-updates-preferences.php:301
+msgid "Order update"
+msgstr "Навсозии фармоиш"
+
+#: includes/class-zinn-order-updates-preferences.php:308
+msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
+msgstr "Танзимоти паёмҳои шумо рақами телефони мобилиро дар фармоишҳои шумо дар ин мағоза фаро мегирад. Рақамро аз яке аз фармоишҳои худ истифода баред."
+
+#: includes/class-zinn-order-updates-preferences.php:318
+msgid "Your message settings are saved."
+msgstr "Танзимоти паёмҳои шумо сабт карда шуд."
+
+#: includes/class-zinn-order-updates-preferences.php:319
+msgid "Done. This store will not send you any more messages."
+msgstr "Иҷро шуд. Ин мағоза дигар ба шумо паём намефиристад."
+
+#: includes/class-zinn-order-updates-preferences.php:320
+msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
+msgstr "Лутфан рақами телефони мобилиро бо рамзи кишвар ворид кунед, масалан +44 7700 900123."
+
+#: includes/class-zinn-order-updates-preferences.php:321
+msgid "We could not save your settings just now. Please try again in a minute."
+msgstr "Ҳоло танзимоти шуморо захира карда натавонистем. Лутфан, баъд аз як дақиқа дубора кӯшиш кунед."
+
+#: includes/class-zinn-order-updates-preferences.php:343
+msgid "Your message settings cannot be shown just now. Please try again in a minute."
+msgstr "Танзимоти паёмҳои шуморо дар ҳоли ҳозир нишон додан имконнопазир аст. Лутфан, баъди як дақиқа дубора кӯшиш кунед."
+
+#: includes/class-zinn-order-updates-preferences.php:351
+msgid "Messages from this store"
+msgstr "Паёмҳо аз ин мағоза"
+
+#: includes/class-zinn-order-updates-preferences.php:358
+msgid "Save"
+msgstr "Захира кардан"
+
+#: includes/class-zinn-order-updates-preferences.php:359
+msgid "Stop all messages"
+msgstr "Ҳамаи паёмҳоро боздоред"
+
+#: includes/class-zinn-order-updates-preferences.php:361
+msgid "Recent messages"
+msgstr "Паёмҳои охирин"
+
+#: includes/class-zinn-order-updates-preferences.php:364
+msgid "This store has not sent you any messages yet."
+msgstr "Ин мағоза то ҳол ба шумо ягон паём нафиристодааст."
+
+#. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
+#: includes/class-zinn-order-updates-preferences.php:373
+#, php-format
+msgid "%1$s, order %2$s, %3$s"
+msgstr "%1$s, фармоиш %2$s, %3$s"
+
+#: includes/class-zinn-order-updates-preferences.php:401
+msgid "Sign in to manage the messages this store sends you."
+msgstr "Барои идора кардани паёмҳое, ки ин мағоза ба шумо мефиристад, ворид шавед."
+
+#: includes/class-zinn-order-updates-preferences.php:504
+#: includes/class-zinn-order-updates-preferences.php:518
+msgid "Zinn® message settings"
+msgstr "Танзимоти паёмҳои Zinn®"
+
+#: includes/class-zinn-order-updates-preferences.php:519
+msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
+msgstr "Ба харидори воридшуда имкон медиҳад паёмҳои матнии аз ҷониби мағозаи Шумо фиристодашавандаро тағйир диҳад, ҳамаи онҳоро боздорад ва 20 паёми охиринро бубинад."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
