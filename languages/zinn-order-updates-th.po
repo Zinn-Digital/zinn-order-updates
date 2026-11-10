@@ -12,7 +12,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
 #: includes/class-zinn-order-updates-admin.php:34
-#: includes/class-zinn-order-updates-admin.php:125
+#: includes/class-zinn-order-updates-admin.php:127
 #: includes/class-zinn-order-updates-help.php:45
 msgid "Zinn® Order Updates"
 msgstr "Zinn® Order Updates"
@@ -41,69 +41,69 @@ msgstr "https://zinndigital.com"
 msgid "Order Updates"
 msgstr "อัปเดตคำสั่งซื้อ"
 
-#: includes/class-zinn-order-updates-admin.php:86
+#: includes/class-zinn-order-updates-admin.php:88
 msgid "Your store is connected to Zinn® Campaigns."
 msgstr "ร้านค้าของคุณเชื่อมต่อกับ Zinn® Campaigns แล้ว"
 
-#: includes/class-zinn-order-updates-admin.php:87
+#: includes/class-zinn-order-updates-admin.php:89
 msgid "Your store is disconnected. No messages will be sent."
 msgstr "ร้านค้าของคุณถูกตัดการเชื่อมต่อแล้ว จะไม่มีการส่งข้อความใดๆ"
 
-#: includes/class-zinn-order-updates-admin.php:88
+#: includes/class-zinn-order-updates-admin.php:90
 msgid "That connection took too long or was started in another browser. Press Connect again."
 msgstr "การเชื่อมต่อนั้นใช้เวลานานเกินไป หรือเริ่มต้นในเบราว์เซอร์อื่น โปรดกด เชื่อมต่อ อีกครั้ง"
 
-#: includes/class-zinn-order-updates-admin.php:89
+#: includes/class-zinn-order-updates-admin.php:91
 msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
 msgstr "Zinn® ไม่ยอมรับการเชื่อมต่อ กด \"เชื่อมต่อ\" อีกครั้ง หากยังคงล้มเหลว โปรดติดต่อฝ่ายสนับสนุนของ Zinn®"
 
-#: includes/class-zinn-order-updates-admin.php:90
+#: includes/class-zinn-order-updates-admin.php:92
 msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
 msgstr "เว็บไซต์ของคุณไม่สามารถเชื่อมต่อไปยัง Zinn® ได้ โปรดตรวจสอบว่าโฮสต์ของคุณอนุญาตการเชื่อมต่อขาออกหรือไม่ จากนั้นกด «เชื่อมต่ออีกครั้ง»"
 
-#: includes/class-zinn-order-updates-admin.php:125
-#: includes/class-zinn-order-updates-help.php:56
-#: includes/class-zinn-order-updates-help.php:57
+#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-help.php:58
+#: includes/class-zinn-order-updates-help.php:59
 msgid "Help"
 msgstr "ช่วยเหลือ"
 
-#: includes/class-zinn-order-updates-admin.php:128
+#: includes/class-zinn-order-updates-admin.php:130
 msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
 msgstr "ส่งการอัปเดตเกี่ยวกับคำสั่งซื้อให้แก่ลูกค้าของคุณผ่านทาง SMS และ WhatsApp ในนามร้านค้าของคุณเอง โดยชำระเงินจากเครดิต Zinn® ของคุณ"
 
-#: includes/class-zinn-order-updates-admin.php:129
+#: includes/class-zinn-order-updates-admin.php:131
 msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
 msgstr "เชื่อมต่อ จะเปิด Zinn® ในหน้าต่างนี้ เข้าสู่ระบบหรือสร้างบัญชี อนุมัติร้านค้านี้ แล้วคุณจะกลับมาที่นี่โดยตรง คุณไม่ต้องวางคีย์เลย"
 
-#: includes/class-zinn-order-updates-admin.php:130
+#: includes/class-zinn-order-updates-admin.php:132
 msgid "Connect to Zinn® Campaigns"
 msgstr "เชื่อมต่อไปยัง Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:136
+#: includes/class-zinn-order-updates-admin.php:138
 msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
 msgstr "เชื่อมต่อแล้ว แต่ไม่สามารถเข้าถึง Zinn® ได้ในขณะนี้ เราจะลองใหม่อีกครั้งในไม่ช้า"
 
-#: includes/class-zinn-order-updates-admin.php:141
+#: includes/class-zinn-order-updates-admin.php:143
 msgid "Store"
 msgstr "ร้านค้า"
 
-#: includes/class-zinn-order-updates-admin.php:147
+#: includes/class-zinn-order-updates-admin.php:149
 msgid "Connected"
 msgstr "เชื่อมต่อแล้ว"
 
-#: includes/class-zinn-order-updates-admin.php:152
+#: includes/class-zinn-order-updates-admin.php:154
 msgid "Zinn® Campaigns"
 msgstr "Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:154
+#: includes/class-zinn-order-updates-admin.php:156
 msgid "Open for your account"
 msgstr "เปิดสำหรับบัญชีของคุณ"
 
-#: includes/class-zinn-order-updates-admin.php:155
+#: includes/class-zinn-order-updates-admin.php:157
 msgid "Not open for your account yet. Zinn® will e-mail you when it is."
 msgstr "ยังไม่เปิดให้บริการสำหรับบัญชีของคุณ Zinn® จะส่งอีเมลถึงคุณเมื่อพร้อมใช้งาน"
 
-#: includes/class-zinn-order-updates-admin.php:159
+#: includes/class-zinn-order-updates-admin.php:161
 msgid "Disconnect"
 msgstr "ตัดการเชื่อมต่อ"
 
@@ -115,232 +115,236 @@ msgstr "คุณไม่ได้รับอนุญาตให้เชื
 msgid "You are not allowed to disconnect this store."
 msgstr "คุณไม่ได้รับอนุญาตให้ตัดการเชื่อมต่อร้านค้านี้"
 
+#: includes/class-zinn-order-updates-events.php:67
+msgid "Send me order updates by SMS to my phone number. Message and data rates may apply. Reply STOP to stop."
+msgstr "ส่งการอัปเดตคำสั่งซื้อให้ฉันทาง SMS ไปยังหมายเลขโทรศัพท์ของฉัน อาจมีค่าบริการส่งข้อความและข้อมูล ตอบกลับ STOP เพื่อหยุดรับข้อความ"
+
 #: includes/class-zinn-order-updates-help.php:46
 msgid "Connection"
 msgstr "การเชื่อมต่อ"
 
-#: includes/class-zinn-order-updates-help.php:88
+#: includes/class-zinn-order-updates-help.php:98
 msgid "You are not allowed to do that."
 msgstr "คุณไม่ได้รับอนุญาตให้ดำเนินการนี้"
 
-#: includes/class-zinn-order-updates-help.php:215
+#: includes/class-zinn-order-updates-help.php:225
 msgid "Thank you. You can now ask for help and send reports to Zinn® support."
 msgstr "ขอบคุณ ตอนนี้คุณสามารถขอความช่วยเหลือและส่งรายงานไปยังฝ่ายสนับสนุนของ Zinn® ได้แล้ว"
 
-#: includes/class-zinn-order-updates-help.php:216
+#: includes/class-zinn-order-updates-help.php:226
 msgid "Consent withdrawn. Nothing is sent to Zinn® support until you agree again."
 msgstr "เพิกถอนความยินยอมแล้ว จะไม่มีการส่งข้อมูลใด ๆ ไปยังฝ่ายสนับสนุนของ Zinn® จนกว่าคุณจะยินยอมอีกครั้ง"
 
-#: includes/class-zinn-order-updates-help.php:217
-#: includes/class-zinn-order-updates-help.php:357
+#: includes/class-zinn-order-updates-help.php:227
+#: includes/class-zinn-order-updates-help.php:367
 msgid "The Zinn® AI could not answer just now. Send your question to the team below; a person will reply."
 msgstr "Zinn® AI ไม่สามารถตอบกลับได้ในขณะนี้ ส่งคำถามของคุณไปยังทีมงานด้านล่าง แล้วจะมีเจ้าหน้าที่มาตอบ"
 
-#: includes/class-zinn-order-updates-help.php:218
+#: includes/class-zinn-order-updates-help.php:228
 msgid "Glad that solved it."
 msgstr "ยินดีด้วยที่สิ่งนี้ช่วยแก้ปัญหาได้"
 
 #. translators: %s: the ticket reference, such as ZT-7KQ3MX.
-#: includes/class-zinn-order-updates-help.php:220
+#: includes/class-zinn-order-updates-help.php:230
 #, php-format
 msgid "Sent. Your ticket is %s; the team replies here and by e-mail."
 msgstr "ส่งแล้ว ตั๋วของคุณคือ %s ทีมงานจะตอบกลับที่นี่และทางอีเมล"
 
-#: includes/class-zinn-order-updates-help.php:221
+#: includes/class-zinn-order-updates-help.php:231
 msgid "Fill in the subject, the message and, while your store is not connected, your e-mail address."
 msgstr "กรอกหัวข้อ ข้อความ และในขณะที่ร้านค้าของคุณยังไม่ได้เชื่อมต่อ ให้กรอกที่อยู่อีเมลของคุณ"
 
-#: includes/class-zinn-order-updates-help.php:222
+#: includes/class-zinn-order-updates-help.php:232
 msgid "Zinn® did not accept the ticket. Check the fields and try again; if it keeps failing, e-mail support@zinndigital.com."
 msgstr "Zinn® ไม่ยอมรับคำร้อง ตรวจสอบช่องข้อมูลแล้วลองใหม่อีกครั้ง หากยังคงล้มเหลว โปรดส่งอีเมลไปที่ support@zinndigital.com"
 
-#: includes/class-zinn-order-updates-help.php:223
+#: includes/class-zinn-order-updates-help.php:233
 msgid "Too many requests in a short time. Wait a few minutes and try again."
 msgstr "มีคำขอมากเกินไปในเวลาอันสั้น โปรดรอสักครู่แล้วลองใหม่อีกครั้ง"
 
-#: includes/class-zinn-order-updates-help.php:224
+#: includes/class-zinn-order-updates-help.php:234
 msgid "Reply sent."
 msgstr "ส่งการตอบกลับแล้ว"
 
-#: includes/class-zinn-order-updates-help.php:225
+#: includes/class-zinn-order-updates-help.php:235
 msgid "That ticket is closed. Send a new ticket instead."
 msgstr "ตั๋วนั้นถูกปิดแล้ว โปรดส่งตั๋วใหม่แทน"
 
-#: includes/class-zinn-order-updates-help.php:226
+#: includes/class-zinn-order-updates-help.php:236
 msgid "Your reply could not be sent. Try again in a moment."
 msgstr "ไม่สามารถส่งคำตอบของคุณได้ โปรดลองอีกครั้งในอีกสักครู่"
 
-#: includes/class-zinn-order-updates-help.php:241
+#: includes/class-zinn-order-updates-help.php:251
 msgid "Waiting on Zinn® support"
 msgstr "กำลังรอการสนับสนุนจาก Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:243
+#: includes/class-zinn-order-updates-help.php:253
 msgid "Waiting on you"
 msgstr "กำลังรอคุณอยู่"
 
-#: includes/class-zinn-order-updates-help.php:245
+#: includes/class-zinn-order-updates-help.php:255
 msgid "Answered"
 msgstr "ตอบแล้ว"
 
-#: includes/class-zinn-order-updates-help.php:247
+#: includes/class-zinn-order-updates-help.php:257
 msgid "Closed"
 msgstr "ปิดแล้ว"
 
-#: includes/class-zinn-order-updates-help.php:260
+#: includes/class-zinn-order-updates-help.php:270
 msgid "Report a bug"
 msgstr "รายงานข้อผิดพลาด"
 
-#: includes/class-zinn-order-updates-help.php:262
+#: includes/class-zinn-order-updates-help.php:272
 msgid "Send feedback"
 msgstr "ส่งความคิดเห็น"
 
-#: includes/class-zinn-order-updates-help.php:264
+#: includes/class-zinn-order-updates-help.php:274
 msgid "Request a feature"
 msgstr "ขอฟีเจอร์"
 
-#: includes/class-zinn-order-updates-help.php:266
+#: includes/class-zinn-order-updates-help.php:276
 msgid "Ask for help"
 msgstr "ขอความช่วยเหลือ"
 
-#: includes/class-zinn-order-updates-help.php:277
+#: includes/class-zinn-order-updates-help.php:287
 msgid "Versions: WordPress, PHP, this plugin, WooCommerce (and whether it uses HPOS) and the supported plugins we detected"
 msgstr "เวอร์ชัน: WordPress, PHP, ปลั๊กอินนี้, WooCommerce (และใช้งาน HPOS หรือไม่) รวมถึงปลั๊กอินที่รองรับซึ่งเราตรวจพบ"
 
-#: includes/class-zinn-order-updates-help.php:279
+#: includes/class-zinn-order-updates-help.php:289
 msgid "Your active theme and its version"
 msgstr "ธีมที่ใช้งานอยู่ของคุณและเวอร์ชันของธีม"
 
-#: includes/class-zinn-order-updates-help.php:281
+#: includes/class-zinn-order-updates-help.php:291
 msgid "The list of installed plugins, their versions and whether each is active"
 msgstr "รายการปลั๊กอินที่ติดตั้ง เวอร์ชัน และสถานะการเปิดใช้งานของแต่ละรายการ"
 
-#: includes/class-zinn-order-updates-help.php:283
+#: includes/class-zinn-order-updates-help.php:293
 msgid "Connection: your store address, whether it is connected, this install's id and whether Zinn® answered its last check (never the store's token)"
 msgstr "การเชื่อมต่อ: ที่อยู่ร้านค้าของคุณ การเชื่อมต่ออยู่หรือไม่ รหัสการติดตั้งนี้ และ Zinn® ได้ตอบกลับการตรวจสอบครั้งล่าสุดหรือไม่ (ไม่ใช่โทเค็นของร้านค้าโดยเด็ดขาด)"
 
-#: includes/class-zinn-order-updates-help.php:304
+#: includes/class-zinn-order-updates-help.php:314
 msgid "Zinn® Order Updates: Help"
 msgstr "อัปเดตคำสั่งซื้อ Zinn®: ความช่วยเหลือ"
 
-#: includes/class-zinn-order-updates-help.php:318
+#: includes/class-zinn-order-updates-help.php:328
 msgid "Withdraw my consent to send help requests"
 msgstr "เพิกถอนความยินยอมของฉันในการส่งคำขอความช่วยเหลือ"
 
-#: includes/class-zinn-order-updates-help.php:326
+#: includes/class-zinn-order-updates-help.php:336
 msgid "Help here is answered by Zinn Digital® Ltd. Before anything leaves your site, this is exactly what is sent, and where:"
 msgstr "ความช่วยเหลือที่นี่ตอบโดย Zinn Digital® Ltd ก่อนที่สิ่งใดจะออกจากไซต์ของคุณ นี่คือสิ่งที่ส่งไปและส่งไปที่ใดอย่างแน่นอน:"
 
-#: includes/class-zinn-order-updates-help.php:328
+#: includes/class-zinn-order-updates-help.php:338
 msgid "A question you type: sent to the Zinn® AI at api.zinndigital.com, which answers from the Zinn® help articles."
 msgstr "คำถามที่คุณพิมพ์: ส่งไปยัง Zinn® AI ที่ api.zinndigital.com ซึ่งจะตอบคำถามจากบทความช่วยเหลือของ Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:329
+#: includes/class-zinn-order-updates-help.php:339
 msgid "A ticket you send: its subject, your message, your admin language and a reply e-mail address, sent to Zinn® support."
 msgstr "ตั๋วที่คุณส่ง: หัวข้อ ข้อความของคุณ ภาษาผู้ดูแลระบบของคุณ และที่อยู่อีเมลสำหรับตอบกลับ ซึ่งส่งไปยังฝ่ายสนับสนุนของ Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:330
+#: includes/class-zinn-order-updates-help.php:340
 msgid "Diagnostics: only the blocks you tick, each shown in full before you send. Never the store's token, passwords or your customers' details."
 msgstr "การวินิจฉัย: เฉพาะบล็อกที่คุณทำเครื่องหมาย แต่ละบล็อกจะแสดงอย่างครบถ้วนก่อนที่คุณจะส่ง ไม่รวมโทเค็นของร้าน รหัสผ่าน หรือรายละเอียดของลูกค้าคุณอย่างแน่นอน"
 
-#: includes/class-zinn-order-updates-help.php:331
+#: includes/class-zinn-order-updates-help.php:341
 msgid "Your tickets: while your store is connected, this screen reads your tickets and the team's replies from Zinn®."
 msgstr "ตั๋วของคุณ: ในขณะที่ร้านค้าของคุณเชื่อมต่ออยู่ หน้าจอนี้จะอ่านตั๋วของคุณและการตอบกลับของทีมจาก Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:333
+#: includes/class-zinn-order-updates-help.php:343
 msgid "We record who agreed and when. You can withdraw at any time on this screen."
 msgstr "เราบันทึกว่าใครยินยอมและเมื่อใด คุณสามารถถอนความยินยอมได้ตลอดเวลาบนหน้าจอนี้"
 
-#: includes/class-zinn-order-updates-help.php:335
+#: includes/class-zinn-order-updates-help.php:345
 msgid "Agree and continue"
 msgstr "ยอมรับและดำเนินการต่อ"
 
-#: includes/class-zinn-order-updates-help.php:344
+#: includes/class-zinn-order-updates-help.php:354
 msgid "Ask the Zinn® AI"
 msgstr "ถาม Zinn® AI"
 
-#: includes/class-zinn-order-updates-help.php:346
+#: includes/class-zinn-order-updates-help.php:356
 msgid "What do you need help with?"
 msgstr "คุณต้องการความช่วยเหลือเกี่ยวกับอะไร?"
 
-#: includes/class-zinn-order-updates-help.php:348
+#: includes/class-zinn-order-updates-help.php:358
 msgid "Ask"
 msgstr "ถาม"
 
-#: includes/class-zinn-order-updates-help.php:363
+#: includes/class-zinn-order-updates-help.php:373
 msgid "Help articles"
 msgstr "บทความช่วยเหลือ"
 
-#: includes/class-zinn-order-updates-help.php:378
+#: includes/class-zinn-order-updates-help.php:388
 msgid "That solved it"
 msgstr "วิธีนี้ช่วยแก้ปัญหาได้"
 
-#: includes/class-zinn-order-updates-help.php:379
+#: includes/class-zinn-order-updates-help.php:389
 msgid "Still need help? Send it to the team below."
 msgstr "ยังต้องการความช่วยเหลืออยู่ใช่หรือไม่? ส่งไปยังทีมงานด้านล่าง"
 
-#: includes/class-zinn-order-updates-help.php:391
+#: includes/class-zinn-order-updates-help.php:401
 msgid "Send it to the Zinn® team"
 msgstr "ส่งไปยังทีม Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:396
+#: includes/class-zinn-order-updates-help.php:406
 msgid "What is it?"
 msgstr "สิ่งนี้คืออะไร?"
 
-#: includes/class-zinn-order-updates-help.php:401
+#: includes/class-zinn-order-updates-help.php:411
 msgid "Subject"
 msgstr "หัวข้อ"
 
-#: includes/class-zinn-order-updates-help.php:402
+#: includes/class-zinn-order-updates-help.php:412
 msgid "What happened? For a bug, the steps that show it."
 msgstr "เกิดอะไรขึ้น? สำหรับข้อผิดพลาด ให้ระบุขั้นตอนที่แสดงปัญหานั้น"
 
-#: includes/class-zinn-order-updates-help.php:403
+#: includes/class-zinn-order-updates-help.php:413
 msgid "Reply e-mail"
 msgstr "อีเมลสำหรับตอบกลับ"
 
-#: includes/class-zinn-order-updates-help.php:406
+#: includes/class-zinn-order-updates-help.php:416
 msgid "Leave empty to use the e-mail of the Zinn® member who connected this store."
 msgstr "เว้นว่างไว้เพื่อใช้อีเมลของสมาชิก Zinn® ที่เชื่อมต่อร้านค้านี้"
 
-#: includes/class-zinn-order-updates-help.php:410
+#: includes/class-zinn-order-updates-help.php:420
 msgid "Your store is not connected, so the team replies by e-mail."
 msgstr "ร้านค้าของคุณไม่ได้เชื่อมต่อ ทีมงานจึงตอบกลับทางอีเมล"
 
-#: includes/class-zinn-order-updates-help.php:413
+#: includes/class-zinn-order-updates-help.php:423
 msgid "Diagnostics (optional). Tick a block to attach it; this is exactly what is sent."
 msgstr "การวินิจฉัย (ไม่บังคับ) ติ๊กเลือกบล็อกเพื่อแนบไฟล์ นี่คือสิ่งที่จะถูกส่งไปอย่างแน่นอน"
 
-#: includes/class-zinn-order-updates-help.php:420
+#: includes/class-zinn-order-updates-help.php:430
 msgid "Send to Zinn® support"
 msgstr "ส่งไปยังฝ่ายสนับสนุนของ Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:429
+#: includes/class-zinn-order-updates-help.php:439
 msgid "My tickets"
 msgstr "ตั๋วของฉัน"
 
-#: includes/class-zinn-order-updates-help.php:431
+#: includes/class-zinn-order-updates-help.php:441
 msgid "Connect your store to follow your tickets here. Until then the team replies by e-mail."
 msgstr "เชื่อมต่อร้านค้าของคุณเพื่อติดตามตั๋วของคุณที่นี่ จนกว่าจะถึงเวลานั้น ทีมงานจะตอบกลับทางอีเมล"
 
-#: includes/class-zinn-order-updates-help.php:436
+#: includes/class-zinn-order-updates-help.php:446
 msgid "Your tickets could not be loaded just now. Try again in a moment."
 msgstr "ไม่สามารถโหลดตั๋วของคุณได้ในขณะนี้ โปรดลองอีกครั้งในอีกสักครู่"
 
-#: includes/class-zinn-order-updates-help.php:441
+#: includes/class-zinn-order-updates-help.php:451
 msgid "No tickets yet."
 msgstr "ยังไม่มีคำร้อง"
 
 #. translators: %s: the date and time of the reply.
-#: includes/class-zinn-order-updates-help.php:459
+#: includes/class-zinn-order-updates-help.php:469
 #, php-format
 msgid "Zinn® support replied on %s:"
 msgstr "ฝ่ายสนับสนุนของ Zinn® ตอบกลับเมื่อ %s:"
 
-#: includes/class-zinn-order-updates-help.php:466
+#: includes/class-zinn-order-updates-help.php:476
 msgid "Your reply"
 msgstr "คำตอบของคุณ"
 
-#: includes/class-zinn-order-updates-help.php:468
+#: includes/class-zinn-order-updates-help.php:478
 msgid "Send reply"
 msgstr "ส่งคำตอบ"
 

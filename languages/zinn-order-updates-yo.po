@@ -12,7 +12,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
 #: includes/class-zinn-order-updates-admin.php:34
-#: includes/class-zinn-order-updates-admin.php:125
+#: includes/class-zinn-order-updates-admin.php:127
 #: includes/class-zinn-order-updates-help.php:45
 msgid "Zinn® Order Updates"
 msgstr "Zinn® Order Updates"
@@ -41,69 +41,69 @@ msgstr "https://zinndigital.com"
 msgid "Order Updates"
 msgstr "Awọn imudojuiwọn aṣẹ"
 
-#: includes/class-zinn-order-updates-admin.php:86
+#: includes/class-zinn-order-updates-admin.php:88
 msgid "Your store is connected to Zinn® Campaigns."
 msgstr "Ilé-ìtajà rẹ ti sopọ mọ Zinn® Campaigns."
 
-#: includes/class-zinn-order-updates-admin.php:87
+#: includes/class-zinn-order-updates-admin.php:89
 msgid "Your store is disconnected. No messages will be sent."
 msgstr "A ti ge asopọ ile itaja rẹ. Ko si ifiranṣẹ kankan ti yoo ranṣẹ."
 
-#: includes/class-zinn-order-updates-admin.php:88
+#: includes/class-zinn-order-updates-admin.php:90
 msgid "That connection took too long or was started in another browser. Press Connect again."
 msgstr "Ìsopọ̀ yẹn gba àkókò púpọ̀ tàbí a bẹ̀rẹ̀ rẹ̀ nínú àwárí kiri mìíràn. Tẹ Sopọ̀ lẹ́ẹ̀kan síi."
 
-#: includes/class-zinn-order-updates-admin.php:89
+#: includes/class-zinn-order-updates-admin.php:91
 msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
 msgstr "Zinn® kò gba ìsopọ̀ náà. Tẹ \"Sopọ̀\" lẹ́ẹ̀kan sí i; tí ó bá tún kùnà, kàn sí àtìlẹ́yìn Zinn®."
 
-#: includes/class-zinn-order-updates-admin.php:90
+#: includes/class-zinn-order-updates-admin.php:92
 msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
 msgstr "Aaye rẹ ko le de ọdọ Zinn®. Ṣayẹwo pe olupese rẹ ngbanilaaye awọn asopọ ti njade, lẹhinna tẹ «Tun sopọ mọ»."
 
-#: includes/class-zinn-order-updates-admin.php:125
-#: includes/class-zinn-order-updates-help.php:56
-#: includes/class-zinn-order-updates-help.php:57
+#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-help.php:58
+#: includes/class-zinn-order-updates-help.php:59
 msgid "Help"
 msgstr "Ìrànlọ́wọ́"
 
-#: includes/class-zinn-order-updates-admin.php:128
+#: includes/class-zinn-order-updates-admin.php:130
 msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
 msgstr "Fi àwọn imudojuiwọn SMS ati WhatsApp ranṣẹ si awọn alabara rẹ nipa awọn aṣẹ wọn, labẹ orukọ ile-itaja tirẹ, ti a sanwo lati inu kirẹditi Zinn® rẹ."
 
-#: includes/class-zinn-order-updates-admin.php:129
+#: includes/class-zinn-order-updates-admin.php:131
 msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
 msgstr "Sopọ yoo ṣi Zinn® ninu ferese yii. Wọle tabi ṣẹda akọọlẹ kan, fọwọsi ile itaja yii, iwọ yoo si pada taara si ibi. O ko nilo lati lẹ kọkọrọ rara."
 
-#: includes/class-zinn-order-updates-admin.php:130
+#: includes/class-zinn-order-updates-admin.php:132
 msgid "Connect to Zinn® Campaigns"
 msgstr "Sopọ mọ Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:136
+#: includes/class-zinn-order-updates-admin.php:138
 msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
 msgstr "Ti sopọ, ṣugbọn a ko le de ọdọ Zinn® ni akoko yii. A o tun gbiyanju laipẹ."
 
-#: includes/class-zinn-order-updates-admin.php:141
+#: includes/class-zinn-order-updates-admin.php:143
 msgid "Store"
 msgstr "Ilé-ìtajà"
 
-#: includes/class-zinn-order-updates-admin.php:147
+#: includes/class-zinn-order-updates-admin.php:149
 msgid "Connected"
 msgstr "Ti sopọ"
 
-#: includes/class-zinn-order-updates-admin.php:152
+#: includes/class-zinn-order-updates-admin.php:154
 msgid "Zinn® Campaigns"
 msgstr "Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:154
+#: includes/class-zinn-order-updates-admin.php:156
 msgid "Open for your account"
 msgstr "Ṣi silẹ fun akọọlẹ rẹ"
 
-#: includes/class-zinn-order-updates-admin.php:155
+#: includes/class-zinn-order-updates-admin.php:157
 msgid "Not open for your account yet. Zinn® will e-mail you when it is."
 msgstr "Kò tíì ṣí sílẹ̀ fún àkọọ́lẹ̀ rẹ. Zinn® yóò fi imeeli ránṣẹ́ sí ọ nígbà tí ó bá ṣí."
 
-#: includes/class-zinn-order-updates-admin.php:159
+#: includes/class-zinn-order-updates-admin.php:161
 msgid "Disconnect"
 msgstr "Ge asopọ kuro"
 
@@ -115,232 +115,236 @@ msgstr "A kò gba ọ́ láàyè láti so ilé-ìtajà yìí pọ̀."
 msgid "You are not allowed to disconnect this store."
 msgstr "A kò fún ọ láàyè láti ge ìsopọ̀ ilé-ìtajà yìí."
 
+#: includes/class-zinn-order-updates-events.php:67
+msgid "Send me order updates by SMS to my phone number. Message and data rates may apply. Reply STOP to stop."
+msgstr "Fi awọn imudojuiwọn aṣẹ ranṣẹ si mi nipasẹ SMS si nọmba foonu mi. Awọn owo ifiranṣẹ ati data le waye. Fesi STOP lati da duro."
+
 #: includes/class-zinn-order-updates-help.php:46
 msgid "Connection"
 msgstr "Ìsopọ̀"
 
-#: includes/class-zinn-order-updates-help.php:88
+#: includes/class-zinn-order-updates-help.php:98
 msgid "You are not allowed to do that."
 msgstr "A kò fún yín láàyè láti ṣe bẹ́ẹ̀."
 
-#: includes/class-zinn-order-updates-help.php:215
+#: includes/class-zinn-order-updates-help.php:225
 msgid "Thank you. You can now ask for help and send reports to Zinn® support."
 msgstr "A dupẹ. O le beere fun iranlọwọ ni bayi ki o si fi awọn iroyin ranṣẹ si atilẹyin Zinn®."
 
-#: includes/class-zinn-order-updates-help.php:216
+#: includes/class-zinn-order-updates-help.php:226
 msgid "Consent withdrawn. Nothing is sent to Zinn® support until you agree again."
 msgstr "A ti yọ ifọwọsi kuro. A kì yóò fi ohunkóhun ránṣẹ́ sí àtìlẹ́yìn Zinn® títí tí ẹ ó fi gbà lẹ́ẹ̀kan síi."
 
-#: includes/class-zinn-order-updates-help.php:217
-#: includes/class-zinn-order-updates-help.php:357
+#: includes/class-zinn-order-updates-help.php:227
+#: includes/class-zinn-order-updates-help.php:367
 msgid "The Zinn® AI could not answer just now. Send your question to the team below; a person will reply."
 msgstr "Zinn® AI kò le dáhùn ní báyìí. Fi ìbéèrè rẹ ránṣẹ́ sí ẹgbẹ́ tó wà nísàlẹ̀ yìí; ẹnìkan yóò fèsì."
 
-#: includes/class-zinn-order-updates-help.php:218
+#: includes/class-zinn-order-updates-help.php:228
 msgid "Glad that solved it."
 msgstr "Inú mi dùn pé ìyẹn yanjú rẹ̀."
 
 #. translators: %s: the ticket reference, such as ZT-7KQ3MX.
-#: includes/class-zinn-order-updates-help.php:220
+#: includes/class-zinn-order-updates-help.php:230
 #, php-format
 msgid "Sent. Your ticket is %s; the team replies here and by e-mail."
 msgstr "A ti fi ránṣẹ́. Nọ́mbà ìwé-ìbéèrè rẹ ni %s; ẹgbẹ́ wa yóò fèsì síbí àti nípasẹ̀ e-mail."
 
-#: includes/class-zinn-order-updates-help.php:221
+#: includes/class-zinn-order-updates-help.php:231
 msgid "Fill in the subject, the message and, while your store is not connected, your e-mail address."
 msgstr "Fọwọsi kókó ọ̀rọ̀ náà, iṣẹ́ náà àti, níwọ̀n ìgbà tí ilé-ìtajà rẹ kò tíì sopọ̀, àdírẹ́sì e-mail rẹ."
 
-#: includes/class-zinn-order-updates-help.php:222
+#: includes/class-zinn-order-updates-help.php:232
 msgid "Zinn® did not accept the ticket. Check the fields and try again; if it keeps failing, e-mail support@zinndigital.com."
 msgstr "Zinn® kò gba tikẹti naa. Ṣayẹwo awọn aaye ki o tun gbiyanju; ti o ba tẹsiwaju lati kuna, fi imeeli ranṣẹ si support@zinndigital.com."
 
-#: includes/class-zinn-order-updates-help.php:223
+#: includes/class-zinn-order-updates-help.php:233
 msgid "Too many requests in a short time. Wait a few minutes and try again."
 msgstr "Ọ̀pọ̀lọpọ̀ ìbéèrè láàárín àkókò kúkúrú. Jọ̀wọ́ dúró fún ìṣẹ́jú díẹ̀ kí o sì tún gbìyànjú lẹ́ẹ̀kan síi."
 
-#: includes/class-zinn-order-updates-help.php:224
+#: includes/class-zinn-order-updates-help.php:234
 msgid "Reply sent."
 msgstr "A ti fi èsì ránṣẹ́."
 
-#: includes/class-zinn-order-updates-help.php:225
+#: includes/class-zinn-order-updates-help.php:235
 msgid "That ticket is closed. Send a new ticket instead."
 msgstr "Tíkẹ́ẹ̀tì yẹn ti wà ní títì. Ẹ fi tíkẹ́ẹ̀tì tuntun ránṣẹ́ dípò rẹ̀."
 
-#: includes/class-zinn-order-updates-help.php:226
+#: includes/class-zinn-order-updates-help.php:236
 msgid "Your reply could not be sent. Try again in a moment."
 msgstr "A ko le fi esi rẹ ranṣẹ. Gbiyanju lẹẹkansi ni iṣẹju diẹ."
 
-#: includes/class-zinn-order-updates-help.php:241
+#: includes/class-zinn-order-updates-help.php:251
 msgid "Waiting on Zinn® support"
 msgstr "Ń duro de iranlọwọ Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:243
+#: includes/class-zinn-order-updates-help.php:253
 msgid "Waiting on you"
 msgstr "Ń reti rẹ"
 
-#: includes/class-zinn-order-updates-help.php:245
+#: includes/class-zinn-order-updates-help.php:255
 msgid "Answered"
 msgstr "Ti dahùn"
 
-#: includes/class-zinn-order-updates-help.php:247
+#: includes/class-zinn-order-updates-help.php:257
 msgid "Closed"
 msgstr "Ti pado"
 
-#: includes/class-zinn-order-updates-help.php:260
+#: includes/class-zinn-order-updates-help.php:270
 msgid "Report a bug"
 msgstr "Fi àbùkù tó wà lẹ́jọ́"
 
-#: includes/class-zinn-order-updates-help.php:262
+#: includes/class-zinn-order-updates-help.php:272
 msgid "Send feedback"
 msgstr "Fi èsì ránṣẹ́"
 
-#: includes/class-zinn-order-updates-help.php:264
+#: includes/class-zinn-order-updates-help.php:274
 msgid "Request a feature"
 msgstr "Beere fun ẹya kan"
 
-#: includes/class-zinn-order-updates-help.php:266
+#: includes/class-zinn-order-updates-help.php:276
 msgid "Ask for help"
 msgstr "Béèrè fún ìrànlọ́wọ́"
 
-#: includes/class-zinn-order-updates-help.php:277
+#: includes/class-zinn-order-updates-help.php:287
 msgid "Versions: WordPress, PHP, this plugin, WooCommerce (and whether it uses HPOS) and the supported plugins we detected"
 msgstr "Àwọn àtẹ̀jáde: WordPress, PHP, afikun yìí, WooCommerce (àti bóyá ó ń lo HPOS) àti àwọn afikun tí a tì lẹ́yìn tí a ṣàwárí"
 
-#: includes/class-zinn-order-updates-help.php:279
+#: includes/class-zinn-order-updates-help.php:289
 msgid "Your active theme and its version"
 msgstr "Akori ti n ṣiṣẹ lọwọlọwọ rẹ ati ẹya rẹ"
 
-#: includes/class-zinn-order-updates-help.php:281
+#: includes/class-zinn-order-updates-help.php:291
 msgid "The list of installed plugins, their versions and whether each is active"
 msgstr "Àtòjọ àwọn àfikún tí a fi sípò, àwọn àtẹ̀jáde wọn àti bóyá ọ̀kọ̀ọ̀kan wọn ń ṣiṣẹ́ lọ́wọ́"
 
-#: includes/class-zinn-order-updates-help.php:283
+#: includes/class-zinn-order-updates-help.php:293
 msgid "Connection: your store address, whether it is connected, this install's id and whether Zinn® answered its last check (never the store's token)"
 msgstr "Ìsopọ̀: àdírẹ́sì ilé-ìtajà rẹ, bóyá ó ti sopọ̀, id ìfisílẹ̀ yìí àti bóyá Zinn® dáhùn sí àyẹ̀wò rẹ̀ tó kẹ́yìn (kìí ṣe àmì ilé-ìtajà náà rárá)"
 
-#: includes/class-zinn-order-updates-help.php:304
+#: includes/class-zinn-order-updates-help.php:314
 msgid "Zinn® Order Updates: Help"
 msgstr "Àwọn Ìmúdójúìwọ̀n Àṣẹ Zinn®: Ìrànwọ́"
 
-#: includes/class-zinn-order-updates-help.php:318
+#: includes/class-zinn-order-updates-help.php:328
 msgid "Withdraw my consent to send help requests"
 msgstr "Yọ ifohunsi mi kuro lati fi awọn ibeere iranlọwọ ranṣẹ"
 
-#: includes/class-zinn-order-updates-help.php:326
+#: includes/class-zinn-order-updates-help.php:336
 msgid "Help here is answered by Zinn Digital® Ltd. Before anything leaves your site, this is exactly what is sent, and where:"
 msgstr "Zinn Digital® Ltd ni ó ń dáhùn ìrànwọ́ níhìn-ín. Kí ohunkóhun tó kúrò lórí ojúlé wẹ́ẹ̀bù rẹ, èyí gan-an ni ohun tí a ń fi ránṣẹ́, àti ibi tí a ń fi ránṣẹ́ sí:"
 
-#: includes/class-zinn-order-updates-help.php:328
+#: includes/class-zinn-order-updates-help.php:338
 msgid "A question you type: sent to the Zinn® AI at api.zinndigital.com, which answers from the Zinn® help articles."
 msgstr "Ibeere ti o tẹ: a firanṣẹ si Zinn® AI ni api.zinndigital.com, eyiti o dahun lati awọn nkan iranlọwọ Zinn®."
 
-#: includes/class-zinn-order-updates-help.php:329
+#: includes/class-zinn-order-updates-help.php:339
 msgid "A ticket you send: its subject, your message, your admin language and a reply e-mail address, sent to Zinn® support."
 msgstr "Tikẹti ti ẹ fi ranṣẹ: koko-ọrọ rẹ, ifiranṣẹ yin, ede alakoso yin ati adirẹsi imeeli idahun, ti a fi ranṣẹ si atilẹyin Zinn®."
 
-#: includes/class-zinn-order-updates-help.php:330
+#: includes/class-zinn-order-updates-help.php:340
 msgid "Diagnostics: only the blocks you tick, each shown in full before you send. Never the store's token, passwords or your customers' details."
 msgstr "Awọn iwadii aisan: awọn bulọọki ti o samisi nikan, ọkọọkan han ni kikun ṣaaju ki o to firanṣẹ. Kii ṣe ami-ẹri ile-itaja, awọn ọrọ igbaniwọle tabi awọn alaye ti awọn alabara rẹ."
 
-#: includes/class-zinn-order-updates-help.php:331
+#: includes/class-zinn-order-updates-help.php:341
 msgid "Your tickets: while your store is connected, this screen reads your tickets and the team's replies from Zinn®."
 msgstr "Awọn tiketi rẹ: nigba ti ile itaja rẹ ba wa ni asopọ, oju-iboju yii n ka awọn tiketi rẹ ati awọn idahun ẹgbẹ lati Zinn®."
 
-#: includes/class-zinn-order-updates-help.php:333
+#: includes/class-zinn-order-updates-help.php:343
 msgid "We record who agreed and when. You can withdraw at any time on this screen."
 msgstr "A máa ń gba àkọsílẹ̀ ẹni tí ó fohùnsọ̀kan àti ìgbà tí ó ṣe bẹ́ẹ̀ sílẹ̀. Ẹ lè fà á sẹ́yìn nígbàkúgbà lórí ojú-ìbòjú yìí."
 
-#: includes/class-zinn-order-updates-help.php:335
+#: includes/class-zinn-order-updates-help.php:345
 msgid "Agree and continue"
 msgstr "Gba wọle ki o tẹsiwaju"
 
-#: includes/class-zinn-order-updates-help.php:344
+#: includes/class-zinn-order-updates-help.php:354
 msgid "Ask the Zinn® AI"
 msgstr "Béèrè lọ́wọ́ Zinn® AI"
 
-#: includes/class-zinn-order-updates-help.php:346
+#: includes/class-zinn-order-updates-help.php:356
 msgid "What do you need help with?"
 msgstr "Kí ni o nílò ìrànwọ́ pẹ̀lú rẹ̀?"
 
-#: includes/class-zinn-order-updates-help.php:348
+#: includes/class-zinn-order-updates-help.php:358
 msgid "Ask"
 msgstr "Bèèrè"
 
-#: includes/class-zinn-order-updates-help.php:363
+#: includes/class-zinn-order-updates-help.php:373
 msgid "Help articles"
 msgstr "Àwọn àtìkò ìrànlọ́wọ́"
 
-#: includes/class-zinn-order-updates-help.php:378
+#: includes/class-zinn-order-updates-help.php:388
 msgid "That solved it"
 msgstr "Èyí yanjú ẹ̀"
 
-#: includes/class-zinn-order-updates-help.php:379
+#: includes/class-zinn-order-updates-help.php:389
 msgid "Still need help? Send it to the team below."
 msgstr "Ṣe o tun nilo iranlọwọ bi? Fi ranṣẹ si ẹgbẹ ti o wa ni isalẹ."
 
-#: includes/class-zinn-order-updates-help.php:391
+#: includes/class-zinn-order-updates-help.php:401
 msgid "Send it to the Zinn® team"
 msgstr "Firanṣẹ si ẹgbẹ Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:396
+#: includes/class-zinn-order-updates-help.php:406
 msgid "What is it?"
 msgstr "Kí ni?"
 
-#: includes/class-zinn-order-updates-help.php:401
+#: includes/class-zinn-order-updates-help.php:411
 msgid "Subject"
 msgstr "Kókó"
 
-#: includes/class-zinn-order-updates-help.php:402
+#: includes/class-zinn-order-updates-help.php:412
 msgid "What happened? For a bug, the steps that show it."
 msgstr "Kí ló ṣẹlẹ̀? Fún àṣìṣe kan, àwọn ìgbésẹ̀ tó fi hàn."
 
-#: includes/class-zinn-order-updates-help.php:403
+#: includes/class-zinn-order-updates-help.php:413
 msgid "Reply e-mail"
 msgstr "Imeeli idahun"
 
-#: includes/class-zinn-order-updates-help.php:406
+#: includes/class-zinn-order-updates-help.php:416
 msgid "Leave empty to use the e-mail of the Zinn® member who connected this store."
 msgstr "Fi sílẹ̀ láìkọ nǹkan sí i láti lo ímeèlì ọmọ ẹgbẹ́ Zinn® tó so ṣọ́ọ̀bù yìí pọ̀."
 
-#: includes/class-zinn-order-updates-help.php:410
+#: includes/class-zinn-order-updates-help.php:420
 msgid "Your store is not connected, so the team replies by e-mail."
 msgstr "Ile-itaja rẹ ko ni asopọ, nitorinaa ẹgbẹ naa n dahun nipasẹ imeeli."
 
-#: includes/class-zinn-order-updates-help.php:413
+#: includes/class-zinn-order-updates-help.php:423
 msgid "Diagnostics (optional). Tick a block to attach it; this is exactly what is sent."
 msgstr "Awọn iwadii (aṣayan). Samisi bulọọki kan lati so mọ; eyi gangan ni ohun ti a firanṣẹ."
 
-#: includes/class-zinn-order-updates-help.php:420
+#: includes/class-zinn-order-updates-help.php:430
 msgid "Send to Zinn® support"
 msgstr "Firanṣẹ si atilẹyin Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:429
+#: includes/class-zinn-order-updates-help.php:439
 msgid "My tickets"
 msgstr "Àwọn tíkẹ́ẹ̀tì mi"
 
-#: includes/class-zinn-order-updates-help.php:431
+#: includes/class-zinn-order-updates-help.php:441
 msgid "Connect your store to follow your tickets here. Until then the team replies by e-mail."
 msgstr "So ile-itaja re pọ lati tẹle awọn tikẹti re nibi. Titi di igba naa, ẹgbẹ naa yoo dahun nipasẹ imeeli."
 
-#: includes/class-zinn-order-updates-help.php:436
+#: includes/class-zinn-order-updates-help.php:446
 msgid "Your tickets could not be loaded just now. Try again in a moment."
 msgstr "A ko le gbe àwọn tikẹẹti rẹ wọle ní báyìí. Gbiyanju lẹẹkansi ni iṣẹju diẹ."
 
-#: includes/class-zinn-order-updates-help.php:441
+#: includes/class-zinn-order-updates-help.php:451
 msgid "No tickets yet."
 msgstr "Kò sí àkọsílẹ̀ kankan títí di báyìí."
 
 #. translators: %s: the date and time of the reply.
-#: includes/class-zinn-order-updates-help.php:459
+#: includes/class-zinn-order-updates-help.php:469
 #, php-format
 msgid "Zinn® support replied on %s:"
 msgstr "Atilẹyin Zinn® dahun ni %s:"
 
-#: includes/class-zinn-order-updates-help.php:466
+#: includes/class-zinn-order-updates-help.php:476
 msgid "Your reply"
 msgstr "Èsì rẹ"
 
-#: includes/class-zinn-order-updates-help.php:468
+#: includes/class-zinn-order-updates-help.php:478
 msgid "Send reply"
 msgstr "Firanṣẹ esi"
 

@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.2
+Stable tag: 0.2.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,11 @@ It sends nothing until you press Connect. Then:
 
 The Token request also reports the store's languages (at most 40 characters of language codes).
 
+Order updates by SMS: checkout shows one unticked box ("Send me order updates by SMS to my phone number"), using the billing phone. Nothing about an order is sent unless the shopper ticks it. For an order where they did:
+
+* **Consent** (`POST /v1/store-connect/consents`, once, before the order's first update): the billing phone, the wording shown, its version and language, and when the box was ticked. It is the proof of the shopper's consent.
+* **Order event** (`POST /v1/store-connect/events`, when the order's status changes to processing, on hold, completed, cancelled, refunded or failed): the order number, the new status, the shopper's first name, billing phone and checkout language, the store name, the order total and currency (and the refunded amount, or the payment link for a failed payment). Zinn® Campaigns sends the text in the shopper's language; Telnyx delivers it as our sub-processor.
+
 Help (Order Updates → Help) sends nothing until you press "Agree and continue" there; who agreed and when is recorded on your site. Then:
 
 * **Ask the Zinn® AI** (`POST /v1/public/support/deflect`, when you press Ask): your question, your admin language and the name of this plugin. The answer and matching help articles come back. **That solved it** (`POST /v1/public/support/deflect/{id}/solved`) records only that the answer helped.
@@ -58,11 +63,14 @@ Withdraw your consent on the Help screen at any time; nothing is sent again unti
 
 Yes. Press Connect and you can create one on the way.
 
-= Does the plugin send my customers' data anywhere yet? =
+= Does the plugin send my customers' data anywhere? =
 
-No. This version connects the store and stores each new order's language on the order, on your site. Nothing about your orders or customers is sent. A support ticket carries only what you type and the diagnostics blocks you tick.
+Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status and total), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.3 =
+* Order updates by SMS: an unticked checkout box (classic and block checkout); when a shopper ticks it, each status change is texted to them in their language by Zinn® Campaigns. Orders without the tick send nothing.
 
 = 0.2.2 =
 * The store's languages (Tranzly, WPML or Polylang) now reach Zinn® Campaigns on every heartbeat, all of them, not only the first 40 characters.

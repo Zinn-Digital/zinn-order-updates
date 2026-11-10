@@ -12,7 +12,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
 #: includes/class-zinn-order-updates-admin.php:34
-#: includes/class-zinn-order-updates-admin.php:125
+#: includes/class-zinn-order-updates-admin.php:127
 #: includes/class-zinn-order-updates-help.php:45
 msgid "Zinn® Order Updates"
 msgstr "Zinn® Order Updates"
@@ -41,69 +41,69 @@ msgstr "https://zinndigital.com"
 msgid "Order Updates"
 msgstr "ऑर्डर अपडेट्स"
 
-#: includes/class-zinn-order-updates-admin.php:86
+#: includes/class-zinn-order-updates-admin.php:88
 msgid "Your store is connected to Zinn® Campaigns."
 msgstr "तुमचे स्टोअर Zinn® Campaigns शी जोडलेले आहे."
 
-#: includes/class-zinn-order-updates-admin.php:87
+#: includes/class-zinn-order-updates-admin.php:89
 msgid "Your store is disconnected. No messages will be sent."
 msgstr "तुमचे स्टोअर डिस्कनेक्ट झाले आहे. कोणतेही संदेश पाठवले जाणार नाहीत."
 
-#: includes/class-zinn-order-updates-admin.php:88
+#: includes/class-zinn-order-updates-admin.php:90
 msgid "That connection took too long or was started in another browser. Press Connect again."
 msgstr "त्या कनेक्शनला खूप वेळ लागला किंवा ते दुसऱ्या ब्राउझरमध्ये सुरू केले गेले होते. कृपया पुन्हा कनेक्ट करा दाबा."
 
-#: includes/class-zinn-order-updates-admin.php:89
+#: includes/class-zinn-order-updates-admin.php:91
 msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
 msgstr "Zinn® ने कनेक्शन स्वीकारले नाही. पुन्हा \"कनेक्ट करा\" दाबा; अयशस्वी होत राहिल्यास, Zinn® समर्थनाशी संपर्क साधा."
 
-#: includes/class-zinn-order-updates-admin.php:90
+#: includes/class-zinn-order-updates-admin.php:92
 msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
 msgstr "तुमची साइट Zinn® पर्यंत पोहोचू शकली नाही. तुमचा होस्ट आउटगोइंग कनेक्शनना अनुमती देतो का ते तपासा, नंतर पुन्हा \"कनेक्ट करा\" दाबा."
 
-#: includes/class-zinn-order-updates-admin.php:125
-#: includes/class-zinn-order-updates-help.php:56
-#: includes/class-zinn-order-updates-help.php:57
+#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-help.php:58
+#: includes/class-zinn-order-updates-help.php:59
 msgid "Help"
 msgstr "मदत"
 
-#: includes/class-zinn-order-updates-admin.php:128
+#: includes/class-zinn-order-updates-admin.php:130
 msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
 msgstr "तुमच्या ग्राहकांना त्यांच्या ऑर्डर्सबद्दल तुमच्या दुकानाच्या स्वतःच्या नावाने SMS आणि WhatsApp अपडेट पाठवा, ज्याचे शुल्क तुमच्या Zinn® क्रेडिटमधून आकारले जाईल."
 
-#: includes/class-zinn-order-updates-admin.php:129
+#: includes/class-zinn-order-updates-admin.php:131
 msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
 msgstr "कनेक्ट करा या विंडोमध्ये Zinn® उघडते. साइन इन करा किंवा खाते तयार करा, या स्टोअरला मंजुरी द्या आणि तुम्ही थेट येथे परत याल. तुम्हाला कधीही की पेस्ट करावी लागणार नाही."
 
-#: includes/class-zinn-order-updates-admin.php:130
+#: includes/class-zinn-order-updates-admin.php:132
 msgid "Connect to Zinn® Campaigns"
 msgstr "Zinn® Campaigns शी कनेक्ट करा"
 
-#: includes/class-zinn-order-updates-admin.php:136
+#: includes/class-zinn-order-updates-admin.php:138
 msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
 msgstr "कनेक्ट झाले, परंतु आत्ता Zinn® शी संपर्क साधता आला नाही. आम्ही लवकरच पुन्हा प्रयत्न करू."
 
-#: includes/class-zinn-order-updates-admin.php:141
+#: includes/class-zinn-order-updates-admin.php:143
 msgid "Store"
 msgstr "स्टोअर"
 
-#: includes/class-zinn-order-updates-admin.php:147
+#: includes/class-zinn-order-updates-admin.php:149
 msgid "Connected"
 msgstr "कनेक्ट झाले"
 
-#: includes/class-zinn-order-updates-admin.php:152
+#: includes/class-zinn-order-updates-admin.php:154
 msgid "Zinn® Campaigns"
 msgstr "Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:154
+#: includes/class-zinn-order-updates-admin.php:156
 msgid "Open for your account"
 msgstr "तुमच्या खात्यासाठी उघडे आहे"
 
-#: includes/class-zinn-order-updates-admin.php:155
+#: includes/class-zinn-order-updates-admin.php:157
 msgid "Not open for your account yet. Zinn® will e-mail you when it is."
 msgstr "अद्याप तुमच्या खात्यासाठी उपलब्ध नाही. उपलब्ध झाल्यावर Zinn® तुम्हाला ईमेल पाठवेल."
 
-#: includes/class-zinn-order-updates-admin.php:159
+#: includes/class-zinn-order-updates-admin.php:161
 msgid "Disconnect"
 msgstr "डिस्कनेक्ट करा"
 
@@ -115,232 +115,236 @@ msgstr "तुम्हाला हे स्टोअर कनेक्ट �
 msgid "You are not allowed to disconnect this store."
 msgstr "तुम्हाला हे स्टोअर डिस्कनेक्ट करण्याची परवानगी नाही."
 
+#: includes/class-zinn-order-updates-events.php:67
+msgid "Send me order updates by SMS to my phone number. Message and data rates may apply. Reply STOP to stop."
+msgstr "मला माझ्या फोन नंबरवर SMS द्वारे ऑर्डरचे अपडेट्स पाठवा. मेसेज आणि डेटा दर लागू होऊ शकतात. थांबवण्यासाठी STOP लिहून प्रत्युत्तर द्या."
+
 #: includes/class-zinn-order-updates-help.php:46
 msgid "Connection"
 msgstr "कनेक्शन"
 
-#: includes/class-zinn-order-updates-help.php:88
+#: includes/class-zinn-order-updates-help.php:98
 msgid "You are not allowed to do that."
 msgstr "तुम्हाला हे करण्याची अनुमती नाही."
 
-#: includes/class-zinn-order-updates-help.php:215
+#: includes/class-zinn-order-updates-help.php:225
 msgid "Thank you. You can now ask for help and send reports to Zinn® support."
 msgstr "धन्यवाद. आपण आता मदतीची विनंती करू शकता आणि Zinn® समर्थनाला अहवाल पाठवू शकता."
 
-#: includes/class-zinn-order-updates-help.php:216
+#: includes/class-zinn-order-updates-help.php:226
 msgid "Consent withdrawn. Nothing is sent to Zinn® support until you agree again."
 msgstr "संमती मागे घेतली. जोपर्यंत आपण पुन्हा सहमत होत नाही तोपर्यंत Zinn® समर्थनास काहीही पाठवले जाणार नाही."
 
-#: includes/class-zinn-order-updates-help.php:217
-#: includes/class-zinn-order-updates-help.php:357
+#: includes/class-zinn-order-updates-help.php:227
+#: includes/class-zinn-order-updates-help.php:367
 msgid "The Zinn® AI could not answer just now. Send your question to the team below; a person will reply."
 msgstr "Zinn® AI आत्ता उत्तर देऊ शकले नाही. आपला प्रश्न खालील टीमला पाठवा; एक व्यक्ती उत्तर देईल."
 
-#: includes/class-zinn-order-updates-help.php:218
+#: includes/class-zinn-order-updates-help.php:228
 msgid "Glad that solved it."
 msgstr "यामुळे समस्या सुटल्याबद्दल आनंद झाला."
 
 #. translators: %s: the ticket reference, such as ZT-7KQ3MX.
-#: includes/class-zinn-order-updates-help.php:220
+#: includes/class-zinn-order-updates-help.php:230
 #, php-format
 msgid "Sent. Your ticket is %s; the team replies here and by e-mail."
 msgstr "पाठवले. तुमचे तिकीट %s आहे; कार्यसंघ येथे आणि ईमेलद्वारे उत्तर देईल."
 
-#: includes/class-zinn-order-updates-help.php:221
+#: includes/class-zinn-order-updates-help.php:231
 msgid "Fill in the subject, the message and, while your store is not connected, your e-mail address."
 msgstr "विषय, संदेश आणि तुमचे स्टोअर कनेक्ट केलेले नसताना तुमचा ईमेल पत्ता भरा."
 
-#: includes/class-zinn-order-updates-help.php:222
+#: includes/class-zinn-order-updates-help.php:232
 msgid "Zinn® did not accept the ticket. Check the fields and try again; if it keeps failing, e-mail support@zinndigital.com."
 msgstr "Zinn® ने तिकीट स्वीकारले नाही. फील्ड तपासा आणि पुन्हा प्रयत्न करा; अयशस्वी होत राहिल्यास, support@zinndigital.com वर ईमेल पाठवा."
 
-#: includes/class-zinn-order-updates-help.php:223
+#: includes/class-zinn-order-updates-help.php:233
 msgid "Too many requests in a short time. Wait a few minutes and try again."
 msgstr "कमी वेळात खूप जास्त विनंत्या आल्या आहेत. कृपया काही मिनिटे प्रतीक्षा करा आणि पुन्हा प्रयत्न करा."
 
-#: includes/class-zinn-order-updates-help.php:224
+#: includes/class-zinn-order-updates-help.php:234
 msgid "Reply sent."
 msgstr "प्रत्युत्तर पाठवले."
 
-#: includes/class-zinn-order-updates-help.php:225
+#: includes/class-zinn-order-updates-help.php:235
 msgid "That ticket is closed. Send a new ticket instead."
 msgstr "ते तिकीट बंद झाले आहे. त्याऐवजी नवीन तिकीट पाठवा."
 
-#: includes/class-zinn-order-updates-help.php:226
+#: includes/class-zinn-order-updates-help.php:236
 msgid "Your reply could not be sent. Try again in a moment."
 msgstr "तुमचा प्रतिसाद पाठवता आला नाही. थोड्या वेळाने पुन्हा प्रयत्न करा."
 
-#: includes/class-zinn-order-updates-help.php:241
+#: includes/class-zinn-order-updates-help.php:251
 msgid "Waiting on Zinn® support"
 msgstr "Zinn® समर्थनाची प्रतीक्षा करत आहे"
 
-#: includes/class-zinn-order-updates-help.php:243
+#: includes/class-zinn-order-updates-help.php:253
 msgid "Waiting on you"
 msgstr "तुमच्या प्रतिसादाची वाट पाहत आहे"
 
-#: includes/class-zinn-order-updates-help.php:245
+#: includes/class-zinn-order-updates-help.php:255
 msgid "Answered"
 msgstr "उत्तर दिले"
 
-#: includes/class-zinn-order-updates-help.php:247
+#: includes/class-zinn-order-updates-help.php:257
 msgid "Closed"
 msgstr "बंद केले"
 
-#: includes/class-zinn-order-updates-help.php:260
+#: includes/class-zinn-order-updates-help.php:270
 msgid "Report a bug"
 msgstr "दोष नोंदवा"
 
-#: includes/class-zinn-order-updates-help.php:262
+#: includes/class-zinn-order-updates-help.php:272
 msgid "Send feedback"
 msgstr "अभिप्राय पाठवा"
 
-#: includes/class-zinn-order-updates-help.php:264
+#: includes/class-zinn-order-updates-help.php:274
 msgid "Request a feature"
 msgstr "वैशिष्ट्याची विनंती करा"
 
-#: includes/class-zinn-order-updates-help.php:266
+#: includes/class-zinn-order-updates-help.php:276
 msgid "Ask for help"
 msgstr "मदत मागा"
 
-#: includes/class-zinn-order-updates-help.php:277
+#: includes/class-zinn-order-updates-help.php:287
 msgid "Versions: WordPress, PHP, this plugin, WooCommerce (and whether it uses HPOS) and the supported plugins we detected"
 msgstr "आवृत्त्या: WordPress, PHP, हे प्लगइन, WooCommerce (आणि ते HPOS वापरते की नाही) आणि आम्ही शोधलेली समर्थित प्लगइन्स"
 
-#: includes/class-zinn-order-updates-help.php:279
+#: includes/class-zinn-order-updates-help.php:289
 msgid "Your active theme and its version"
 msgstr "तुमची सक्रिय थीम आणि तिची आवृत्ती"
 
-#: includes/class-zinn-order-updates-help.php:281
+#: includes/class-zinn-order-updates-help.php:291
 msgid "The list of installed plugins, their versions and whether each is active"
 msgstr "स्थापित केलेल्या प्लगइन्सची सूची, त्यांच्या आवृत्त्या आणि प्रत्येक सक्रिय आहे की नाही"
 
-#: includes/class-zinn-order-updates-help.php:283
+#: includes/class-zinn-order-updates-help.php:293
 msgid "Connection: your store address, whether it is connected, this install's id and whether Zinn® answered its last check (never the store's token)"
 msgstr "कनेक्शन: तुमच्या स्टोअरचा पत्ता, ते कनेक्ट केलेले आहे की नाही, या इन्स्टॉलेशनचा आयडी आणि Zinn® ने त्याच्या शेवटच्या तपासणीला प्रतिसाद दिला आहे की नाही (कधीही स्टोअरचे टोकन नाही)"
 
-#: includes/class-zinn-order-updates-help.php:304
+#: includes/class-zinn-order-updates-help.php:314
 msgid "Zinn® Order Updates: Help"
 msgstr "Zinn® ऑर्डर अपडेट्स: मदत"
 
-#: includes/class-zinn-order-updates-help.php:318
+#: includes/class-zinn-order-updates-help.php:328
 msgid "Withdraw my consent to send help requests"
 msgstr "मदत विनंत्या पाठवण्यासाठी माझी संमती मागे घ्या"
 
-#: includes/class-zinn-order-updates-help.php:326
+#: includes/class-zinn-order-updates-help.php:336
 msgid "Help here is answered by Zinn Digital® Ltd. Before anything leaves your site, this is exactly what is sent, and where:"
 msgstr "येथील मदतीची उत्तरे Zinn Digital® Ltd द्वारे दिली जातात. तुमच्या साइटवरून काहीही बाहेर जाण्यापूर्वी, नेमके काय पाठवले जाते आणि कुठे पाठवले जाते ते येथे आहे:"
 
-#: includes/class-zinn-order-updates-help.php:328
+#: includes/class-zinn-order-updates-help.php:338
 msgid "A question you type: sent to the Zinn® AI at api.zinndigital.com, which answers from the Zinn® help articles."
 msgstr "तुम्ही टाइप केलेला प्रश्न: api.zinndigital.com वरील Zinn® AI ला पाठवला जातो, जो Zinn® मदत लेखांमधून उत्तरे देतो."
 
-#: includes/class-zinn-order-updates-help.php:329
+#: includes/class-zinn-order-updates-help.php:339
 msgid "A ticket you send: its subject, your message, your admin language and a reply e-mail address, sent to Zinn® support."
 msgstr "तुम्ही पाठवलेले तिकीट: त्याचा विषय, तुमचा संदेश, तुमची प्रशासक भाषा आणि उत्तराचा ईमेल पत्ता, Zinn® समर्थनाला पाठवला आहे."
 
-#: includes/class-zinn-order-updates-help.php:330
+#: includes/class-zinn-order-updates-help.php:340
 msgid "Diagnostics: only the blocks you tick, each shown in full before you send. Never the store's token, passwords or your customers' details."
 msgstr "निदान: केवळ तुम्ही खूण केलेले ब्लॉक्स, पाठवण्यापूर्वी प्रत्येक पूर्णपणे दाखवला जाईल. स्टोअरचे टोकन, पासवर्ड किंवा तुमच्या ग्राहकांचे तपशील कधीही नाही."
 
-#: includes/class-zinn-order-updates-help.php:331
+#: includes/class-zinn-order-updates-help.php:341
 msgid "Your tickets: while your store is connected, this screen reads your tickets and the team's replies from Zinn®."
 msgstr "तुमची तिकिटे: तुमचे स्टोअर कनेक्ट केलेले असताना, ही स्क्रीन तुमची तिकिटे आणि टीमची उत्तरे Zinn® वरून वाचते."
 
-#: includes/class-zinn-order-updates-help.php:333
+#: includes/class-zinn-order-updates-help.php:343
 msgid "We record who agreed and when. You can withdraw at any time on this screen."
 msgstr "कोणी आणि केव्हा सहमती दर्शवली याची आम्ही नोंद ठेवतो. आपण या स्क्रीनवर कधीही माघार घेऊ शकता."
 
-#: includes/class-zinn-order-updates-help.php:335
+#: includes/class-zinn-order-updates-help.php:345
 msgid "Agree and continue"
 msgstr "सहमत व्हा आणि पुढे सुरू ठेवा"
 
-#: includes/class-zinn-order-updates-help.php:344
+#: includes/class-zinn-order-updates-help.php:354
 msgid "Ask the Zinn® AI"
 msgstr "Zinn® AI ला विचारा"
 
-#: includes/class-zinn-order-updates-help.php:346
+#: includes/class-zinn-order-updates-help.php:356
 msgid "What do you need help with?"
 msgstr "तुम्हाला कशासाठी मदत हवी आहे?"
 
-#: includes/class-zinn-order-updates-help.php:348
+#: includes/class-zinn-order-updates-help.php:358
 msgid "Ask"
 msgstr "विचारा"
 
-#: includes/class-zinn-order-updates-help.php:363
+#: includes/class-zinn-order-updates-help.php:373
 msgid "Help articles"
 msgstr "मदत लेख"
 
-#: includes/class-zinn-order-updates-help.php:378
+#: includes/class-zinn-order-updates-help.php:388
 msgid "That solved it"
 msgstr "याने समस्येचे निराकरण झाले"
 
-#: includes/class-zinn-order-updates-help.php:379
+#: includes/class-zinn-order-updates-help.php:389
 msgid "Still need help? Send it to the team below."
 msgstr "अजूनही मदतीची गरज आहे? खालील टीमला पाठवा."
 
-#: includes/class-zinn-order-updates-help.php:391
+#: includes/class-zinn-order-updates-help.php:401
 msgid "Send it to the Zinn® team"
 msgstr "ते Zinn® टीमला पाठवा"
 
-#: includes/class-zinn-order-updates-help.php:396
+#: includes/class-zinn-order-updates-help.php:406
 msgid "What is it?"
 msgstr "हे काय आहे?"
 
-#: includes/class-zinn-order-updates-help.php:401
+#: includes/class-zinn-order-updates-help.php:411
 msgid "Subject"
 msgstr "विषय"
 
-#: includes/class-zinn-order-updates-help.php:402
+#: includes/class-zinn-order-updates-help.php:412
 msgid "What happened? For a bug, the steps that show it."
 msgstr "काय घडले? त्रुटीसाठी (बग), ती दर्शविणाऱ्या पायऱ्या."
 
-#: includes/class-zinn-order-updates-help.php:403
+#: includes/class-zinn-order-updates-help.php:413
 msgid "Reply e-mail"
 msgstr "प्रत्युत्तर ईमेल"
 
-#: includes/class-zinn-order-updates-help.php:406
+#: includes/class-zinn-order-updates-help.php:416
 msgid "Leave empty to use the e-mail of the Zinn® member who connected this store."
 msgstr "हे स्टोअर कनेक्ट करणाऱ्या Zinn® सदस्याचा ई-मेल वापरण्यासाठी रिकामे ठेवा."
 
-#: includes/class-zinn-order-updates-help.php:410
+#: includes/class-zinn-order-updates-help.php:420
 msgid "Your store is not connected, so the team replies by e-mail."
 msgstr "तुमचे स्टोअर जोडलेले नाही, त्यामुळे कार्यसंघ ईमेलद्वारे उत्तर देतो."
 
-#: includes/class-zinn-order-updates-help.php:413
+#: includes/class-zinn-order-updates-help.php:423
 msgid "Diagnostics (optional). Tick a block to attach it; this is exactly what is sent."
 msgstr "निदान (पर्यायी). संलग्न करण्यासाठी ब्लॉकवर खूण करा; नक्की हेच पाठवले जाते."
 
-#: includes/class-zinn-order-updates-help.php:420
+#: includes/class-zinn-order-updates-help.php:430
 msgid "Send to Zinn® support"
 msgstr "Zinn® समर्थनाला पाठवा"
 
-#: includes/class-zinn-order-updates-help.php:429
+#: includes/class-zinn-order-updates-help.php:439
 msgid "My tickets"
 msgstr "माझी तिकिटे"
 
-#: includes/class-zinn-order-updates-help.php:431
+#: includes/class-zinn-order-updates-help.php:441
 msgid "Connect your store to follow your tickets here. Until then the team replies by e-mail."
 msgstr "तुमची तिकिटे येथे पाहण्यासाठी तुमचे स्टोअर कनेक्ट करा. तोपर्यंत कार्यसंघ ईमेलद्वारे उत्तर देईल."
 
-#: includes/class-zinn-order-updates-help.php:436
+#: includes/class-zinn-order-updates-help.php:446
 msgid "Your tickets could not be loaded just now. Try again in a moment."
 msgstr "तुमचे तिकिटे आत्ता लोड होऊ शकले नाहीत. कृपया थोड्या वेळाने पुन्हा प्रयत्न करा."
 
-#: includes/class-zinn-order-updates-help.php:441
+#: includes/class-zinn-order-updates-help.php:451
 msgid "No tickets yet."
 msgstr "अद्याप कोणतीही तिकिटे नाहीत."
 
 #. translators: %s: the date and time of the reply.
-#: includes/class-zinn-order-updates-help.php:459
+#: includes/class-zinn-order-updates-help.php:469
 #, php-format
 msgid "Zinn® support replied on %s:"
 msgstr "Zinn® समर्थनाने %s रोजी उत्तर दिले:"
 
-#: includes/class-zinn-order-updates-help.php:466
+#: includes/class-zinn-order-updates-help.php:476
 msgid "Your reply"
 msgstr "तुमचे उत्तर"
 
-#: includes/class-zinn-order-updates-help.php:468
+#: includes/class-zinn-order-updates-help.php:478
 msgid "Send reply"
 msgstr "प्रत्युत्तर पाठवा"
 

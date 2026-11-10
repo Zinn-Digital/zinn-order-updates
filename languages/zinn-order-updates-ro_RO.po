@@ -12,7 +12,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
 #: includes/class-zinn-order-updates-admin.php:34
-#: includes/class-zinn-order-updates-admin.php:125
+#: includes/class-zinn-order-updates-admin.php:127
 #: includes/class-zinn-order-updates-help.php:45
 msgid "Zinn® Order Updates"
 msgstr "Zinn® Order Updates"
@@ -41,69 +41,69 @@ msgstr "https://zinndigital.com"
 msgid "Order Updates"
 msgstr "Actualizări comandă"
 
-#: includes/class-zinn-order-updates-admin.php:86
+#: includes/class-zinn-order-updates-admin.php:88
 msgid "Your store is connected to Zinn® Campaigns."
 msgstr "Magazinul tău este conectat la Zinn® Campaigns."
 
-#: includes/class-zinn-order-updates-admin.php:87
+#: includes/class-zinn-order-updates-admin.php:89
 msgid "Your store is disconnected. No messages will be sent."
 msgstr "Magazinul tău este deconectat. Nu se va trimite niciun mesaj."
 
-#: includes/class-zinn-order-updates-admin.php:88
+#: includes/class-zinn-order-updates-admin.php:90
 msgid "That connection took too long or was started in another browser. Press Connect again."
 msgstr "Conexiunea a durat prea mult sau a fost inițiată într-un alt navigator. Apasă din nou pe Conectare."
 
-#: includes/class-zinn-order-updates-admin.php:89
+#: includes/class-zinn-order-updates-admin.php:91
 msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
 msgstr "Zinn® nu a acceptat conexiunea. Apasă din nou pe „Conectare”; dacă problema persistă, contactează asistența Zinn®."
 
-#: includes/class-zinn-order-updates-admin.php:90
+#: includes/class-zinn-order-updates-admin.php:92
 msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
 msgstr "Site-ul tău nu a putut accesa Zinn®. Verifică dacă găzduirea ta permite conexiuni de ieșire, apoi apasă din nou pe „Conectare”."
 
-#: includes/class-zinn-order-updates-admin.php:125
-#: includes/class-zinn-order-updates-help.php:56
-#: includes/class-zinn-order-updates-help.php:57
+#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-help.php:58
+#: includes/class-zinn-order-updates-help.php:59
 msgid "Help"
 msgstr "Ajutor"
 
-#: includes/class-zinn-order-updates-admin.php:128
+#: includes/class-zinn-order-updates-admin.php:130
 msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
 msgstr "Trimite clienților tăi actualizări prin SMS și WhatsApp despre comenzile lor, sub numele magazinului tău, plătite din creditul tău Zinn®."
 
-#: includes/class-zinn-order-updates-admin.php:129
+#: includes/class-zinn-order-updates-admin.php:131
 msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
 msgstr "Conectare deschide Zinn® în această fereastră. Conectează-te sau creează un cont, aprobă acest magazin și te vei întoarce direct aici. Nu introduci niciodată o cheie."
 
-#: includes/class-zinn-order-updates-admin.php:130
+#: includes/class-zinn-order-updates-admin.php:132
 msgid "Connect to Zinn® Campaigns"
 msgstr "Conectează-te la Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:136
+#: includes/class-zinn-order-updates-admin.php:138
 msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
 msgstr "Conectat, dar Zinn® nu a putut fi contactat chiar acum. Vom încerca din nou în curând."
 
-#: includes/class-zinn-order-updates-admin.php:141
+#: includes/class-zinn-order-updates-admin.php:143
 msgid "Store"
 msgstr "Magazin"
 
-#: includes/class-zinn-order-updates-admin.php:147
+#: includes/class-zinn-order-updates-admin.php:149
 msgid "Connected"
 msgstr "Conectat"
 
-#: includes/class-zinn-order-updates-admin.php:152
+#: includes/class-zinn-order-updates-admin.php:154
 msgid "Zinn® Campaigns"
 msgstr "Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:154
+#: includes/class-zinn-order-updates-admin.php:156
 msgid "Open for your account"
 msgstr "Deschis pentru contul tău"
 
-#: includes/class-zinn-order-updates-admin.php:155
+#: includes/class-zinn-order-updates-admin.php:157
 msgid "Not open for your account yet. Zinn® will e-mail you when it is."
 msgstr "Nu este încă deschis pentru contul tău. Zinn® îți va trimite un e-mail când va fi disponibil."
 
-#: includes/class-zinn-order-updates-admin.php:159
+#: includes/class-zinn-order-updates-admin.php:161
 msgid "Disconnect"
 msgstr "Deconectează"
 
@@ -115,232 +115,236 @@ msgstr "Nu ai permisiunea de a conecta acest magazin."
 msgid "You are not allowed to disconnect this store."
 msgstr "Nu ai permisiunea de a deconecta acest magazin."
 
+#: includes/class-zinn-order-updates-events.php:67
+msgid "Send me order updates by SMS to my phone number. Message and data rates may apply. Reply STOP to stop."
+msgstr "Trimite-mi actualizări despre comandă prin SMS la numărul meu de telefon. Se pot aplica tarife pentru mesaje și date. Răspunde cu STOP pentru a opri."
+
 #: includes/class-zinn-order-updates-help.php:46
 msgid "Connection"
 msgstr "Conexiune"
 
-#: includes/class-zinn-order-updates-help.php:88
+#: includes/class-zinn-order-updates-help.php:98
 msgid "You are not allowed to do that."
 msgstr "Nu ai permisiunea să faci asta."
 
-#: includes/class-zinn-order-updates-help.php:215
+#: includes/class-zinn-order-updates-help.php:225
 msgid "Thank you. You can now ask for help and send reports to Zinn® support."
 msgstr "Mulțumesc. Acum poți cere ajutor și poți trimite rapoarte către asistența Zinn®."
 
-#: includes/class-zinn-order-updates-help.php:216
+#: includes/class-zinn-order-updates-help.php:226
 msgid "Consent withdrawn. Nothing is sent to Zinn® support until you agree again."
 msgstr "Consimțământ retras. Nimic nu este trimis către asistența Zinn® până când nu ești de acord din nou."
 
-#: includes/class-zinn-order-updates-help.php:217
-#: includes/class-zinn-order-updates-help.php:357
+#: includes/class-zinn-order-updates-help.php:227
+#: includes/class-zinn-order-updates-help.php:367
 msgid "The Zinn® AI could not answer just now. Send your question to the team below; a person will reply."
 msgstr "Inteligența artificială Zinn® nu a putut răspunde acum. Trimite întrebarea ta echipei de mai jos; îți va răspunde o persoană."
 
-#: includes/class-zinn-order-updates-help.php:218
+#: includes/class-zinn-order-updates-help.php:228
 msgid "Glad that solved it."
 msgstr "Mă bucur că s-a rezolvat."
 
 #. translators: %s: the ticket reference, such as ZT-7KQ3MX.
-#: includes/class-zinn-order-updates-help.php:220
+#: includes/class-zinn-order-updates-help.php:230
 #, php-format
 msgid "Sent. Your ticket is %s; the team replies here and by e-mail."
 msgstr "Trimis. Tichetul tău este %s; echipa răspunde aici și prin e-mail."
 
-#: includes/class-zinn-order-updates-help.php:221
+#: includes/class-zinn-order-updates-help.php:231
 msgid "Fill in the subject, the message and, while your store is not connected, your e-mail address."
 msgstr "Completează subiectul, mesajul și, cât timp magazinul tău nu este conectat, adresa ta de e-mail."
 
-#: includes/class-zinn-order-updates-help.php:222
+#: includes/class-zinn-order-updates-help.php:232
 msgid "Zinn® did not accept the ticket. Check the fields and try again; if it keeps failing, e-mail support@zinndigital.com."
 msgstr "Zinn® nu a acceptat tichetul. Verifică câmpurile și încearcă din nou; dacă eșuează în continuare, trimite un e-mail la support@zinndigital.com."
 
-#: includes/class-zinn-order-updates-help.php:223
+#: includes/class-zinn-order-updates-help.php:233
 msgid "Too many requests in a short time. Wait a few minutes and try again."
 msgstr "Prea multe solicitări într-un timp scurt. Așteaptă câteva minute și încearcă din nou."
 
-#: includes/class-zinn-order-updates-help.php:224
+#: includes/class-zinn-order-updates-help.php:234
 msgid "Reply sent."
 msgstr "Răspuns trimis."
 
-#: includes/class-zinn-order-updates-help.php:225
+#: includes/class-zinn-order-updates-help.php:235
 msgid "That ticket is closed. Send a new ticket instead."
 msgstr "Acel tichet este închis. Trimite în schimb un tichet nou."
 
-#: includes/class-zinn-order-updates-help.php:226
+#: includes/class-zinn-order-updates-help.php:236
 msgid "Your reply could not be sent. Try again in a moment."
 msgstr "Răspunsul tău nu a putut fi trimis. Încearcă din nou peste câteva momente."
 
-#: includes/class-zinn-order-updates-help.php:241
+#: includes/class-zinn-order-updates-help.php:251
 msgid "Waiting on Zinn® support"
 msgstr "În așteptarea asistenței Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:243
+#: includes/class-zinn-order-updates-help.php:253
 msgid "Waiting on you"
 msgstr "În așteptarea ta"
 
-#: includes/class-zinn-order-updates-help.php:245
+#: includes/class-zinn-order-updates-help.php:255
 msgid "Answered"
 msgstr "Răspuns"
 
-#: includes/class-zinn-order-updates-help.php:247
+#: includes/class-zinn-order-updates-help.php:257
 msgid "Closed"
 msgstr "Închis"
 
-#: includes/class-zinn-order-updates-help.php:260
+#: includes/class-zinn-order-updates-help.php:270
 msgid "Report a bug"
 msgstr "Raportează o eroare"
 
-#: includes/class-zinn-order-updates-help.php:262
+#: includes/class-zinn-order-updates-help.php:272
 msgid "Send feedback"
 msgstr "Trimite feedback"
 
-#: includes/class-zinn-order-updates-help.php:264
+#: includes/class-zinn-order-updates-help.php:274
 msgid "Request a feature"
 msgstr "Solicită o funcționalitate"
 
-#: includes/class-zinn-order-updates-help.php:266
+#: includes/class-zinn-order-updates-help.php:276
 msgid "Ask for help"
 msgstr "Cere ajutor"
 
-#: includes/class-zinn-order-updates-help.php:277
+#: includes/class-zinn-order-updates-help.php:287
 msgid "Versions: WordPress, PHP, this plugin, WooCommerce (and whether it uses HPOS) and the supported plugins we detected"
 msgstr "Versiuni: WordPress, PHP, acest modul, WooCommerce (și dacă folosește HPOS) și modulele compatibile detectate"
 
-#: includes/class-zinn-order-updates-help.php:279
+#: includes/class-zinn-order-updates-help.php:289
 msgid "Your active theme and its version"
 msgstr "Tema ta activă și versiunea sa"
 
-#: includes/class-zinn-order-updates-help.php:281
+#: includes/class-zinn-order-updates-help.php:291
 msgid "The list of installed plugins, their versions and whether each is active"
 msgstr "Lista modulelor instalate, versiunile lor și dacă fiecare este activ"
 
-#: includes/class-zinn-order-updates-help.php:283
+#: includes/class-zinn-order-updates-help.php:293
 msgid "Connection: your store address, whether it is connected, this install's id and whether Zinn® answered its last check (never the store's token)"
 msgstr "Conexiune: adresa magazinului tău, dacă este conectat, ID-ul acestei instalări și dacă Zinn® a răspuns la ultima verificare (niciodată tokenul magazinului)"
 
-#: includes/class-zinn-order-updates-help.php:304
+#: includes/class-zinn-order-updates-help.php:314
 msgid "Zinn® Order Updates: Help"
 msgstr "Actualizări comenzi Zinn®: Ajutor"
 
-#: includes/class-zinn-order-updates-help.php:318
+#: includes/class-zinn-order-updates-help.php:328
 msgid "Withdraw my consent to send help requests"
 msgstr "Retrage-ți consimțământul de a trimite cereri de ajutor"
 
-#: includes/class-zinn-order-updates-help.php:326
+#: includes/class-zinn-order-updates-help.php:336
 msgid "Help here is answered by Zinn Digital® Ltd. Before anything leaves your site, this is exactly what is sent, and where:"
 msgstr "Răspunsurile pentru asistență sunt oferite aici de Zinn Digital® Ltd. Înainte ca orice să părăsească site-ul tău, iată exact ce se trimite și unde:"
 
-#: includes/class-zinn-order-updates-help.php:328
+#: includes/class-zinn-order-updates-help.php:338
 msgid "A question you type: sent to the Zinn® AI at api.zinndigital.com, which answers from the Zinn® help articles."
 msgstr "O întrebare pe care o tastezi: trimisă către Zinn® AI la api.zinndigital.com, care răspunde pe baza articolelor de ajutor Zinn®."
 
-#: includes/class-zinn-order-updates-help.php:329
+#: includes/class-zinn-order-updates-help.php:339
 msgid "A ticket you send: its subject, your message, your admin language and a reply e-mail address, sent to Zinn® support."
 msgstr "Un tichet pe care îl trimiți: subiectul său, mesajul tău, limba ta de administrare și o adresă de e-mail pentru răspuns, trimise către asistența Zinn®."
 
-#: includes/class-zinn-order-updates-help.php:330
+#: includes/class-zinn-order-updates-help.php:340
 msgid "Diagnostics: only the blocks you tick, each shown in full before you send. Never the store's token, passwords or your customers' details."
 msgstr "Diagnosticare: doar blocurile pe care le bifezi, fiecare afișat complet înainte de trimitere. Niciodată tokenul magazinului, parolele sau detaliile clienților tăi."
 
-#: includes/class-zinn-order-updates-help.php:331
+#: includes/class-zinn-order-updates-help.php:341
 msgid "Your tickets: while your store is connected, this screen reads your tickets and the team's replies from Zinn®."
 msgstr "Tichetele tale: cât timp magazinul tău este conectat, acest ecran citește tichetele tale și răspunsurile echipei din Zinn®."
 
-#: includes/class-zinn-order-updates-help.php:333
+#: includes/class-zinn-order-updates-help.php:343
 msgid "We record who agreed and when. You can withdraw at any time on this screen."
 msgstr "Înregistrăm cine a fost de acord și când. Poți să-ți retragi acordul oricând pe acest ecran."
 
-#: includes/class-zinn-order-updates-help.php:335
+#: includes/class-zinn-order-updates-help.php:345
 msgid "Agree and continue"
 msgstr "Acceptă și continuă"
 
-#: includes/class-zinn-order-updates-help.php:344
+#: includes/class-zinn-order-updates-help.php:354
 msgid "Ask the Zinn® AI"
 msgstr "Întreabă AI-ul Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:346
+#: includes/class-zinn-order-updates-help.php:356
 msgid "What do you need help with?"
 msgstr "Cu ce ai nevoie de ajutor?"
 
-#: includes/class-zinn-order-updates-help.php:348
+#: includes/class-zinn-order-updates-help.php:358
 msgid "Ask"
 msgstr "Întreabă"
 
-#: includes/class-zinn-order-updates-help.php:363
+#: includes/class-zinn-order-updates-help.php:373
 msgid "Help articles"
 msgstr "Articole de ajutor"
 
-#: includes/class-zinn-order-updates-help.php:378
+#: includes/class-zinn-order-updates-help.php:388
 msgid "That solved it"
 msgstr "Asta a rezolvat problema"
 
-#: includes/class-zinn-order-updates-help.php:379
+#: includes/class-zinn-order-updates-help.php:389
 msgid "Still need help? Send it to the team below."
 msgstr "Mai ai nevoie de ajutor? Trimite-l echipei de mai jos."
 
-#: includes/class-zinn-order-updates-help.php:391
+#: includes/class-zinn-order-updates-help.php:401
 msgid "Send it to the Zinn® team"
 msgstr "Trimite-l echipei Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:396
+#: includes/class-zinn-order-updates-help.php:406
 msgid "What is it?"
 msgstr "Ce este?"
 
-#: includes/class-zinn-order-updates-help.php:401
+#: includes/class-zinn-order-updates-help.php:411
 msgid "Subject"
 msgstr "Subiect"
 
-#: includes/class-zinn-order-updates-help.php:402
+#: includes/class-zinn-order-updates-help.php:412
 msgid "What happened? For a bug, the steps that show it."
 msgstr "Ce s-a întâmplat? Pentru o eroare, pașii care o arată."
 
-#: includes/class-zinn-order-updates-help.php:403
+#: includes/class-zinn-order-updates-help.php:413
 msgid "Reply e-mail"
 msgstr "E-mail de răspuns"
 
-#: includes/class-zinn-order-updates-help.php:406
+#: includes/class-zinn-order-updates-help.php:416
 msgid "Leave empty to use the e-mail of the Zinn® member who connected this store."
 msgstr "Lasă necompletat pentru a folosi adresa de e-mail a membrului Zinn® care a conectat acest magazin."
 
-#: includes/class-zinn-order-updates-help.php:410
+#: includes/class-zinn-order-updates-help.php:420
 msgid "Your store is not connected, so the team replies by e-mail."
 msgstr "Magazinul tău nu este conectat, așa că echipa răspunde prin e-mail."
 
-#: includes/class-zinn-order-updates-help.php:413
+#: includes/class-zinn-order-updates-help.php:423
 msgid "Diagnostics (optional). Tick a block to attach it; this is exactly what is sent."
 msgstr "Diagnosticare (opțional). Bifează un bloc pentru a-l atașa; exact asta se trimite."
 
-#: includes/class-zinn-order-updates-help.php:420
+#: includes/class-zinn-order-updates-help.php:430
 msgid "Send to Zinn® support"
 msgstr "Trimite către asistența Zinn®"
 
-#: includes/class-zinn-order-updates-help.php:429
+#: includes/class-zinn-order-updates-help.php:439
 msgid "My tickets"
 msgstr "Tichetele mele"
 
-#: includes/class-zinn-order-updates-help.php:431
+#: includes/class-zinn-order-updates-help.php:441
 msgid "Connect your store to follow your tickets here. Until then the team replies by e-mail."
 msgstr "Conectează-ți magazinul pentru a-ți urmări tichetele aici. Până atunci, echipa răspunde prin e-mail."
 
-#: includes/class-zinn-order-updates-help.php:436
+#: includes/class-zinn-order-updates-help.php:446
 msgid "Your tickets could not be loaded just now. Try again in a moment."
 msgstr "Biletele tale nu au putut fi încărcate acum. Încearcă din nou într-o clipă."
 
-#: includes/class-zinn-order-updates-help.php:441
+#: includes/class-zinn-order-updates-help.php:451
 msgid "No tickets yet."
 msgstr "Niciun tichet încă."
 
 #. translators: %s: the date and time of the reply.
-#: includes/class-zinn-order-updates-help.php:459
+#: includes/class-zinn-order-updates-help.php:469
 #, php-format
 msgid "Zinn® support replied on %s:"
 msgstr "Asistența Zinn® a răspuns la %s:"
 
-#: includes/class-zinn-order-updates-help.php:466
+#: includes/class-zinn-order-updates-help.php:476
 msgid "Your reply"
 msgstr "Răspunsul tău"
 
-#: includes/class-zinn-order-updates-help.php:468
+#: includes/class-zinn-order-updates-help.php:478
 msgid "Send reply"
 msgstr "Trimite răspunsul"
 
