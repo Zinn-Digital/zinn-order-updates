@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.7
+Stable tag: 0.2.8
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,9 @@ Yes. Press Connect and you can create one on the way.
 Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status, total and the link to their order), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.8 =
+* My Account "Messages" tab: its web address is now in your store's own language for every shopper, so on a multilingual store a shopper browsing in another language no longer gets "page not found" from the tab.
 
 = 0.2.7 =
 * My Account "Messages" tab: a signed-in shopper sees the number your store texts, switches order updates by SMS, offers by SMS and offers on WhatsApp on or off, can stop every message at once, and sees the last 20 texts your store sent them. Only a setting they change is recorded, so the consent they gave at checkout stays as proof. Changing the number moves their choices to the new one.

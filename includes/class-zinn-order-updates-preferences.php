@@ -31,6 +31,9 @@ final class Zinn_Order_Updates_Preferences {
 	private const HANDLE   = 'zinn-ou-preferences-block';
 	private const FLUSHED  = 'zinn_order_updates_messages_rewrite';
 
+	/** Option: the tab's URL slug, saved at the rewrite flush so the link and the rule never differ. */
+	public const SLUG_OPTION = 'zinn_order_updates_messages_slug';
+
 	/**
 	 * The three toggles: channel and purpose. Order updates are sent by text only today.
 	 */
@@ -54,23 +57,60 @@ final class Zinn_Order_Updates_Preferences {
 	 * The tab's URL slug, translated (§8.3), and one rewrite flush per plugin version.
 	 */
 	public static function endpoint(): void {
+		$flush = get_option( self::FLUSHED ) !== ZINN_ORDER_UPDATES_VERSION;
+		if ( $flush ) {
+			update_option( self::SLUG_OPTION, self::site_slug(), true );
+		}
 		add_rewrite_endpoint( self::slug(), EP_ROOT | EP_PAGES );
 		// WooCommerce reads its query vars when it loads, before this plugin's init hooks run.
 		if ( function_exists( 'WC' ) && WC()->query && is_array( WC()->query->query_vars ) ) {
 			WC()->query->query_vars[ self::ENDPOINT ] = self::slug();
 		}
-		if ( get_option( self::FLUSHED ) !== ZINN_ORDER_UPDATES_VERSION ) {
+		if ( $flush ) {
 			flush_rewrite_rules( false );
 			update_option( self::FLUSHED, ZINN_ORDER_UPDATES_VERSION, true );
 		}
 	}
 
 	/**
-	 * The endpoint's slug in the site's language: a URL slug, so lower case letters and dashes.
+	 * The endpoint's slug: the one saved at the last rewrite flush, else the site's.
+	 *
+	 * ⛔ Never the visitor's language (CAMPWOOPLUG-r24): on a multilingual store (Tranzly) an Arabic
+	 * visitor's link read /my-account/رسائل/ while the rewrite rules had been flushed in English, so
+	 * the tab was a 404. WooCommerce's own endpoint slugs are one per site for the same reason.
 	 */
 	public static function slug(): string {
-		/* translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces. */
-		$slug = sanitize_title( _x( 'messages', 'my account endpoint slug', 'zinn-order-updates' ) );
+		$saved = get_option( self::SLUG_OPTION );
+		return is_string( $saved ) && '' !== $saved ? $saved : self::site_slug();
+	}
+
+	/**
+	 * The slug in the SITE's language (`WPLANG`), read from the translation file itself, so the
+	 * request's language (a multilingual plugin filters `locale` per visitor) cannot change it.
+	 */
+	public static function site_slug(): string {
+		$locale = (string) get_option( 'WPLANG' );
+		$text   = self::ENDPOINT;
+		if ( '' === $locale || 'en_US' === $locale ) {
+			$text = self::ENDPOINT;
+		} elseif ( determine_locale() === $locale ) {
+			/* translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces. */
+			$text = _x( 'messages', 'my account endpoint slug', 'zinn-order-updates' );
+		} elseif ( 1 === preg_match( '/^[a-z]{2,3}(_[A-Za-z0-9]+)*$/', $locale ) ) {
+			$files = array( dirname( ZINN_ORDER_UPDATES_FILE ) . '/languages/zinn-order-updates-' . $locale . '.l10n.php' );
+			if ( defined( 'WP_LANG_DIR' ) ) {
+				$files[] = WP_LANG_DIR . '/plugins/zinn-order-updates-' . $locale . '.l10n.php';
+			}
+			foreach ( $files as $file ) {
+				$data = is_readable( $file ) ? include $file : null;
+				$hit  = is_array( $data ) ? ( $data['messages']["my account endpoint slug\4messages"] ?? '' ) : '';
+				if ( is_string( $hit ) && '' !== $hit ) {
+					$text = $hit;
+					break;
+				}
+			}
+		}
+		$slug = sanitize_title( $text );
 		return '' !== $slug ? $slug : self::ENDPOINT;
 	}
 
