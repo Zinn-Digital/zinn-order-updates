@@ -348,6 +348,109 @@ msgstr "Je antwoord"
 msgid "Send reply"
 msgstr "Antwoord verzenden"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Zinn® SMS- en WhatsApp-aanmelding"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "Laat bezoekers zich aanmelden voor aanbiedingen en nieuws via sms of WhatsApp. Standaard uitgevinkt; alleen voor marketing."
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "Aanmeldingsinstellingen"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "Kanaal"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "Sms"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "Bezoeker kiest SMS of WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Toestemming voor Zinn® SMS-aanbiedingen"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Toestemming voor Zinn® WhatsApp-aanbiedingen"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "Legt een marketing-opt-in vast in Zinn® Campaigns voor het telefoonnummer in dit formulier."
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "Stuur me aanbiedingen en nieuws via WhatsApp naar dit nummer. Optioneel; meld je op elk moment af."
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "Stuur me aanbiedingen en nieuws per sms naar dit nummer. Optioneel; meld je op elk moment af door STOP te antwoorden. Bericht- en datakosten kunnen van toepassing zijn."
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "Verbind deze winkel met Zinn® Campaigns om dit aanmeldformulier te tonen."
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "Mobiel nummer"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "Hoe moeten we ze verzenden?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "Stuur me aanbiedingen en nieuws via het kanaal dat ik hierboven heb gekozen. Optioneel; je kunt je op elk moment afmelden."
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "Laat dit leeg"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "Registreren"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "Bedankt, je bent aangemeld. Je kunt je op elk moment weer afmelden."
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "Voer je mobiele nummer in met de landcode, bijvoorbeeld +44 7700 900123."
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "Vink het vakje aan om akkoord te gaan."
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "Dit formulier stond al lange tijd open. Vernieuw de pagina en verstuur het opnieuw."
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "Te veel aanmeldingen vanaf deze locatie. Wacht een paar minuten en probeer het opnieuw."
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "We konden je aanmelding niet opslaan. Controleer je nummer en probeer het opnieuw."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

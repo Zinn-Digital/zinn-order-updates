@@ -348,6 +348,109 @@ msgstr "Ang iyong sagot"
 msgid "Send reply"
 msgstr "Ipadala ang sagot"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Pag-sign up sa SMS at WhatsApp ng Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "Nagbibigay-daan sa mga bisita na mag-sign up para sa mga alok at balita sa pamamagitan ng SMS o WhatsApp. Naka-untick bilang default; para sa marketing lamang."
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "Mga setting sa pag-sign up"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "Channel"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "Pumipili ang bisita ng SMS o WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Pahintulot sa mga alok ng SMS ng Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Pahintulot sa mga alok ng Zinn® sa WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "Nagtatala ng marketing opt-in sa Zinn® Campaigns para sa numero ng telepono sa form na ito."
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "Padalhan ako ng mga alok at balita sa WhatsApp sa numerong ito. Opsyonal; mag-unsubscribe anumang oras."
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "Padalhan ako ng mga alok at balita sa pamamagitan ng SMS sa numerong ito. Opsyonal; mag-unsubscribe anumang oras sa pamamagitan ng pagtugon ng STOP. Maaaring may bayad sa mensahe at data."
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "Ikonekta ang tindahang ito sa Zinn® Campaigns upang maipakita ang form ng pag-sign up na ito."
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "Numero ng mobile"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "Paano namin dapat ipadala ang mga ito?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "Padalhan ako ng mga alok at balita sa pamamagitan ng channel na pinili ko sa itaas. Opsyonal; maaari kang mag-unsubscribe anumang oras."
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "Iwanan itong blangko"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "Mag-sign up"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "Salamat, nakapag-sign up ka na. Maaari kang mag-unsubscribe anumang oras."
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "Pakilagay ang iyong numero ng mobile kasama ang country code nito, halimbawa +44 7700 900123."
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "Pakilagyan ng tsek ang kahon para sumang-ayon."
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "Matagal nang nakabukas ang form na ito. Paki-reload ang page at ipadala itong muli."
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "Masyadong maraming pag-sign up mula rito. Mangyaring maghintay nang ilang minuto at subukang muli."
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "Hindi namin na-save ang iyong pag-sign up. Pakisuri ang iyong numero at subukang muli."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

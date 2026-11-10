@@ -348,6 +348,109 @@ msgstr "የእርስዎ ምላሽ"
 msgid "Send reply"
 msgstr "ምላሽ ይላኩ"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "የ Zinn® SMS እና WhatsApp ምዝገባ"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "ጎብኝዎች በኤስኤምኤስ ወይም በዋትስአፕ በኩል ለቅናሾች እና ለዜናዎች እንዲመዘገቡ ያስችላቸዋል። በነባሪነት ያልተመረጠ ነው፤ ለግብይት ብቻ የሚውል ነው።"
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "የመመዝገቢያ ቅንብሮች"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "ቻናል"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "ጎብኚው SMS ወይም WhatsApp ይመርጣል"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "የZinn® ኤስኤምኤስ ቅናሾች ፈቃድ"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "የZinn® WhatsApp ቅናሾች ፈቃድ"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "በዚህ ቅጽ ውስጥ ላለው ስልክ ቁጥር በZinn® Campaigns ውስጥ የግብይት መርጦ መግባትን ይመዘግባል።"
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "በዚህ ቁጥር በ WhatsApp ቅናሾችንና ዜናዎችን ይላኩልኝ። እንደ ምርጫ የሚደረግ፤ በማንኛውም ጊዜ ደንበኝነትን መሰረዝ ይችላሉ።"
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "ቅናሾችን እና ዜናዎችን በኤስኤምኤስ (SMS) ወደዚህ ቁጥር ይላኩልኝ። አማራጭ ነው፤ STOP ብለው በመመለስ በማንኛውም ጊዜ ምዝገባዎን መሰረዝ ይችላሉ። የመልእክት እና የውሂብ ክፍያዎች ሊኖሩ ይችላሉ።"
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "ይህን የመመዝገቢያ ቅጽ ለማሳየት ይህንን መደብር ከZinn® Campaigns ጋር ያገናኙ።"
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "የሞባይል ስልክ ቁጥር"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "እንዴት ልንልካቸው ይገባል?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "ከላይ በመረጥኩት ቻናል ቅናሾችን እና ዜናዎችን ይላኩልኝ። አማራጭ፤ በማንኛውም ጊዜ ደንበኝነትን መሰረዝ ይችላሉ።"
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "ይህንን ባዶ ይተዉት"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "ይመዝገቡ"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "እናመሰግናለን፣ ተመዝግበዋል። በማንኛውም ጊዜ ምዝገባዎን መሰረዝ ይችላሉ።"
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "እባክዎን የተንቀሳቃሽ ስልክ ቁጥርዎን ከአገር መለያ ኮዱ ጋር ያስገቡ፣ ለምሳሌ +44 7700 900123።"
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "እባክዎ ለመስማማት ሳጥኑ ላይ ምልክት ያድርጉ።"
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "ይህ ቅጽ ለረጅም ጊዜ ክፍት ሆኖ ቆይቷል። እባክዎ ገጹን ዳግም ይጫኑት እና እንደገና ይላኩት።"
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "ከዚህ ቦታ በጣም ብዙ ምዝገባዎች ተካሂደዋል። እባክዎ ጥቂት ደቂቃዎችን ይጠብቁና እንደገና ይሞክሩ።"
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "ምዝገባዎን ማስቀመጥ አልቻልንም። እባክዎ ቁጥርዎን ያረጋግጡና እንደገና ይሞክሩ።"
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

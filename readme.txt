@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.4
+Stable tag: 0.2.5
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,7 @@ Zinn® Campaigns sends your store's SMS and WhatsApp order updates in your store
 * **Disconnects from either side.** Press Disconnect here, or remove the store in your Zinn® dashboard; the store stops at once.
 * **Help inside the plugin.** Ask the Zinn® AI first; if that does not solve it, send a bug report, a question, feedback or a feature request to the Zinn® team, and follow the replies under Order Updates → Help → My tickets. A badge on the menu shows tickets the team answered.
 * **Diagnostics only with your consent.** Nothing is sent until you agree on the Help screen. Each diagnostics block is shown in full and sent only when you tick it; the store's token is never one of them.
+* **A sign-up form on any page.** Add the "Zinn® SMS and WhatsApp sign-up" block (in the Zinn Digital® category of the block inserter, also inside Page Builder Sandwich) or the `[zinn_ou_opt_in channel="sms"]` shortcode (`sms`, `whatsapp` or `both`). Visitors give their mobile number and tick an unticked box to get offers and news; it is a marketing opt-in only and never signs anyone up for order updates. With Page Builder Sandwich Pro forms, add the "Zinn® SMS offers consent" or "Zinn® WhatsApp offers consent" field next to a phone field and a ticked box records the same opt-in.
 * **Remembers each order's language.** At checkout the plugin stores the shopper's language on the order (from Tranzly, WPML, Polylang, TranslatePress, the shopper's account or the site language), so order updates can be sent in the language they bought in.
 
 == Installation ==
@@ -49,6 +50,10 @@ Order updates by SMS: checkout shows one unticked box ("Send me order updates by
 * **Consent** (`POST /v1/store-connect/consents`, once, before the order's first update): the billing phone, the wording shown, its version and language, and when the box was ticked. It is the proof of the shopper's consent.
 * **Order event** (`POST /v1/store-connect/events`, when the order's status changes to processing, on hold, completed, cancelled, refunded or failed): the order number, the new status, the shopper's first name, billing phone and checkout language, the store name, the order total and currency (and the refunded amount, or the payment link for a failed payment). Zinn® Campaigns sends the text in the shopper's language; Telnyx delivers it as our sub-processor.
 
+Sign-up form (the block, the shortcode, or our consent field in a Page Builder Sandwich Pro form): nothing is sent unless a visitor types a mobile number and ticks the box. Then:
+
+* **Consent** (`POST /v1/store-connect/consents`, once, when they send the form): the mobile number, the channel (SMS or WhatsApp), the wording shown, its version and language, the page it was on, and when. It is the proof of their marketing consent. The visitor's IP address is never sent; a one-way hash of it is kept on your site for ten minutes to stop repeated sign-ups.
+
 Help (Order Updates → Help) sends nothing until you press "Agree and continue" there; who agreed and when is recorded on your site. Then:
 
 * **Ask the Zinn® AI** (`POST /v1/public/support/deflect`, when you press Ask): your question, your admin language and the name of this plugin. The answer and matching help articles come back. **That solved it** (`POST /v1/public/support/deflect/{id}/solved`) records only that the answer helped.
@@ -68,6 +73,9 @@ Yes. Press Connect and you can create one on the way.
 Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status, total and the link to their order), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.5 =
+* Sign-up form on any page: the Zinn® SMS and WhatsApp sign-up block (Zinn Digital® category, also in Page Builder Sandwich) and the [zinn_ou_opt_in] shortcode record a marketing opt-in in Zinn® Campaigns; with Page Builder Sandwich Pro forms, our consent field does the same. Unticked by default, marketing only.
 
 = 0.2.4 =
 * Order updates by SMS: the order-received and order-complete texts end with a link to the shopper's order, and the pay-again link opens in the language they bought in (Tranzly, WPML, Polylang or TranslatePress). A guest's link opens their order without a login.

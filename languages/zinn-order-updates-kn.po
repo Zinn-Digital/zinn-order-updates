@@ -348,6 +348,109 @@ msgstr "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆ"
 msgid "Send reply"
 msgstr "ಪ್ರತ್ಯುತ್ತರ ಕಳುಹಿಸಿ"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Zinn® SMS ಮತ್ತು WhatsApp ಸೈನ್-ಅಪ್"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "ಎಸ್‌ಎಂಎಸ್ ಅಥವಾ WhatsApp ಮೂಲಕ ಕೊಡುಗೆಗಳು ಮತ್ತು ಸುದ್ದಿಗಳಿಗಾಗಿ ಸೈನ್ ಅಪ್ ಮಾಡಲು ಸಂದರ್ಶಕರಿಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಗುರುತಿಸಲಾಗಿಲ್ಲ; ಮಾರ್ಕೆಟಿಂಗ್‌ಗಾಗಿ ಮಾತ್ರ."
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "ಸೈನ್-ಅಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "ಚಾನಲ್"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "ಸಂದರ್ಶಕರು SMS ಅಥವಾ WhatsApp ಅನ್ನು ಆಯ್ಕೆಮಾಡುತ್ತಾರೆ"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Zinn® SMS ಕೊಡುಗೆಗಳ ಸಮ್ಮತಿ"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Zinn® WhatsApp ಕೊಡುಗೆಗಳ ಸಮ್ಮತಿ"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "ಈ ಫಾರ್ಮ್‌ನಲ್ಲಿರುವ ಫೋನ್ ಸಂಖ್ಯೆಗಾಗಿ Zinn® Campaigns ನಲ್ಲಿ ಮಾರ್ಕೆಟಿಂಗ್ ಆಪ್ಟ್-ಇನ್ ಅನ್ನು ದಾಖಲಿಸುತ್ತದೆ."
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "ಈ ಸಂಖ್ಯೆಗೆ WhatsApp ನಲ್ಲಿ ನನಗೆ ಕೊಡುಗೆಗಳು ಮತ್ತು ಸುದ್ದಿಗಳನ್ನು ಕಳುಹಿಸಿ. ಐಚ್ಛಿಕ; ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಚಂದಾದಾರಿಕೆಯನ್ನು ರದ್ದುಗೊಳಿಸಿ."
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "ಈ ಸಂಖ್ಯೆಗೆ SMS ಮೂಲಕ ನನಗೆ ಆಫರ್‌ಗಳು ಮತ್ತು ಸುದ್ದಿಗಳನ್ನು ಕಳುಹಿಸಿ. ಐಚ್ಛಿಕ; STOP ಎಂದು ಉತ್ತರಿಸುವ ಮೂಲಕ ಯಾವಾಗ ಬೇಕಾದರೂ ಚಂದಾದಾರಿಕೆಯನ್ನು ರದ್ದುಗೊಳಿಸಿ. ಸಂದೇಶ ಮತ್ತು ಡೇಟಾ ಶುಲ್ಕಗಳು ಅನ್ವಯಿಸಬಹುದು."
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "ಈ ಸೈನ್-ಅಪ್ ಫಾರ್ಮ್ ಅನ್ನು ತೋರಿಸಲು ಈ ಅಂಗಡಿಯನ್ನು Zinn® Campaigns ನೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ."
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "ನಾವು ಅವುಗಳನ್ನು ಹೇಗೆ ಕಳುಹಿಸಬೇಕು?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "ಮೇಲೆ ನಾನು ಆಯ್ಕೆಮಾಡಿದ ಚಾನಲ್ ಮೂಲಕ ನನಗೆ ಕೊಡುಗೆಗಳು ಮತ್ತು ಸುದ್ದಿಗಳನ್ನು ಕಳುಹಿಸಿ. ಐಚ್ಛಿಕ; ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಚಂದಾದಾರಿಕೆಯನ್ನು ರದ್ದುಗೊಳಿಸಬಹುದು."
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "ಇದನ್ನು ಖಾಲಿ ಬಿಡಿ"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "ಧನ್ಯವಾದಗಳು, ನೀವು ಸೈನ್ ಅಪ್ ಆಗಿದ್ದೀರಿ. ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಚಂದಾದಾರಿಕೆಯನ್ನು ರದ್ದುಗೊಳಿಸಬಹುದು."
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "ದಯವಿಟ್ಟು ದೇಶದ ಕೋಡ್‌ನೊಂದಿಗೆ ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ, ಉದಾಹರಣೆಗೆ +44 7700 900123."
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "ಒಪ್ಪಲು ದಯವಿಟ್ಟು ಪೆಟ್ಟಿಗೆಯನ್ನು ಗುರುತು ಮಾಡಿ."
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "ಈ ಫಾರ್ಮ್ ದೀರ್ಘಕಾಲದವರೆಗೆ ತೆರೆದಿತ್ತು. ದಯವಿಟ್ಟು ಪುಟವನ್ನು ಮರುಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಅದನ್ನು ಮತ್ತೊಮ್ಮೆ ಕಳುಹಿಸಿ."
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "ಇಲ್ಲಿಂದ ಹಲವಾರು ಸೈನ್-ಅಪ್‌ಗಳು ನಡೆದಿವೆ. ದಯವಿಟ್ಟು ಕೆಲವು ನಿಮಿಷ ಕಾಯಿರಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "ನಿಮ್ಮ ನೋಂದಣಿಯನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

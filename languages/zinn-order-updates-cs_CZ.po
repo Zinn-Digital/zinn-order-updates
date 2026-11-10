@@ -348,6 +348,109 @@ msgstr "Vaše odpověď"
 msgid "Send reply"
 msgstr "Odeslat odpověď"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Registrace k odběru přes SMS a WhatsApp od Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "Umožňuje návštěvníkům přihlásit se k odběru nabídek a novinek prostřednictvím SMS nebo aplikace WhatsApp. Ve výchozím stavu nezaškrtnuto; pouze pro marketingové účely."
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "Nastavení registrace"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "Kanál"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "Návštěvník si vybere SMS nebo WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Souhlas se SMS nabídkami Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Souhlas s nabídkami Zinn® přes WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "Zaznamená souhlas s marketingem v Zinn® Campaigns pro telefonní číslo v tomto formuláři."
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "Zasílejte mi na toto číslo nabídky a novinky přes WhatsApp. Volitelné; odběr můžete kdykoli zrušit."
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "Zasílejte mi nabídky a novinky prostřednictvím SMS na toto číslo. Volitelné; odběr můžete kdykoli zrušit odesláním odpovědi STOP. Mohou být účtovány poplatky za zprávy a data."
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "Pro zobrazení tohoto registračního formuláře propojte tento obchod se službou Zinn® Campaigns."
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "Telefonní číslo"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "Jak je máme odeslat?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "Zasílejte mi nabídky a novinky prostřednictvím kanálu, který jsem vybral(a) výše. Volitelné; odběr můžete kdykoli zrušit."
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "Ponechte prázdné"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "Zaregistrujte se"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "Děkujeme vám, jste zaregistrováni. Odběr můžete kdykoli zrušit."
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "Zadejte prosím své mobilní číslo s předvolbou země, například +44 7700 900123."
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "Pro souhlas zaškrtněte políčko."
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "Tento formulář byl otevřen příliš dlouho. Obnovte prosím stránku a odešlete jej znovu."
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "Příliš mnoho registrací z tohoto místa. Počkejte prosím několik minut a zkuste to znovu."
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "Vaši registraci se nepodařilo uložit. Zkontrolujte prosím své číslo a zkuste to znovu."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

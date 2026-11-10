@@ -348,6 +348,109 @@ msgstr "คำตอบของคุณ"
 msgid "Send reply"
 msgstr "ส่งคำตอบ"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "การลงชื่อสมัครใช้ Zinn® ทาง SMS และ WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "อนุญาตให้ผู้เยี่ยมชมลงทะเบียนเพื่อรับข้อเสนอและข่าวสารผ่าน SMS หรือ WhatsApp ไม่ได้เลือกไว้เป็นค่าเริ่มต้น สำหรับการตลาดเท่านั้น"
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "การตั้งค่าการสมัครใช้งาน"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "ช่อง"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "ผู้เยี่ยมชมเลือก SMS หรือ WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "ความยินยอมรับข้อเสนอทาง SMS ของ Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "ความยินยอมรับข้อเสนอ Zinn® ทาง WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "บันทึกการยินยอมรับข้อมูลทางการตลาดใน Zinn® Campaigns สำหรับหมายเลขโทรศัพท์ในแบบฟอร์มนี้"
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "ส่งข้อเสนอและข่าวสารถึงฉันทาง WhatsApp ไปยังหมายเลขนี้ ไม่บังคับ ยกเลิกการติดตามได้ตลอดเวลา"
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "ส่งข้อเสนอและข่าวสารถึงฉันทาง SMS มายังหมายเลขนี้ ไม่บังคับ ยกเลิกการรับข้อความได้ตลอดเวลาโดยตอบกลับว่า STOP อาจมีค่าบริการส่งข้อความและอินเทอร์เน็ต"
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "เชื่อมต่อร้านค้านี้กับ Zinn® Campaigns เพื่อแสดงแบบฟอร์มลงทะเบียนนี้"
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "หมายเลขโทรศัพท์มือถือ"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "เราควรส่งอย่างไร?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "ส่งข้อเสนอและข่าวสารให้ฉันทางช่องทางที่ฉันเลือกไว้ข้างต้น ไม่บังคับ คุณสามารถยกเลิกการติดตามได้ตลอดเวลา"
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "เว้นว่างไว้"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "สมัครใช้งาน"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "ขอบคุณ คุณได้ลงทะเบียนเรียบร้อยแล้ว คุณสามารถยกเลิกการสมัครรับข้อมูลได้ตลอดเวลา"
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "โปรดระบุหมายเลขโทรศัพท์มือถือของคุณพร้อมรหัสประเทศ เช่น +44 7700 900123"
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "โปรดทำเครื่องหมายในช่องเพื่อยอมรับ"
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "แบบฟอร์มนี้เปิดทิ้งไว้นานเกินไป โปรดโหลดหน้านี้ใหม่แล้วส่งอีกครั้ง"
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "มีการลงทะเบียนจากที่นี่มากเกินไป โปรดรอสักครู่แล้วลองใหม่อีกครั้ง"
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "เราไม่สามารถบันทึกการสมัครของคุณได้ โปรดตรวจสอบหมายเลขของคุณและลองใหม่อีกครั้ง"
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

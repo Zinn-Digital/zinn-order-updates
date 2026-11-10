@@ -348,6 +348,109 @@ msgstr "Amsarku"
 msgid "Send reply"
 msgstr "Aika amsa"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Yin rajistar SMS da WhatsApp na Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "Yana bawa baƙi damar yin rajista don samun tayi da labarai ta hanyar SMS ko WhatsApp. Ba a yi masa alama ba bisa ƙa'ida; don talla kawai."
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "Saitunan yin rajista"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "Tashar"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "Maziyari yana zaɓar SMS ko WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Yarda da tayin SMS na Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Yarjejeniyar tayin Zinn® ta WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "Yana rikodin amincewar tallatawa a cikin Zinn® Campaigns don lambar wayar da ke cikin wannan fom."
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "Aika mini tayi da labarai ta WhatsApp zuwa wannan lambar. Na zaɓi ne; fita a kowane lokaci."
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "Aika mini tayi da labarai ta hanyar SMS zuwa wannan lambar. Na zaɓi ne; ka fita daga rajista a kowane lokaci ta hanyar ba da amsa da STOP. Ana iya cajin kuɗin saƙo da bayanai."
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "Haɗa wannan kanti da Zinn® Campaigns domin nuna wannan fom ɗin yin rajista."
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "Lambar wayar hannu"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "Ta yaya ya kamata mu aika su?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "Aika mini tayi da labarai ta hanyar tashar da na zaɓa a sama. Na zaɓi ne; za ka iya cire rajista a kowane lokaci."
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "Bar wannan a wofi"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "Yi rajista"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "Mun gode, an yi rajistarku. Za ku iya soke rajistar a kowane lokaci."
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "Da fatan za a shigar da lambar wayarku tare da lambar ƙasa, misali +44 7700 900123."
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "Da fatan za a saka alamar kaska a akwatin don yarda."
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "Wannan fom ɗin ya daɗe a buɗe. Da fatan za a sake loda shafin kuma a sake aikawa."
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "Yawan rajista sun yi yawa daga nan. Da fatan za a jira 'yan mintuna kaɗan sannan a sake gwadawa."
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "Ba mu iya ajiye rajistarku ba. Da fatan za a duba lambarku kuma a sake gwadawa."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

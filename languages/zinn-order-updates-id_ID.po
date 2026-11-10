@@ -348,6 +348,109 @@ msgstr "Balasan Anda"
 msgid "Send reply"
 msgstr "Kirim balasan"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Pendaftaran SMS dan WhatsApp Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "Memungkinkan pengunjung mendaftar untuk mendapatkan penawaran dan berita melalui SMS atau WhatsApp. Tidak dicentang secara default; hanya untuk pemasaran."
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "Pengaturan pendaftaran"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "Saluran"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "Pengunjung memilih SMS atau WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Persetujuan penawaran SMS Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Persetujuan penawaran WhatsApp Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "Mencatat persetujuan pemasaran di Zinn® Campaigns untuk nomor telepon dalam formulir ini."
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "Kirimi saya penawaran dan kabar terbaru di WhatsApp ke nomor ini. Opsional; berhenti berlangganan kapan saja."
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "Kirimi saya penawaran dan kabar terbaru melalui SMS ke nomor ini. Opsional; berhenti berlangganan kapan saja dengan membalas STOP. Biaya pesan dan data mungkin berlaku."
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "Hubungkan toko ini ke Zinn® Campaigns untuk menampilkan formulir pendaftaran ini."
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "Nomor ponsel"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "Bagaimana kami sebaiknya mengirimkannya?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "Kirimi saya penawaran dan berita melalui saluran yang saya pilih di atas. Opsional; Anda dapat berhenti berlangganan kapan saja."
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "Biarkan ini kosong"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "Mendaftar"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "Terima kasih, Anda telah terdaftar. Anda dapat berhenti berlangganan kapan saja."
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "Silakan masukkan nomor ponsel Anda beserta kode negaranya, misalnya +44 7700 900123."
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "Centang kotak ini untuk menyetujui."
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "Formulir ini telah terbuka untuk waktu yang lama. Silakan muat ulang halaman dan kirimkan kembali."
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "Terlalu banyak pendaftaran dari sini. Silakan tunggu beberapa menit dan coba lagi."
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "Kami tidak dapat menyimpan pendaftaran Anda. Silakan periksa nomor Anda dan coba lagi."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

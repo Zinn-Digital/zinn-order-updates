@@ -348,6 +348,109 @@ msgstr "သင့်အကြောင်းပြန်ချက်"
 msgid "Send reply"
 msgstr "အကြောင်းပြန်ချက် ပေးပို့ပါ"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Zinn® SMS နှင့် WhatsApp မှတ်ပုံတင်ခြင်း"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "လာရောက်ကြည့်ရှုသူများကို SMS သို့မဟုတ် WhatsApp ဖြင့် အထူးအစီအစဉ်များနှင့် သတင်းများအတွက် စာရင်းသွင်းခွင့်ပြုသည်။ ပုံမှန်အားဖြင့် အမှန်ခြစ်မထားပါ၊ စျေးကွက်ရှာဖွေရေးအတွက်သာ ဖြစ်သည်။"
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "အကောင့်ဖွင့်ခြင်း ဆက်တင်များ"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "လိုင်း"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "ဧည့်သည်သည် SMS သို့မဟုတ် WhatsApp ကို ရွေးချယ်သည်"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Zinn® SMS ကမ်းလှမ်းချက်များ သဘောတူညီချက်"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Zinn® WhatsApp ကမ်းလှမ်းချက်များ သဘောတူညီချက်"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "ဤဖောင်ရှိ ဖုန်းနံပါတ်အတွက် Zinn® Campaigns တွင် စျေးကွက်ရှာဖွေရေး သဘောတူညီချက်ကို မှတ်တမ်းတင်သည်။"
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "ဤနံပါတ်သို့ WhatsApp မှတစ်ဆင့် ကမ်းလှမ်းချက်များနှင့် သတင်းများကို ပေးပို့ပါ။ စိတ်ကြိုက်ဖြစ်သည်၊ အချိန်မရွေး စာရင်းသွင်းမှု ပယ်ဖျက်နိုင်သည်။"
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "ဤနံပါတ်သို့ SMS ဖြင့် ကမ်းလှမ်းချက်များနှင့် သတင်းများကို ပေးပို့ပါ။ စိတ်ကြိုက်ရွေးချယ်နိုင်သည်၊ STOP ဟု ပြန်လည်ဖြေကြားခြင်းဖြင့် အချိန်မရွေး စာရင်းသွင်းမှု ပယ်ဖျက်နိုင်ပါသည်။ မက်ဆေ့ဂျ်နှင့် ဒေတာ ကောက်ခံခများ ရှိနိုင်ပါသည်။"
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "ဤမှတ်ပုံတင်ခြင်းဖောင်ကို ပြသရန်အတွက် ဤစတိုးကို Zinn® Campaigns သို့ ချိတ်ဆက်ပါ။"
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "မိုဘိုင်းဖုန်းနံပါတ်"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "၎င်းတို့ကို မည်သို့ပေးပို့ရမည်နည်း။"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "အထက်တွင် ကျွန်ုပ်ရွေးချယ်ခဲ့သော လမ်းကြောင်းမှတစ်ဆင့် ကမ်းလှမ်းချက်များနှင့် သတင်းများကို ပေးပို့ပါ။ စိတ်ကြိုက်ရွေးချယ်နိုင်သည်၊ မည်သည့်အချိန်တွင်မဆို စာရင်းသွင်းမှု ပယ်ဖျက်နိုင်သည်။"
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "ဤနေရာကို အလွတ်ထားပါ"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "အကောင့်ဖွင့်ရန်"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "ကျေးဇူးတင်ပါသည်၊ သင်စာရင်းသွင်းပြီးပါပြီ။ သင်သည် အချိန်မရွေး စာရင်းမှ ပယ်ဖျက်နိုင်သည်။"
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "သင့်မိုဘိုင်းဖုန်းနံပါတ်ကို နိုင်ငံကုဒ်နှင့်အတူ ထည့်သွင်းပါ၊ ဥပမာ +44 7700 900123။"
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "သဘောတူရန် အကွက်ကို အမှန်ခြစ်ပေးပါ။"
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "ဤဖောင်သည် ကြာမြင့်စွာ ပွင့်နေခဲ့သည်။ ကျေးဇူးပြု၍ စာမျက်နှာကို ပြန်လည်ဖွင့်ပြီး ၎င်းကို ထပ်မံပေးပို့ပါ။"
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "ဤနေရာမှ အကောင့်ဖွင့်မှု များလွန်းနေပါသည်။ ကျေးဇူးပြု၍ မိနစ်အနည်းငယ် စောင့်ပြီး ထပ်စမ်းကြည့်ပါ။"
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "သင်၏ အကောင့်ဖွင့်ခြင်းကို သိမ်းဆည်း၍ မရပါ။ ကျေးဇူးပြု၍ သင့်နံပါတ်ကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။"
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

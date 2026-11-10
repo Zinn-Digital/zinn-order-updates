@@ -348,6 +348,109 @@ msgstr "Сіздің жауабыңыз"
 msgid "Send reply"
 msgstr "Жауап жіберу"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Zinn® SMS және WhatsApp тіркелуі"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "Келушілерге SMS немесе WhatsApp арқылы ұсыныстар мен жаңалықтарға жазылуға мүмкіндік береді. Әдепкі бойынша белгіленбеген; тек маркетинг үшін."
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "Тіркелу баптаулары"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "Арна"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "Келуші SMS немесе WhatsApp таңдайды"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Zinn® SMS ұсыныстарына келісім"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Zinn® WhatsApp ұсыныстарына келісім"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "Осы пішіндегі телефон нөмірі үшін Zinn® Campaigns жүйесінде маркетингтік келісімді тіркейді."
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "Маған осы нөмірге WhatsApp арқылы ұсыныстар мен жаңалықтарды жіберіңіз. Міндетті емес; кез келген уақытта жазылудан бас тарта аласыз."
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "Осы нөмірге SMS арқылы ұсыныстар мен жаңалықтарды жіберіңіз. Міндетті емес; кез келген уақытта STOP деп жауап беру арқылы жазылымнан бас тарта аласыз. Хабарлама және деректер тарифтері қолданылуы мүмкін."
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "Бұл тіркелу формасын көрсету үшін осы дүкенді Zinn® Campaigns жүйесіне қосыңыз."
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "Ұялы телефон нөмірі"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "Оларды қалай жіберуіміз керек?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "Маған ұсыныстар мен жаңалықтарды жоғарыда өзім таңдаған арна арқылы жіберіңіз. Міндетті емес; жазылымнан кез келген уақытта бас тарта аласыз."
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "Бұны бос қалдырыңыз"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "Тіркелу"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "Рақмет, сіз тіркелдіңіз. Жазылымнан кез келген уақытта бас тарта аласыз."
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "Ұялы телефон нөміріңізді ел кодымен бірге енгізіңіз, мысалы, +44 7700 900123."
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "Келісу үшін құсбелгіні қойыңыз."
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "Бұл пішін ұзақ уақыт бойы ашық тұрды. Бетті қайта жүктеп, оны қайта жіберіңіз."
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "Бұл жерден тым көп тіркелу жасалды. Бірнеше минут күтіп, қайталап көріңіз."
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "Тіркелуіңізді сақтау мүмкін болмады. Нөміріңізді тексеріп, әрекетті қайталаңыз."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

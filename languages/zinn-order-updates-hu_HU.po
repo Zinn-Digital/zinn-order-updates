@@ -348,6 +348,109 @@ msgstr "Válasz"
 msgid "Send reply"
 msgstr "Válasz küldése"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Zinn® SMS és WhatsApp feliratkozás"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "Lehetővé teszi a látogatók számára, hogy feliratkozzanak ajánlatokra és hírekre SMS-ben vagy WhatsAppon. Alapértelmezés szerint nincs bejelölve; kizárólag marketingcélú."
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "Regisztrációs beállítások"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "Csatorna"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "A látogató SMS-t vagy WhatsAppot választ"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Zinn® SMS-ajánlatokhoz való hozzájárulás"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Zinn® WhatsApp-ajánlatok beleegyezése"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "Marketing-hozzájárulást rögzít a(z) Zinn® Campaigns rendszerben az ebben az űrlapban megadott telefonszámhoz."
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "Ajánlatok és hírek küldése WhatsAppon erre a számra. Opcionális; a leiratkozás bármikor lehetséges."
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "Ajánlatok és hírek küldése SMS-ben erre a számra. Opcionális; a leiratkozás bármikor lehetséges a STOP válasszal. Üzenet- és adatforgalmi díjak merülhetnek fel."
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "A feliratkozási űrlap megjelenítéséhez kapcsolja össze ezt az áruházat a Zinn® Campaigns szolgáltatással."
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "Mobilszám"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "Hogyan küldjük el őket?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "Ajánlatok és hírek küldése a fent kiválasztott csatornán. Nem kötelező; a leiratkozás bármikor lehetséges."
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "Hagyja üresen"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "Regisztráció"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "Köszönjük, a feliratkozás megtörtént. A leiratkozás bármikor lehetséges."
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "Kérjük, adja meg a mobilszámát az országkóddal együtt, például: +44 7700 900123."
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "A beleegyezéshez jelölje be a jelölőnégyzetet."
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "Ez az űrlap hosszú ideig nyitva volt. Kérjük, frissítse az oldalt, és küldje el újra."
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "Túl sok regisztráció történt innen. Kérjük, várjon néhány percet, majd próbálja újra."
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "Nem sikerült menteni a feliratkozást. Kérjük, ellenőrizze a számot, majd próbálja újra."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407

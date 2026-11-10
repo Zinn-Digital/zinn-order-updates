@@ -348,6 +348,109 @@ msgstr "Ҷавоби шумо"
 msgid "Send reply"
 msgstr "Фиристодани ҷавоб"
 
+#: includes/class-zinn-order-updates-optin.php:85
+msgid "Zinn Digital®"
+msgstr "Zinn Digital®"
+
+#: includes/class-zinn-order-updates-optin.php:130
+msgid "Zinn® SMS and WhatsApp sign-up"
+msgstr "Бақайдгирии SMS ва WhatsApp-и Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:139
+msgid "Lets visitors sign up for offers and news by SMS or WhatsApp. Unticked by default; marketing only."
+msgstr "Ба меҳмонон имкон медиҳад, ки барои гирифтани пешниҳодҳо ва хабарҳо тавассути SMS ё WhatsApp обуна шаванд. Ба таври пешфарз интихоб нашудааст; танҳо барои маркетинг."
+
+#: includes/class-zinn-order-updates-optin.php:140
+msgid "Sign-up settings"
+msgstr "Танзимоти бақайдгирӣ"
+
+#: includes/class-zinn-order-updates-optin.php:141
+msgid "Channel"
+msgstr "Канал"
+
+#: includes/class-zinn-order-updates-optin.php:145
+#: includes/class-zinn-order-updates-optin.php:259
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/class-zinn-order-updates-optin.php:149
+#: includes/class-zinn-order-updates-optin.php:260
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:153
+msgid "Visitor chooses SMS or WhatsApp"
+msgstr "Меҳмон SMS ё WhatsApp-ро интихоб мекунад"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® SMS offers consent"
+msgstr "Ризоият ба пешниҳодҳои SMS-и Zinn®"
+
+#: includes/class-zinn-order-updates-optin.php:162
+msgid "Zinn® WhatsApp offers consent"
+msgstr "Ризоият ба пешниҳодҳои Zinn® тавассути WhatsApp"
+
+#: includes/class-zinn-order-updates-optin.php:163
+msgid "Records a marketing opt-in in Zinn® Campaigns for the phone number in this form."
+msgstr "Розигии маркетингиро дар Zinn® Campaigns барои рақами телефони ин шакл сабт мекунад."
+
+#: includes/class-zinn-order-updates-optin.php:184
+msgid "Send me offers and news on WhatsApp to this number. Optional; unsubscribe any time."
+msgstr "Ба ин рақам тавассути WhatsApp ба ман пешниҳодҳо ва хабарҳо фиристед. Ихтиёрӣ; дар дилхоҳ вақт метавонед обунаро бекор кунед."
+
+#: includes/class-zinn-order-updates-optin.php:185
+msgid "Send me offers and news by SMS to this number. Optional; unsubscribe any time by replying STOP. Message and data rates may apply."
+msgstr "Ба ман тавассути SMS ба ин рақам пешниҳодҳо ва хабарҳоро фиристед. Ихтиёрӣ; дар дилхоҳ вақт бо фиристодани ҷавоби STOP обунаро бекор кардан мумкин аст. Пардохтҳо барои паёмҳо ва интиқоли маълумот метавонанд татбиқ шаванд."
+
+#: includes/class-zinn-order-updates-optin.php:243
+msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
+msgstr "Барои намоиш додани ин шакли сабти ном, ин мағозаро ба Zinn® Campaigns пайваст кунед."
+
+#: includes/class-zinn-order-updates-optin.php:255
+msgid "Mobile number"
+msgstr "Рақами телефони мобилӣ"
+
+#: includes/class-zinn-order-updates-optin.php:258
+msgid "How should we send them?"
+msgstr "Мо онҳоро чӣ гуна бояд фиристем?"
+
+#: includes/class-zinn-order-updates-optin.php:261
+#: includes/class-zinn-order-updates-optin.php:402
+msgid "Send me offers and news by the channel I chose above. Optional; unsubscribe any time."
+msgstr "Ба ман тавассути канали дар боло интихобкардаам пешниҳодҳо ва навигариҳо фиристед. Ихтиёрӣ; Шумо метавонед дар дилхоҳ вақт обунаро бекор кунед."
+
+#: includes/class-zinn-order-updates-optin.php:267
+msgid "Leave this empty"
+msgstr "Инро холӣ гузоред"
+
+#: includes/class-zinn-order-updates-optin.php:275
+msgid "Sign up"
+msgstr "Қайд шудан"
+
+#: includes/class-zinn-order-updates-optin.php:287
+msgid "Thank you, you are signed up. You can unsubscribe any time."
+msgstr "Ташаккур, шумо сабти ном шудед. Шумо метавонед дар дилхоҳ вақт обунаро қатъ кунед."
+
+#: includes/class-zinn-order-updates-optin.php:289
+msgid "Please enter your mobile number with its country code, for example +44 7700 900123."
+msgstr "Лутфан рақами мобилии худро бо рамзи кишвар ворид намоед, масалан +44 7700 900123."
+
+#: includes/class-zinn-order-updates-optin.php:291
+msgid "Please tick the box to agree."
+msgstr "Лутфан барои розигӣ кардан катакро қайд кунед."
+
+#: includes/class-zinn-order-updates-optin.php:293
+msgid "This form was open for a long time. Please reload the page and send it again."
+msgstr "Ин шакл муддати дароз боз буд. Лутфан саҳифаро аз нав бор кунед ва онро дубора фиристед."
+
+#: includes/class-zinn-order-updates-optin.php:295
+msgid "Too many sign-ups from here. Please wait a few minutes and try again."
+msgstr "Аз ин ҷо сабти номҳо хеле зиёд шуд. Лутфан чанд дақиқа интизор шавед ва бори дигар кӯшиш кунед."
+
+#: includes/class-zinn-order-updates-optin.php:297
+msgid "We could not save your sign-up. Please check your number and try again."
+msgstr "Мо натавонистем сабти номи шуморо захира кунем. Лутфан, рақами худро санҷед ва дубора кӯшиш кунед."
+
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-order-updates-promo.php:349
 #: includes/class-zinn-order-updates-promo.php:407
