@@ -12,7 +12,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
 #: includes/class-zinn-order-updates-admin.php:34
-#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:45
 msgid "Zinn® Order Updates"
 msgstr "Zinn® Order Updates"
@@ -41,69 +41,69 @@ msgstr "https://zinndigital.com"
 msgid "Order Updates"
 msgstr "订单更新"
 
-#: includes/class-zinn-order-updates-admin.php:88
+#: includes/class-zinn-order-updates-admin.php:89
 msgid "Your store is connected to Zinn® Campaigns."
 msgstr "您的商店已连接到 Zinn® Campaigns。"
 
-#: includes/class-zinn-order-updates-admin.php:89
+#: includes/class-zinn-order-updates-admin.php:90
 msgid "Your store is disconnected. No messages will be sent."
 msgstr "您的商店已断开连接。将不会发送任何消息。"
 
-#: includes/class-zinn-order-updates-admin.php:90
+#: includes/class-zinn-order-updates-admin.php:91
 msgid "That connection took too long or was started in another browser. Press Connect again."
 msgstr "该连接耗时过长或已在其他浏览器中启动。请再次点击“连接”。"
 
-#: includes/class-zinn-order-updates-admin.php:91
+#: includes/class-zinn-order-updates-admin.php:92
 msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
 msgstr "Zinn® 未接受连接。请再次点击“连接”；如果问题仍未解决，请联系 Zinn® 支持团队。"
 
-#: includes/class-zinn-order-updates-admin.php:92
+#: includes/class-zinn-order-updates-admin.php:93
 msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
 msgstr "您的站点无法访问 Zinn®。请检查您的主机是否允许对外连接，然后再次点击“连接”。"
 
-#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:58
 #: includes/class-zinn-order-updates-help.php:59
 msgid "Help"
 msgstr "帮助"
 
-#: includes/class-zinn-order-updates-admin.php:130
+#: includes/class-zinn-order-updates-admin.php:131
 msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
 msgstr "以您店铺的名义，通过短信和 WhatsApp 向您的客户发送有关其订单的最新动态，费用从您的 Zinn® 额度中扣除。"
 
-#: includes/class-zinn-order-updates-admin.php:131
+#: includes/class-zinn-order-updates-admin.php:132
 msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
 msgstr "“连接”将在当前窗口中打开 Zinn®。登录或创建账户，批准此商店，您便可直接返回此处。您无需粘贴任何密钥。"
 
-#: includes/class-zinn-order-updates-admin.php:132
+#: includes/class-zinn-order-updates-admin.php:133
 msgid "Connect to Zinn® Campaigns"
 msgstr "连接到 Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:138
+#: includes/class-zinn-order-updates-admin.php:139
 msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
 msgstr "已连接，但刚才无法联系到 Zinn®。我们稍后会再次尝试。"
 
-#: includes/class-zinn-order-updates-admin.php:143
+#: includes/class-zinn-order-updates-admin.php:144
 msgid "Store"
 msgstr "商店"
 
-#: includes/class-zinn-order-updates-admin.php:149
+#: includes/class-zinn-order-updates-admin.php:150
 msgid "Connected"
 msgstr "已连接"
 
-#: includes/class-zinn-order-updates-admin.php:154
+#: includes/class-zinn-order-updates-admin.php:155
 msgid "Zinn® Campaigns"
 msgstr "Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:156
+#: includes/class-zinn-order-updates-admin.php:157
 msgid "Open for your account"
 msgstr "为您的账户开启"
 
-#: includes/class-zinn-order-updates-admin.php:157
+#: includes/class-zinn-order-updates-admin.php:158
 msgid "Not open for your account yet. Zinn® will e-mail you when it is."
 msgstr "尚未对您的账户开放。开放后，Zinn® 将通过电子邮件通知您。"
 
-#: includes/class-zinn-order-updates-admin.php:161
+#: includes/class-zinn-order-updates-admin.php:162
 msgid "Disconnect"
 msgstr "断开连接"
 
@@ -115,7 +115,7 @@ msgstr "您无权连接此商店。"
 msgid "You are not allowed to disconnect this store."
 msgstr "您无权断开此商店的连接。"
 
-#: includes/class-zinn-order-updates-events.php:67
+#: includes/class-zinn-order-updates-events.php:83
 msgid "Send me order updates by SMS to my phone number. Message and data rates may apply. Reply STOP to stop."
 msgstr "通过短信将订单更新发送至我的电话号码。可能产生短信及流量费用。回复 STOP 即可停止。"
 
@@ -513,3 +513,57 @@ msgstr "无法从 Zinn® 更新服务（%s）下载更新。请在几分钟后�
 #: includes/class-zinn-order-updates-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "下载的更新未通过完整性检查，未被安装。"
+
+#: includes/class-zinn-order-updates-whatsapp.php:102
+#: includes/class-zinn-order-updates-whatsapp.php:155
+msgid "Order updates"
+msgstr "订单更新"
+
+#: includes/class-zinn-order-updates-whatsapp.php:142
+msgid "Opted in (yes or no)"
+msgstr "已选择加入（是或否）"
+
+#: includes/class-zinn-order-updates-whatsapp.php:143
+msgid "Channel (SMS or WhatsApp)"
+msgstr "渠道（短信或 WhatsApp）"
+
+#: includes/class-zinn-order-updates-whatsapp.php:144
+msgid "WhatsApp link"
+msgstr "WhatsApp 链接"
+
+#: includes/class-zinn-order-updates-whatsapp.php:165
+msgid "Message us on WhatsApp"
+msgstr "通过 WhatsApp 发送消息给我们"
+
+#: includes/class-zinn-order-updates-whatsapp.php:186
+#: includes/class-zinn-order-updates-whatsapp.php:211
+msgid "Zinn® WhatsApp button"
+msgstr "Zinn® WhatsApp 按钮"
+
+#: includes/class-zinn-order-updates-whatsapp.php:212
+msgid "A button that opens a WhatsApp chat with your store. It shows only once your WhatsApp number is connected in Zinn® Campaigns."
+msgstr "用于打开与您商店的 WhatsApp 聊天的按钮。仅在您的 WhatsApp 号码于 Zinn® Campaigns 中连接后才会显示。"
+
+#: includes/class-zinn-order-updates-whatsapp.php:213
+msgid "Button settings"
+msgstr "按钮设置"
+
+#: includes/class-zinn-order-updates-whatsapp.php:214
+msgid "Button text"
+msgstr "按钮文本"
+
+#: includes/class-zinn-order-updates-whatsapp.php:216
+msgid "Show to"
+msgstr "显示给"
+
+#: includes/class-zinn-order-updates-whatsapp.php:220
+msgid "Everyone"
+msgstr "所有人"
+
+#: includes/class-zinn-order-updates-whatsapp.php:224
+msgid "Shoppers not yet getting order updates"
+msgstr "买家尚未收到订单更新"
+
+#: includes/class-zinn-order-updates-whatsapp.php:227
+msgid "Connect your WhatsApp number in Zinn® Campaigns to show this button. Until then it shows nothing on your site."
+msgstr "在 Zinn® Campaigns 中连接您的 WhatsApp 号码以显示此按钮。在此之前，它不会在您的网站上显示任何内容。"

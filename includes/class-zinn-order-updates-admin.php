@@ -75,6 +75,7 @@ final class Zinn_Order_Updates_Admin {
 			return array( 'unreachable' => true );
 		}
 		set_transient( self::STATUS_CACHE, $body, 5 * MINUTE_IN_SECONDS );
+		Zinn_Order_Updates_Whatsapp::remember( $body );
 		return $body;
 	}
 

@@ -12,7 +12,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
 #: includes/class-zinn-order-updates-admin.php:34
-#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:45
 msgid "Zinn® Order Updates"
 msgstr "Zinn® Order Updates"
@@ -41,69 +41,69 @@ msgstr "https://zinndigital.com"
 msgid "Order Updates"
 msgstr "Sipariş Güncellemeleri"
 
-#: includes/class-zinn-order-updates-admin.php:88
+#: includes/class-zinn-order-updates-admin.php:89
 msgid "Your store is connected to Zinn® Campaigns."
 msgstr "Mağazanız Zinn® Campaigns sistemine bağlıdır."
 
-#: includes/class-zinn-order-updates-admin.php:89
+#: includes/class-zinn-order-updates-admin.php:90
 msgid "Your store is disconnected. No messages will be sent."
 msgstr "Mağazanızın bağlantısı kesildi. Hiçbir mesaj gönderilmeyecek."
 
-#: includes/class-zinn-order-updates-admin.php:90
+#: includes/class-zinn-order-updates-admin.php:91
 msgid "That connection took too long or was started in another browser. Press Connect again."
 msgstr "Bu bağlantı çok uzun sürdü veya başka bir tarayıcıda başlatıldı. Yeniden Bağlan'a basın."
 
-#: includes/class-zinn-order-updates-admin.php:91
+#: includes/class-zinn-order-updates-admin.php:92
 msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
 msgstr "Zinn® bağlantıyı kabul etmedi. Tekrar \"Bağlan\" düğmesine basın; sorun devam ederse Zinn® desteği ile iletişime geçin."
 
-#: includes/class-zinn-order-updates-admin.php:92
+#: includes/class-zinn-order-updates-admin.php:93
 msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
 msgstr "Siteniz Zinn® adresine ulaşamadı. Barındırıcınızın giden bağlantılara izin verip vermediğini kontrol edin, ardından tekrar «Bağlan» düğmesine basın."
 
-#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:58
 #: includes/class-zinn-order-updates-help.php:59
 msgid "Help"
 msgstr "Yardım"
 
-#: includes/class-zinn-order-updates-admin.php:130
+#: includes/class-zinn-order-updates-admin.php:131
 msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
 msgstr "Müşterilerinize siparişleri hakkında kendi mağazanızın adıyla, Zinn® kredinizden ödenen SMS ve WhatsApp güncellemeleri gönderin."
 
-#: includes/class-zinn-order-updates-admin.php:131
+#: includes/class-zinn-order-updates-admin.php:132
 msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
 msgstr "Bağlan, bu pencerede Zinn®'i açar. Oturum açın veya bir hesap oluşturun, bu mağazayı onaylayın ve doğrudan buraya geri döneceksiniz. Asla bir anahtar yapıştırmazsınız."
 
-#: includes/class-zinn-order-updates-admin.php:132
+#: includes/class-zinn-order-updates-admin.php:133
 msgid "Connect to Zinn® Campaigns"
 msgstr "Zinn® Campaigns ile Bağlantı Kurun"
 
-#: includes/class-zinn-order-updates-admin.php:138
+#: includes/class-zinn-order-updates-admin.php:139
 msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
 msgstr "Bağlandı, ancak şu anda Zinn® sistemine ulaşılamadı. Kısa süre içinde tekrar deneyeceğiz."
 
-#: includes/class-zinn-order-updates-admin.php:143
+#: includes/class-zinn-order-updates-admin.php:144
 msgid "Store"
 msgstr "Mağaza"
 
-#: includes/class-zinn-order-updates-admin.php:149
+#: includes/class-zinn-order-updates-admin.php:150
 msgid "Connected"
 msgstr "Bağlandı"
 
-#: includes/class-zinn-order-updates-admin.php:154
+#: includes/class-zinn-order-updates-admin.php:155
 msgid "Zinn® Campaigns"
 msgstr "Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:156
+#: includes/class-zinn-order-updates-admin.php:157
 msgid "Open for your account"
 msgstr "Hesabınız için açık"
 
-#: includes/class-zinn-order-updates-admin.php:157
+#: includes/class-zinn-order-updates-admin.php:158
 msgid "Not open for your account yet. Zinn® will e-mail you when it is."
 msgstr "Hesabınız için henüz açılmadı. Açıldığında Zinn® size bir e-posta gönderecektir."
 
-#: includes/class-zinn-order-updates-admin.php:161
+#: includes/class-zinn-order-updates-admin.php:162
 msgid "Disconnect"
 msgstr "Bağlantıyı kes"
 
@@ -115,7 +115,7 @@ msgstr "Bu mağazayı bağlama izniniz yok."
 msgid "You are not allowed to disconnect this store."
 msgstr "Bu mağazanın bağlantısını kesme izniniz yok."
 
-#: includes/class-zinn-order-updates-events.php:67
+#: includes/class-zinn-order-updates-events.php:83
 msgid "Send me order updates by SMS to my phone number. Message and data rates may apply. Reply STOP to stop."
 msgstr "Sipariş güncellemelerini telefon numarama SMS ile gönderin. Mesaj ve veri ücretleri geçerli olabilir. Durdurmak için STOP yazarak yanıtlayın."
 
@@ -513,3 +513,57 @@ msgstr "Güncelleme, Zinn® güncelleme servisinden (%s) indirilemedi. Lütfen b
 #: includes/class-zinn-order-updates-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "İndirilen güncelleme bütünlük denetiminden geçemedi ve yüklenmedi."
+
+#: includes/class-zinn-order-updates-whatsapp.php:102
+#: includes/class-zinn-order-updates-whatsapp.php:155
+msgid "Order updates"
+msgstr "Sipariş güncellemeleri"
+
+#: includes/class-zinn-order-updates-whatsapp.php:142
+msgid "Opted in (yes or no)"
+msgstr "Katılım sağlandı (evet veya hayır)"
+
+#: includes/class-zinn-order-updates-whatsapp.php:143
+msgid "Channel (SMS or WhatsApp)"
+msgstr "Kanal (SMS veya WhatsApp)"
+
+#: includes/class-zinn-order-updates-whatsapp.php:144
+msgid "WhatsApp link"
+msgstr "WhatsApp bağlantısı"
+
+#: includes/class-zinn-order-updates-whatsapp.php:165
+msgid "Message us on WhatsApp"
+msgstr "Bize WhatsApp'tan mesaj gönderin"
+
+#: includes/class-zinn-order-updates-whatsapp.php:186
+#: includes/class-zinn-order-updates-whatsapp.php:211
+msgid "Zinn® WhatsApp button"
+msgstr "Zinn® WhatsApp butonu"
+
+#: includes/class-zinn-order-updates-whatsapp.php:212
+msgid "A button that opens a WhatsApp chat with your store. It shows only once your WhatsApp number is connected in Zinn® Campaigns."
+msgstr "Mağazanızla bir WhatsApp sohbeti başlatan bir düğme. Yalnızca WhatsApp numaranız Zinn® Campaigns içinde bağlandıktan sonra görünür."
+
+#: includes/class-zinn-order-updates-whatsapp.php:213
+msgid "Button settings"
+msgstr "Düğme ayarları"
+
+#: includes/class-zinn-order-updates-whatsapp.php:214
+msgid "Button text"
+msgstr "Düğme metni"
+
+#: includes/class-zinn-order-updates-whatsapp.php:216
+msgid "Show to"
+msgstr "Şunun için göster:"
+
+#: includes/class-zinn-order-updates-whatsapp.php:220
+msgid "Everyone"
+msgstr "Herkes"
+
+#: includes/class-zinn-order-updates-whatsapp.php:224
+msgid "Shoppers not yet getting order updates"
+msgstr "Alıcılar henüz sipariş güncellemelerini almıyor"
+
+#: includes/class-zinn-order-updates-whatsapp.php:227
+msgid "Connect your WhatsApp number in Zinn® Campaigns to show this button. Until then it shows nothing on your site."
+msgstr "Bu düğmeyi göstermek için WhatsApp numaranızı Zinn® Campaigns içinde bağlayın. O zamana kadar sitenizde hiçbir şey gösterilmeyecektir."

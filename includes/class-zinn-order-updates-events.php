@@ -28,6 +28,15 @@ final class Zinn_Order_Updates_Events {
 	private const THREE_DECIMAL = array( 'BHD', 'IQD', 'JOD', 'KWD', 'LYD', 'OMR', 'TND' );
 
 	/**
+	 * Orders created by THIS request's checkout (id => true). A non-actionable status change in the
+	 * same request (a cheque or bank order set on-hold, a card set processing) sends no text of
+	 * its own: "order received" already tells the shopper (2026-11-10 pilot, docs/72).
+	 *
+	 * @var array<int, bool>
+	 */
+	private static $in_checkout = array();
+
+	/**
 	 * WooCommerce order status → the event kind the engine has a template for.
 	 */
 	private const KINDS = array(
@@ -38,6 +47,13 @@ final class Zinn_Order_Updates_Events {
 		'refunded'   => 'refunded',
 		'failed'     => 'payment_failed',
 	);
+
+	/**
+	 * Statuses a checkout sets that tell the shopper nothing "order received" does not
+	 * (coordinator ruling 2026-11-10): silenced in the same checkout request. Anything else,
+	 * a failed payment above all, still sends its text.
+	 */
+	private const CHECKOUT_SILENT = array( 'pending', 'on-hold', 'processing' );
 
 	/**
 	 * Hooks, only when WooCommerce runs and the store is connected.
@@ -177,6 +193,10 @@ final class Zinn_Order_Updates_Events {
 		$order->update_meta_data( '_zinn_ou_received', '1' );
 		$order->save_meta_data();
 		self::queue( (int) $order->get_id(), 'order_received', 0 );
+		self::$in_checkout[ (int) $order->get_id() ] = true;
+		if ( self::opted_in( $order ) ) {
+			Zinn_Order_Updates_Whatsapp::remember_shopper( $order, 'sms' );
+		}
 	}
 
 	/**
@@ -189,6 +209,11 @@ final class Zinn_Order_Updates_Events {
 	public static function on_status( $order_id, $from, $to ): void {
 		$kind = self::KINDS[ (string) $to ] ?? '';
 		if ( '' === $kind ) {
+			return;
+		}
+		// One checkout, one text: a non-actionable status the checkout itself set is already in
+		// "order received". A failed payment is actionable for the shopper, so it always sends.
+		if ( isset( self::$in_checkout[ (int) $order_id ] ) && in_array( (string) $to, self::CHECKOUT_SILENT, true ) ) {
 			return;
 		}
 		$order = wc_get_order( (int) $order_id );

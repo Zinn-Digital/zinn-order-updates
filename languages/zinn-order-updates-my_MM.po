@@ -12,7 +12,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
 #: includes/class-zinn-order-updates-admin.php:34
-#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:45
 msgid "Zinn® Order Updates"
 msgstr "Zinn® Order Updates"
@@ -41,69 +41,69 @@ msgstr "https://zinndigital.com"
 msgid "Order Updates"
 msgstr "အော်ဒါ အပ်ဒိတ်များ"
 
-#: includes/class-zinn-order-updates-admin.php:88
+#: includes/class-zinn-order-updates-admin.php:89
 msgid "Your store is connected to Zinn® Campaigns."
 msgstr "သင့်စတိုးကို Zinn® Campaigns နှင့် ချိတ်ဆက်ထားသည်။"
 
-#: includes/class-zinn-order-updates-admin.php:89
+#: includes/class-zinn-order-updates-admin.php:90
 msgid "Your store is disconnected. No messages will be sent."
 msgstr "သင့်စတိုးကို ချိတ်ဆက်မှုဖြတ်ထားသည်။ မည်သည့်မက်ဆေ့ဂျ်မျှ ပေးပို့မည်မဟုတ်ပါ။"
 
-#: includes/class-zinn-order-updates-admin.php:90
+#: includes/class-zinn-order-updates-admin.php:91
 msgid "That connection took too long or was started in another browser. Press Connect again."
 msgstr "ထိုချိတ်ဆက်မှုသည် အချိန်အလွန်ကြာသွားသည် သို့မဟုတ် အခြားဘရောက်ဆာတစ်ခုတွင် စတင်ခဲ့သည်။ ချိတ်ဆက်ရန် ကို ထပ်မံနှိပ်ပါ။"
 
-#: includes/class-zinn-order-updates-admin.php:91
+#: includes/class-zinn-order-updates-admin.php:92
 msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
 msgstr "Zinn® သည် ချိတ်ဆက်မှုကို လက်မခံပါ။ \"ချိတ်ဆက်ရန်\" ကို ထပ်မံနှိပ်ပါ၊ မအောင်မြင်သေးပါက Zinn® အကူအညီရယူရေးသို့ ဆက်သွယ်ပါ။"
 
-#: includes/class-zinn-order-updates-admin.php:92
+#: includes/class-zinn-order-updates-admin.php:93
 msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
 msgstr "သင့်ဝဘ်ဆိုက်သည် Zinn® သို့ မချိတ်ဆက်နိုင်ပါ။ သင့်ဟိုစ့်သည် အထွက်ချိတ်ဆက်မှုများကို ခွင့်ပြုထားခြင်း ရှိမရှိ စစ်ဆေးပြီး «ထပ်မံချိတ်ဆက်ရန်» ကို နှိပ်ပါ။"
 
-#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:58
 #: includes/class-zinn-order-updates-help.php:59
 msgid "Help"
 msgstr "အကူအညီ"
 
-#: includes/class-zinn-order-updates-admin.php:130
+#: includes/class-zinn-order-updates-admin.php:131
 msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
 msgstr "သင့်ဝယ်ယူသူများထံ ၎င်းတို့၏ အော်ဒါများနှင့်ပတ်သက်သည့် SMS နှင့် WhatsApp အပ်ဒိတ်များကို သင့်ဆိုင်၏ကိုယ်ပိုင်အမည်ဖြင့် ပေးပို့ပါ၊ ကျသင့်ငွေကို သင့် Zinn® ခရက်ဒစ်မှ ပေးချေပါသည်။"
 
-#: includes/class-zinn-order-updates-admin.php:131
+#: includes/class-zinn-order-updates-admin.php:132
 msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
 msgstr "ချိတ်ဆက်ရန် သည် ဤဝင်းဒိုးတွင် Zinn® ကို ဖွင့်ပေးပါသည်။ အကောင့်ဝင်ပါ သို့မဟုတ် အကောင့်တစ်ခု ပြုလုပ်ပါ၊ ဤစတိုးကို အတည်ပြုပါ၊ ထို့နောက် သင်သည် ဤနေရာသို့ တိုက်ရိုက် ပြန်ရောက်လာပါမည်။ သင်သည် မည်သည့်ကီးကိုမျှ ကူးထည့်ရန် မလိုပါ။"
 
-#: includes/class-zinn-order-updates-admin.php:132
+#: includes/class-zinn-order-updates-admin.php:133
 msgid "Connect to Zinn® Campaigns"
 msgstr "Zinn® Campaigns သို့ ချိတ်ဆက်ပါ"
 
-#: includes/class-zinn-order-updates-admin.php:138
+#: includes/class-zinn-order-updates-admin.php:139
 msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
 msgstr "ချိတ်ဆက်ထားသော်လည်း ယခုအချိန်တွင် Zinn® သို့ မရောက်ရှိနိုင်ပါ။ မကြာမီ ထပ်မံကြိုးစားပါမည်။"
 
-#: includes/class-zinn-order-updates-admin.php:143
+#: includes/class-zinn-order-updates-admin.php:144
 msgid "Store"
 msgstr "စတိုး"
 
-#: includes/class-zinn-order-updates-admin.php:149
+#: includes/class-zinn-order-updates-admin.php:150
 msgid "Connected"
 msgstr "ချိတ်ဆက်ထားသည်"
 
-#: includes/class-zinn-order-updates-admin.php:154
+#: includes/class-zinn-order-updates-admin.php:155
 msgid "Zinn® Campaigns"
 msgstr "Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:156
+#: includes/class-zinn-order-updates-admin.php:157
 msgid "Open for your account"
 msgstr "သင့်အကောင့်အတွက် ဖွင့်ထားသည်"
 
-#: includes/class-zinn-order-updates-admin.php:157
+#: includes/class-zinn-order-updates-admin.php:158
 msgid "Not open for your account yet. Zinn® will e-mail you when it is."
 msgstr "သင့်အကောင့်အတွက် မဖွင့်သေးပါ။ ဖွင့်လှစ်ပြီးပါက Zinn® က သင့်ထံ အီးမေးလ် ပေးပို့ပါမည်။"
 
-#: includes/class-zinn-order-updates-admin.php:161
+#: includes/class-zinn-order-updates-admin.php:162
 msgid "Disconnect"
 msgstr "ချိတ်ဆက်မှု ဖြတ်မည်"
 
@@ -115,7 +115,7 @@ msgstr "ဤစတိုးကို ချိတ်ဆက်ရန် သင့�
 msgid "You are not allowed to disconnect this store."
 msgstr "ဤစတိုးကို ချိတ်ဆက်မှုဖြုတ်ရန် သင့်တွင် ခွင့်ပြုချက်မရှိပါ။"
 
-#: includes/class-zinn-order-updates-events.php:67
+#: includes/class-zinn-order-updates-events.php:83
 msgid "Send me order updates by SMS to my phone number. Message and data rates may apply. Reply STOP to stop."
 msgstr "ကျွန်ုပ်၏ဖုန်းနံပါတ်သို့ အော်ဒါအခြေအနေများကို SMS ဖြင့် ပေးပို့ပါ။ မက်ဆေ့ခ်ျနှင့် ဒေတာခများ ကျသင့်နိုင်ပါသည်။ ရပ်တန့်ရန် STOP ဟု ပြန်စာပို့ပါ။"
 
@@ -513,3 +513,57 @@ msgstr "Zinn® အပ်ဒိတ်ဝန်ဆောင်မှု (%s) မ�
 #: includes/class-zinn-order-updates-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ဒေါင်းလုဒ်လုပ်ထားသော အပ်ဒိတ်သည် ခိုင်မာမှုစစ်ဆေးခြင်း မအောင်မြင်သဖြင့် ထည့်သွင်းခြင်းမပြုခဲ့ပါ။"
+
+#: includes/class-zinn-order-updates-whatsapp.php:102
+#: includes/class-zinn-order-updates-whatsapp.php:155
+msgid "Order updates"
+msgstr "အော်ဒါ အပ်ဒိတ်များ"
+
+#: includes/class-zinn-order-updates-whatsapp.php:142
+msgid "Opted in (yes or no)"
+msgstr "ပါဝင်ရန် ရွေးချယ်ထားသည် (ဟုတ် သို့မဟုတ် မဟုတ်)"
+
+#: includes/class-zinn-order-updates-whatsapp.php:143
+msgid "Channel (SMS or WhatsApp)"
+msgstr "ချန်နယ် (SMS သို့မဟုတ် WhatsApp)"
+
+#: includes/class-zinn-order-updates-whatsapp.php:144
+msgid "WhatsApp link"
+msgstr "WhatsApp လင့်ခ်"
+
+#: includes/class-zinn-order-updates-whatsapp.php:165
+msgid "Message us on WhatsApp"
+msgstr "WhatsApp မှတစ်ဆင့် ကျွန်ုပ်တို့ထံ စာပို့ပါ"
+
+#: includes/class-zinn-order-updates-whatsapp.php:186
+#: includes/class-zinn-order-updates-whatsapp.php:211
+msgid "Zinn® WhatsApp button"
+msgstr "Zinn® WhatsApp ခလုတ်"
+
+#: includes/class-zinn-order-updates-whatsapp.php:212
+msgid "A button that opens a WhatsApp chat with your store. It shows only once your WhatsApp number is connected in Zinn® Campaigns."
+msgstr "သင့်စတိုးနှင့် WhatsApp စကားပြောခန်းကို ဖွင့်ပေးသည့် ခလုတ်တစ်ခု။ ၎င်းသည် သင့် WhatsApp နံပါတ်ကို Zinn® Campaigns တွင် ချိတ်ဆက်ပြီးမှသာ ပေါ်လာမည်ဖြစ်သည်။"
+
+#: includes/class-zinn-order-updates-whatsapp.php:213
+msgid "Button settings"
+msgstr "ခလုတ် ဆက်တင်များ"
+
+#: includes/class-zinn-order-updates-whatsapp.php:214
+msgid "Button text"
+msgstr "ခလုတ်စာသား"
+
+#: includes/class-zinn-order-updates-whatsapp.php:216
+msgid "Show to"
+msgstr "သို့ ပြသပါ"
+
+#: includes/class-zinn-order-updates-whatsapp.php:220
+msgid "Everyone"
+msgstr "လူတိုင်း"
+
+#: includes/class-zinn-order-updates-whatsapp.php:224
+msgid "Shoppers not yet getting order updates"
+msgstr "ဝယ်ယူသူများသည် အော်ဒါနောက်ဆုံးရအခြေအနေများကို မရရှိသေးပါ"
+
+#: includes/class-zinn-order-updates-whatsapp.php:227
+msgid "Connect your WhatsApp number in Zinn® Campaigns to show this button. Until then it shows nothing on your site."
+msgstr "ဤခလုတ်ကို ပြသရန် Zinn® Campaigns တွင် သင်၏ WhatsApp နံပါတ်ကို ချိတ်ဆက်ပါ။ ထိုအချိန်အထိ ၎င်းသည် သင်၏ဆိုက်တွင် မည်သည့်အရာကိုမျှ ပြသမည်မဟုတ်ပါ။"

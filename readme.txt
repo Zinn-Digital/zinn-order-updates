@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.5
+Stable tag: 0.2.6
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,6 +73,10 @@ Yes. Press Connect and you can create one on the way.
 Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status, total and the link to their order), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.6 =
+* WhatsApp button block: a "Chat on WhatsApp" button that links your store's own WhatsApp Business number, shown only when one is connected; it can hide itself from shoppers who already get order updates. Page Builder Sandwich Pro pages can read "opted in", the channel and the WhatsApp link as dynamic data.
+* Order updates by SMS: one checkout now sends one text (a failed payment is still texted, so the shopper can pay again); the order link is added only when it is short and on your own site, and the text names your store rather than its web address.
 
 = 0.2.5 =
 * Sign-up form on any page: the Zinn® SMS and WhatsApp sign-up block (Zinn Digital® category, also in Page Builder Sandwich) and the [zinn_ou_opt_in] shortcode record a marketing opt-in in Zinn® Campaigns; with Page Builder Sandwich Pro forms, our consent field does the same. Unticked by default, marketing only.

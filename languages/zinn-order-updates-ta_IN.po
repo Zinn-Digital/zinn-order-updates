@@ -12,7 +12,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
 #: includes/class-zinn-order-updates-admin.php:34
-#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:45
 msgid "Zinn® Order Updates"
 msgstr "Zinn® Order Updates"
@@ -41,69 +41,69 @@ msgstr "https://zinndigital.com"
 msgid "Order Updates"
 msgstr "ஆர்டர் புதுப்பிப்புகள்"
 
-#: includes/class-zinn-order-updates-admin.php:88
+#: includes/class-zinn-order-updates-admin.php:89
 msgid "Your store is connected to Zinn® Campaigns."
 msgstr "உங்கள் அங்காடி Zinn® Campaigns உடன் இணைக்கப்பட்டுள்ளது."
 
-#: includes/class-zinn-order-updates-admin.php:89
+#: includes/class-zinn-order-updates-admin.php:90
 msgid "Your store is disconnected. No messages will be sent."
 msgstr "உங்கள் கடை துண்டிக்கப்பட்டுள்ளது. எந்த செய்திகளும் அனுப்பப்படாது."
 
-#: includes/class-zinn-order-updates-admin.php:90
+#: includes/class-zinn-order-updates-admin.php:91
 msgid "That connection took too long or was started in another browser. Press Connect again."
 msgstr "அந்த இணைப்பு அதிக நேரம் எடுத்தது அல்லது மற்றொரு உலாவியில் தொடங்கப்பட்டது. மீண்டும் இணை என்பதை அழுத்தவும்."
 
-#: includes/class-zinn-order-updates-admin.php:91
+#: includes/class-zinn-order-updates-admin.php:92
 msgid "Zinn® did not accept the connection. Press Connect again; if it keeps failing, contact Zinn® support."
 msgstr "Zinn® இணைப்பை ஏற்கவில்லை. மீண்டும் \"இணை\" என்பதை அழுத்தவும்; தொடர்ந்து தோல்வியடைந்தால், Zinn® ஆதரவைத் தொடர்பு கொள்ளவும்."
 
-#: includes/class-zinn-order-updates-admin.php:92
+#: includes/class-zinn-order-updates-admin.php:93
 msgid "Your site could not reach Zinn®. Check that your host allows outgoing connections, then press Connect again."
 msgstr "உங்கள் தளத்தால் Zinn®-ஐ அணுக முடியவில்லை. உங்கள் ஹோஸ்ட் வெளிச்செல்லும் இணைப்புகளை அனுமதிக்கிறதா என்பதைச் சரிபார்த்து, பின்னர் மீண்டும் \"இணை\" என்பதை அழுத்தவும்."
 
-#: includes/class-zinn-order-updates-admin.php:127
+#: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:58
 #: includes/class-zinn-order-updates-help.php:59
 msgid "Help"
 msgstr "உதவி"
 
-#: includes/class-zinn-order-updates-admin.php:130
+#: includes/class-zinn-order-updates-admin.php:131
 msgid "Send your customers SMS and WhatsApp updates about their orders, under your store's own name, paid from your Zinn® credit."
 msgstr "உங்கள் வாடிக்கையாளர்களுக்கு அவர்களின் ஆர்டர்கள் குறித்த SMS மற்றும் WhatsApp அறிவிப்புகளை உங்கள் கடையின் பெயரிலேயே அனுப்புங்கள், இதற்கு உங்கள் Zinn® கிரெடிட்டிலிருந்து கட்டணம் செலுத்தப்படும்."
 
-#: includes/class-zinn-order-updates-admin.php:131
+#: includes/class-zinn-order-updates-admin.php:132
 msgid "Connect opens Zinn® in this window. Sign in or create an account, approve this store, and you come straight back here. You never paste a key."
 msgstr "இணைக்கவும் இந்தச் சாளரத்தில் Zinn®-ஐத் திறக்கும். உள்நுழையவும் அல்லது கணக்கை உருவாக்கவும், இந்த அங்காடிக்கு ஒப்புதல் அளிக்கவும், நீங்கள் நேரடியாக இங்கே திரும்பி வருவீர்கள். நீங்கள் ஒருபோதும் சாவியை ஒட்ட வேண்டியதில்லை."
 
-#: includes/class-zinn-order-updates-admin.php:132
+#: includes/class-zinn-order-updates-admin.php:133
 msgid "Connect to Zinn® Campaigns"
 msgstr "Zinn® Campaigns உடன் இணைக்கவும்"
 
-#: includes/class-zinn-order-updates-admin.php:138
+#: includes/class-zinn-order-updates-admin.php:139
 msgid "Connected, but Zinn® could not be reached just now. We will try again shortly."
 msgstr "இணைக்கப்பட்டது, ஆனால் தற்போது Zinn®-ஐத் தொடர்பு கொள்ள முடியவில்லை. விரைவில் மீண்டும் முயற்சிப்போம்."
 
-#: includes/class-zinn-order-updates-admin.php:143
+#: includes/class-zinn-order-updates-admin.php:144
 msgid "Store"
 msgstr "ஸ்டோர்"
 
-#: includes/class-zinn-order-updates-admin.php:149
+#: includes/class-zinn-order-updates-admin.php:150
 msgid "Connected"
 msgstr "இணைக்கப்பட்டது"
 
-#: includes/class-zinn-order-updates-admin.php:154
+#: includes/class-zinn-order-updates-admin.php:155
 msgid "Zinn® Campaigns"
 msgstr "Zinn® Campaigns"
 
-#: includes/class-zinn-order-updates-admin.php:156
+#: includes/class-zinn-order-updates-admin.php:157
 msgid "Open for your account"
 msgstr "உங்கள் கணக்கிற்குத் திறக்கப்பட்டுள்ளது"
 
-#: includes/class-zinn-order-updates-admin.php:157
+#: includes/class-zinn-order-updates-admin.php:158
 msgid "Not open for your account yet. Zinn® will e-mail you when it is."
 msgstr "தங்கள் கணக்கிற்கு இன்னும் திறக்கப்படவில்லை. அது தயாரானதும் Zinn® தங்களுக்கு மின்னஞ்சல் அனுப்பும்."
 
-#: includes/class-zinn-order-updates-admin.php:161
+#: includes/class-zinn-order-updates-admin.php:162
 msgid "Disconnect"
 msgstr "இணைப்பைத் துண்டி"
 
@@ -115,7 +115,7 @@ msgstr "இந்தக் கடையை இணைக்க உங்களு
 msgid "You are not allowed to disconnect this store."
 msgstr "இந்தக் கடையை துண்டிக்க உங்களுக்கு அனுமதி இல்லை."
 
-#: includes/class-zinn-order-updates-events.php:67
+#: includes/class-zinn-order-updates-events.php:83
 msgid "Send me order updates by SMS to my phone number. Message and data rates may apply. Reply STOP to stop."
 msgstr "என் தொலைபேசி எண்ணிற்கு SMS மூலம் ஆர்டர் புதுப்பிப்புகளை அனுப்பவும். செய்தி மற்றும் தரவுக் கட்டணங்கள் விதிக்கப்படலாம். நிறுத்த STOP என பதிலளிக்கவும்."
 
@@ -513,3 +513,57 @@ msgstr "Zinn® புதுப்பிப்பு சேவையிலிர�
 #: includes/class-zinn-order-updates-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "பதிவிறக்கப்பட்ட புதுப்பிப்பு அதன் நம்பகத்தன்மை சரிபார்ப்பில் தோல்வியடைந்தது, அதனால் நிறுவப்படவில்லை."
+
+#: includes/class-zinn-order-updates-whatsapp.php:102
+#: includes/class-zinn-order-updates-whatsapp.php:155
+msgid "Order updates"
+msgstr "ஆர்டர் புதுப்பிப்புகள்"
+
+#: includes/class-zinn-order-updates-whatsapp.php:142
+msgid "Opted in (yes or no)"
+msgstr "இணைந்துள்ளார் (ஆம் அல்லது இல்லை)"
+
+#: includes/class-zinn-order-updates-whatsapp.php:143
+msgid "Channel (SMS or WhatsApp)"
+msgstr "சேனல் (SMS அல்லது WhatsApp)"
+
+#: includes/class-zinn-order-updates-whatsapp.php:144
+msgid "WhatsApp link"
+msgstr "WhatsApp இணைப்பு"
+
+#: includes/class-zinn-order-updates-whatsapp.php:165
+msgid "Message us on WhatsApp"
+msgstr "WhatsApp-இல் எங்களுக்குச் செய்தி அனுப்பவும்"
+
+#: includes/class-zinn-order-updates-whatsapp.php:186
+#: includes/class-zinn-order-updates-whatsapp.php:211
+msgid "Zinn® WhatsApp button"
+msgstr "Zinn® WhatsApp பொத்தான்"
+
+#: includes/class-zinn-order-updates-whatsapp.php:212
+msgid "A button that opens a WhatsApp chat with your store. It shows only once your WhatsApp number is connected in Zinn® Campaigns."
+msgstr "உங்கள் கடையுடன் WhatsApp உரையாடலைத் திறக்கும் ஒரு பொத்தான். உங்கள் WhatsApp எண் Zinn® Campaigns இல் இணைக்கப்பட்ட பின்னரே இது தோன்றும்."
+
+#: includes/class-zinn-order-updates-whatsapp.php:213
+msgid "Button settings"
+msgstr "பொத்தான் அமைப்புகள்"
+
+#: includes/class-zinn-order-updates-whatsapp.php:214
+msgid "Button text"
+msgstr "பொத்தான் உரை"
+
+#: includes/class-zinn-order-updates-whatsapp.php:216
+msgid "Show to"
+msgstr "இவர்களுக்குக் காட்டு"
+
+#: includes/class-zinn-order-updates-whatsapp.php:220
+msgid "Everyone"
+msgstr "அனைவரும்"
+
+#: includes/class-zinn-order-updates-whatsapp.php:224
+msgid "Shoppers not yet getting order updates"
+msgstr "வாங்குபவர்கள் இன்னும் ஆர்டர் புதுப்பிப்புகளைப் பெறவில்லை"
+
+#: includes/class-zinn-order-updates-whatsapp.php:227
+msgid "Connect your WhatsApp number in Zinn® Campaigns to show this button. Until then it shows nothing on your site."
+msgstr "இந்த பொத்தானைக் காட்ட Zinn® Campaigns இல் உங்கள் WhatsApp எண்ணை இணைக்கவும். அதுவரை இது உங்கள் தளத்தில் எதையும் காட்டாது."
