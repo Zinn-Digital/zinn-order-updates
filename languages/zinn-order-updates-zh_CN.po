@@ -11,6 +11,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
+#: includes/class-zinn-order-updates-abilities.php:75
 #: includes/class-zinn-order-updates-admin.php:34
 #: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:45
@@ -36,6 +37,74 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 #: zinn-order-updates.php
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-abilities.php:76
+msgid "Read and send SMS and WhatsApp order updates for this store."
+msgstr "读取并发送此商店的短信和 WhatsApp 订单更新。"
+
+#: includes/class-zinn-order-updates-abilities.php:91
+msgid "The WooCommerce order ID."
+msgstr "WooCommerce 订单 ID。"
+
+#: includes/class-zinn-order-updates-abilities.php:97
+msgid "Get order messages"
+msgstr "获取订单消息"
+
+#: includes/class-zinn-order-updates-abilities.php:98
+msgid "Lists every SMS or WhatsApp update for one order, newest first, with its outcome. The phone number is masked."
+msgstr "列出一笔订单的每条短信或 WhatsApp 更新，最新的排在最前，并附带其结果。电话号码已被隐藏。"
+
+#: includes/class-zinn-order-updates-abilities.php:130
+msgid "Send an order update"
+msgstr "发送订单更新"
+
+#: includes/class-zinn-order-updates-abilities.php:131
+msgid "Sends one approved order update (never free text) to the shopper of the order, only if they agreed to receive it. Reusing a request_id never sends twice."
+msgstr "仅在买家同意接收的情况下，向订单买家发送一条经批准的订单更新（绝非自由文本）。重复使用 request_id 绝不会重复发送。"
+
+#: includes/class-zinn-order-updates-abilities.php:140
+msgid "Which approved update to send."
+msgstr "要发送哪个已批准的更新。"
+
+#: includes/class-zinn-order-updates-abilities.php:145
+msgid "A unique ID for this send (8 to 64 letters, digits, dots, dashes or underscores). Send the same ID again to retry safely."
+msgstr "此发送的唯一 ID（8 到 64 个字母、数字、点、连字符或下划线）。再次发送相同的 ID 以安全重试。"
+
+#: includes/class-zinn-order-updates-abilities.php:150
+msgid "Optional https tracking link for a shipped update."
+msgstr "已发货更新的可选 https 跟踪链接。"
+
+#: includes/class-zinn-order-updates-abilities.php:181
+msgid "Get connection health"
+msgstr "获取连接运行状况"
+
+#: includes/class-zinn-order-updates-abilities.php:182
+msgid "Shows whether this store is connected to Zinn® Campaigns and what Zinn® Campaigns sees for it."
+msgstr "显示此商店是否已连接到 Zinn® Campaigns 以及 Zinn® Campaigns 为其显示的内容。"
+
+#: includes/class-zinn-order-updates-abilities.php:250
+msgid "Choose one of the approved order updates."
+msgstr "请选择一项已批准的订单更新。"
+
+#: includes/class-zinn-order-updates-abilities.php:253
+msgid "The request ID must be 8 to 64 letters, digits, dots, dashes or underscores."
+msgstr "请求 ID 必须是 8 到 64 个字母、数字、点、短划线或下划线。"
+
+#: includes/class-zinn-order-updates-abilities.php:292
+msgid "Connect this store to Zinn® Campaigns first."
+msgstr "请先将此商店连接到 Zinn® Campaigns。"
+
+#: includes/class-zinn-order-updates-abilities.php:296
+msgid "There is no order with that ID on this store."
+msgstr "此商店中不存在具有该 ID 的订单。"
+
+#: includes/class-zinn-order-updates-abilities.php:309
+msgid "Zinn® Campaigns could not be reached. Try again in a minute."
+msgstr "无法访问 Zinn® Campaigns。请在一分钟后重试。"
+
+#: includes/class-zinn-order-updates-abilities.php:317
+msgid "Zinn® Campaigns refused the request."
+msgstr "Zinn® Campaigns 拒绝了该请求。"
 
 #: includes/class-zinn-order-updates-admin.php:35
 msgid "Order Updates"
@@ -407,7 +476,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "将此商店连接到 Zinn® Campaigns 以显示此注册表单。"
 
 #: includes/class-zinn-order-updates-optin.php:255
-#: includes/class-zinn-order-updates-preferences.php:349
+#: includes/class-zinn-order-updates-preferences.php:389
 msgid "Mobile number"
 msgstr "手机号码"
 
@@ -453,127 +522,127 @@ msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "我们无法保存您的注册信息。请检查您的号码并重试。"
 
 #. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
-#: includes/class-zinn-order-updates-preferences.php:73
+#: includes/class-zinn-order-updates-preferences.php:98
 msgctxt "my account endpoint slug"
 msgid "messages"
 msgstr "消息"
 
-#: includes/class-zinn-order-updates-preferences.php:110
+#: includes/class-zinn-order-updates-preferences.php:150
 msgid "Messages"
 msgstr "消息"
 
-#: includes/class-zinn-order-updates-preferences.php:276
+#: includes/class-zinn-order-updates-preferences.php:316
 msgid "Text me updates about my orders"
 msgstr "通过短信向我发送订单更新"
 
-#: includes/class-zinn-order-updates-preferences.php:278
+#: includes/class-zinn-order-updates-preferences.php:318
 msgid "Text me offers and news from this store"
 msgstr "通过短信向我发送这家商店的优惠和最新资讯"
 
-#: includes/class-zinn-order-updates-preferences.php:280
+#: includes/class-zinn-order-updates-preferences.php:320
 msgid "Send me offers and news from this store on WhatsApp"
 msgstr "通过 WhatsApp 向我发送此商店的优惠和最新资讯"
 
-#: includes/class-zinn-order-updates-preferences.php:291
+#: includes/class-zinn-order-updates-preferences.php:331
 msgid "Order received"
 msgstr "订单已收到"
 
-#: includes/class-zinn-order-updates-preferences.php:292
+#: includes/class-zinn-order-updates-preferences.php:332
 msgid "Payment received"
 msgstr "已收到付款"
 
-#: includes/class-zinn-order-updates-preferences.php:293
+#: includes/class-zinn-order-updates-preferences.php:333
 msgid "Order on hold"
 msgstr "订单保留"
 
-#: includes/class-zinn-order-updates-preferences.php:294
+#: includes/class-zinn-order-updates-preferences.php:334
 msgid "Order shipped"
 msgstr "订单已发货"
 
-#: includes/class-zinn-order-updates-preferences.php:295
+#: includes/class-zinn-order-updates-preferences.php:335
 msgid "Order completed"
 msgstr "订单已完成"
 
-#: includes/class-zinn-order-updates-preferences.php:296
+#: includes/class-zinn-order-updates-preferences.php:336
 msgid "Ready for pickup"
 msgstr "可供自提"
 
-#: includes/class-zinn-order-updates-preferences.php:297
+#: includes/class-zinn-order-updates-preferences.php:337
 msgid "Payment failed"
 msgstr "支付失败"
 
-#: includes/class-zinn-order-updates-preferences.php:298
+#: includes/class-zinn-order-updates-preferences.php:338
 msgid "Order cancelled"
 msgstr "订单已取消"
 
-#: includes/class-zinn-order-updates-preferences.php:299
+#: includes/class-zinn-order-updates-preferences.php:339
 msgid "Order refunded"
 msgstr "订单已退款"
 
-#: includes/class-zinn-order-updates-preferences.php:301
+#: includes/class-zinn-order-updates-preferences.php:341
 msgid "Order update"
 msgstr "订单更新"
 
-#: includes/class-zinn-order-updates-preferences.php:308
+#: includes/class-zinn-order-updates-preferences.php:348
 msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
 msgstr "您的消息设置涵盖了您在此商店订单中的手机号码。请使用您其中一个订单中的号码。"
 
-#: includes/class-zinn-order-updates-preferences.php:318
+#: includes/class-zinn-order-updates-preferences.php:358
 msgid "Your message settings are saved."
 msgstr "您的消息设置已保存。"
 
-#: includes/class-zinn-order-updates-preferences.php:319
+#: includes/class-zinn-order-updates-preferences.php:359
 msgid "Done. This store will not send you any more messages."
 msgstr "完成。此商店将不再向您发送任何消息。"
 
-#: includes/class-zinn-order-updates-preferences.php:320
+#: includes/class-zinn-order-updates-preferences.php:360
 msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
 msgstr "请输入包含国家代码的手机号码，例如 +44 7700 900123。"
 
-#: includes/class-zinn-order-updates-preferences.php:321
+#: includes/class-zinn-order-updates-preferences.php:361
 msgid "We could not save your settings just now. Please try again in a minute."
 msgstr "我们刚才无法保存您的设置。请在一分钟后重试。"
 
-#: includes/class-zinn-order-updates-preferences.php:343
+#: includes/class-zinn-order-updates-preferences.php:383
 msgid "Your message settings cannot be shown just now. Please try again in a minute."
 msgstr "目前无法显示您的消息设置。请在一分钟后再试。"
 
-#: includes/class-zinn-order-updates-preferences.php:351
+#: includes/class-zinn-order-updates-preferences.php:391
 msgid "Messages from this store"
 msgstr "来自该商店的消息"
 
-#: includes/class-zinn-order-updates-preferences.php:358
+#: includes/class-zinn-order-updates-preferences.php:398
 msgid "Save"
 msgstr "保存"
 
-#: includes/class-zinn-order-updates-preferences.php:359
+#: includes/class-zinn-order-updates-preferences.php:399
 msgid "Stop all messages"
 msgstr "停止所有消息"
 
-#: includes/class-zinn-order-updates-preferences.php:361
+#: includes/class-zinn-order-updates-preferences.php:401
 msgid "Recent messages"
 msgstr "近期消息"
 
-#: includes/class-zinn-order-updates-preferences.php:364
+#: includes/class-zinn-order-updates-preferences.php:404
 msgid "This store has not sent you any messages yet."
 msgstr "该商店尚未向您发送任何消息。"
 
 #. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
-#: includes/class-zinn-order-updates-preferences.php:373
+#: includes/class-zinn-order-updates-preferences.php:413
 #, php-format
 msgid "%1$s, order %2$s, %3$s"
 msgstr "%1$s，订单 %2$s，%3$s"
 
-#: includes/class-zinn-order-updates-preferences.php:401
+#: includes/class-zinn-order-updates-preferences.php:441
 msgid "Sign in to manage the messages this store sends you."
 msgstr "登录以管理此商店向您发送的消息。"
 
-#: includes/class-zinn-order-updates-preferences.php:504
-#: includes/class-zinn-order-updates-preferences.php:518
+#: includes/class-zinn-order-updates-preferences.php:544
+#: includes/class-zinn-order-updates-preferences.php:558
 msgid "Zinn® message settings"
 msgstr "Zinn® 消息设置"
 
-#: includes/class-zinn-order-updates-preferences.php:519
+#: includes/class-zinn-order-updates-preferences.php:559
 msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
 msgstr "允许已登录的顾客更改您商店向其发送的短信、停止接收所有短信以及查看最近 20 条短信。"
 

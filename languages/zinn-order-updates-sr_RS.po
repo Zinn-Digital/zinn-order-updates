@@ -11,6 +11,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
+#: includes/class-zinn-order-updates-abilities.php:75
 #: includes/class-zinn-order-updates-admin.php:34
 #: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:45
@@ -36,6 +37,74 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 #: zinn-order-updates.php
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-abilities.php:76
+msgid "Read and send SMS and WhatsApp order updates for this store."
+msgstr "Читајте и шаљите ажурирања поруџбина путем SMS-а и WhatsApp-а за ову продавницу."
+
+#: includes/class-zinn-order-updates-abilities.php:91
+msgid "The WooCommerce order ID."
+msgstr "ИД WooCommerce поруџбине."
+
+#: includes/class-zinn-order-updates-abilities.php:97
+msgid "Get order messages"
+msgstr "Преузми поруке наруџбине"
+
+#: includes/class-zinn-order-updates-abilities.php:98
+msgid "Lists every SMS or WhatsApp update for one order, newest first, with its outcome. The phone number is masked."
+msgstr "Наводи свако ажурирање путем SMS-а или WhatsApp-а за једну поруџбину, најновије прво, са његовим исходом. Број телефона је маскиран."
+
+#: includes/class-zinn-order-updates-abilities.php:130
+msgid "Send an order update"
+msgstr "Пошаљите ажурирање поруџбине"
+
+#: includes/class-zinn-order-updates-abilities.php:131
+msgid "Sends one approved order update (never free text) to the shopper of the order, only if they agreed to receive it. Reusing a request_id never sends twice."
+msgstr "Шаље једно одобрено ажурирање поруџбине (никада слободан текст) купцу поруџбине, само ако је пристао да га прими. Поновно коришћење request_id никада не шаље два пута."
+
+#: includes/class-zinn-order-updates-abilities.php:140
+msgid "Which approved update to send."
+msgstr "Које одобрено ажурирање послати."
+
+#: includes/class-zinn-order-updates-abilities.php:145
+msgid "A unique ID for this send (8 to 64 letters, digits, dots, dashes or underscores). Send the same ID again to retry safely."
+msgstr "Јединствени ID за ово слање (од 8 до 64 слова, цифара, тачака, цртица или доњих црта). Пошаљите исти ID поново да бисте безбедно поновили покушај."
+
+#: includes/class-zinn-order-updates-abilities.php:150
+msgid "Optional https tracking link for a shipped update."
+msgstr "Опционална https веза за праћење за послато ажурирање."
+
+#: includes/class-zinn-order-updates-abilities.php:181
+msgid "Get connection health"
+msgstr "Преузмите статус везе"
+
+#: includes/class-zinn-order-updates-abilities.php:182
+msgid "Shows whether this store is connected to Zinn® Campaigns and what Zinn® Campaigns sees for it."
+msgstr "Показује да ли је ова продавница повезана са Zinn® Campaigns и шта Zinn® Campaigns види за њу."
+
+#: includes/class-zinn-order-updates-abilities.php:250
+msgid "Choose one of the approved order updates."
+msgstr "Изаберите једно од одобрених ажурирања поруџбине."
+
+#: includes/class-zinn-order-updates-abilities.php:253
+msgid "The request ID must be 8 to 64 letters, digits, dots, dashes or underscores."
+msgstr "Идентификатор захтева мора имати од 8 до 64 слова, цифара, тачака, цртица или доњих црта."
+
+#: includes/class-zinn-order-updates-abilities.php:292
+msgid "Connect this store to Zinn® Campaigns first."
+msgstr "Прво повежите ову продавницу са Zinn® Campaigns."
+
+#: includes/class-zinn-order-updates-abilities.php:296
+msgid "There is no order with that ID on this store."
+msgstr "У овој продавници нема поруџбине са тим идентификатором."
+
+#: includes/class-zinn-order-updates-abilities.php:309
+msgid "Zinn® Campaigns could not be reached. Try again in a minute."
+msgstr "Није било могуће успоставити везу са Zinn® Campaigns. Покушајте поново за минут."
+
+#: includes/class-zinn-order-updates-abilities.php:317
+msgid "Zinn® Campaigns refused the request."
+msgstr "Zinn® Campaigns је одбио захтев."
 
 #: includes/class-zinn-order-updates-admin.php:35
 msgid "Order Updates"
@@ -407,7 +476,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "Повежите ову продавницу са Zinn® Campaigns да бисте приказали овај образац за регистрацију."
 
 #: includes/class-zinn-order-updates-optin.php:255
-#: includes/class-zinn-order-updates-preferences.php:349
+#: includes/class-zinn-order-updates-preferences.php:389
 msgid "Mobile number"
 msgstr "Број мобилног телефона"
 
@@ -453,127 +522,127 @@ msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "Нисмо могли да сачувамо вашу регистрацију. Проверите свој број и покушајте поново."
 
 #. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
-#: includes/class-zinn-order-updates-preferences.php:73
+#: includes/class-zinn-order-updates-preferences.php:98
 msgctxt "my account endpoint slug"
 msgid "messages"
 msgstr "Поруке"
 
-#: includes/class-zinn-order-updates-preferences.php:110
+#: includes/class-zinn-order-updates-preferences.php:150
 msgid "Messages"
 msgstr "Поруке"
 
-#: includes/class-zinn-order-updates-preferences.php:276
+#: includes/class-zinn-order-updates-preferences.php:316
 msgid "Text me updates about my orders"
 msgstr "Шаљите ми обавештења о мојим поруџбинама путем SMS-а"
 
-#: includes/class-zinn-order-updates-preferences.php:278
+#: includes/class-zinn-order-updates-preferences.php:318
 msgid "Text me offers and news from this store"
 msgstr "Шаљите ми понуде и вести из ове продавнице путем SMS-а"
 
-#: includes/class-zinn-order-updates-preferences.php:280
+#: includes/class-zinn-order-updates-preferences.php:320
 msgid "Send me offers and news from this store on WhatsApp"
 msgstr "Шаљите ми понуде и вести из ове продавнице на WhatsApp"
 
-#: includes/class-zinn-order-updates-preferences.php:291
+#: includes/class-zinn-order-updates-preferences.php:331
 msgid "Order received"
 msgstr "Поруџбина је примљена"
 
-#: includes/class-zinn-order-updates-preferences.php:292
+#: includes/class-zinn-order-updates-preferences.php:332
 msgid "Payment received"
 msgstr "Уплата је примљена"
 
-#: includes/class-zinn-order-updates-preferences.php:293
+#: includes/class-zinn-order-updates-preferences.php:333
 msgid "Order on hold"
 msgstr "Поруџбина на чекању"
 
-#: includes/class-zinn-order-updates-preferences.php:294
+#: includes/class-zinn-order-updates-preferences.php:334
 msgid "Order shipped"
 msgstr "Поруџбина је послата"
 
-#: includes/class-zinn-order-updates-preferences.php:295
+#: includes/class-zinn-order-updates-preferences.php:335
 msgid "Order completed"
 msgstr "Поруџбина је завршена"
 
-#: includes/class-zinn-order-updates-preferences.php:296
+#: includes/class-zinn-order-updates-preferences.php:336
 msgid "Ready for pickup"
 msgstr "Спремно за преузимање"
 
-#: includes/class-zinn-order-updates-preferences.php:297
+#: includes/class-zinn-order-updates-preferences.php:337
 msgid "Payment failed"
 msgstr "Плаћање није успело"
 
-#: includes/class-zinn-order-updates-preferences.php:298
+#: includes/class-zinn-order-updates-preferences.php:338
 msgid "Order cancelled"
 msgstr "Поруџбина је отказана"
 
-#: includes/class-zinn-order-updates-preferences.php:299
+#: includes/class-zinn-order-updates-preferences.php:339
 msgid "Order refunded"
 msgstr "Поруџбина је рефундирана"
 
-#: includes/class-zinn-order-updates-preferences.php:301
+#: includes/class-zinn-order-updates-preferences.php:341
 msgid "Order update"
 msgstr "Ажурирање наруџбине"
 
-#: includes/class-zinn-order-updates-preferences.php:308
+#: includes/class-zinn-order-updates-preferences.php:348
 msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
 msgstr "Ваша подешавања порука обухватају број мобилног телефона из Ваших поруџбина у овој продавници. Користите број из неке од Ваших поруџбина."
 
-#: includes/class-zinn-order-updates-preferences.php:318
+#: includes/class-zinn-order-updates-preferences.php:358
 msgid "Your message settings are saved."
 msgstr "Ваша подешавања порука су сачувана."
 
-#: includes/class-zinn-order-updates-preferences.php:319
+#: includes/class-zinn-order-updates-preferences.php:359
 msgid "Done. This store will not send you any more messages."
 msgstr "Готово. Ова продавница вам више неће слати поруке."
 
-#: includes/class-zinn-order-updates-preferences.php:320
+#: includes/class-zinn-order-updates-preferences.php:360
 msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
 msgstr "Унесите број мобилног телефона са позивним бројем земље, на пример +44 7700 900123."
 
-#: includes/class-zinn-order-updates-preferences.php:321
+#: includes/class-zinn-order-updates-preferences.php:361
 msgid "We could not save your settings just now. Please try again in a minute."
 msgstr "Нисмо могли да сачувамо ваша подешавања у овом тренутку. Молимо вас да покушате поново за минут."
 
-#: includes/class-zinn-order-updates-preferences.php:343
+#: includes/class-zinn-order-updates-preferences.php:383
 msgid "Your message settings cannot be shown just now. Please try again in a minute."
 msgstr "Подешавања ваших порука се тренутно не могу приказати. Покушајте поново за минут."
 
-#: includes/class-zinn-order-updates-preferences.php:351
+#: includes/class-zinn-order-updates-preferences.php:391
 msgid "Messages from this store"
 msgstr "Поруке из ове продавнице"
 
-#: includes/class-zinn-order-updates-preferences.php:358
+#: includes/class-zinn-order-updates-preferences.php:398
 msgid "Save"
 msgstr "Сачувај"
 
-#: includes/class-zinn-order-updates-preferences.php:359
+#: includes/class-zinn-order-updates-preferences.php:399
 msgid "Stop all messages"
 msgstr "Зауставите све поруке"
 
-#: includes/class-zinn-order-updates-preferences.php:361
+#: includes/class-zinn-order-updates-preferences.php:401
 msgid "Recent messages"
 msgstr "Недавне поруке"
 
-#: includes/class-zinn-order-updates-preferences.php:364
+#: includes/class-zinn-order-updates-preferences.php:404
 msgid "This store has not sent you any messages yet."
 msgstr "Ова продавница вам још увек није послала ниједну поруку."
 
 #. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
-#: includes/class-zinn-order-updates-preferences.php:373
+#: includes/class-zinn-order-updates-preferences.php:413
 #, php-format
 msgid "%1$s, order %2$s, %3$s"
 msgstr "%1$s, наруџбина %2$s, %3$s"
 
-#: includes/class-zinn-order-updates-preferences.php:401
+#: includes/class-zinn-order-updates-preferences.php:441
 msgid "Sign in to manage the messages this store sends you."
 msgstr "Пријавите се да бисте управљали порукама које вам ова продавница шаље."
 
-#: includes/class-zinn-order-updates-preferences.php:504
-#: includes/class-zinn-order-updates-preferences.php:518
+#: includes/class-zinn-order-updates-preferences.php:544
+#: includes/class-zinn-order-updates-preferences.php:558
 msgid "Zinn® message settings"
 msgstr "Подешавања Zinn® порука"
 
-#: includes/class-zinn-order-updates-preferences.php:519
+#: includes/class-zinn-order-updates-preferences.php:559
 msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
 msgstr "Омогућава пријављеном купцу да измени текстуалне поруке које му ваша продавница шаље, да их све заустави и да погледа последњих 20."
 

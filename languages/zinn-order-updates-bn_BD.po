@@ -11,6 +11,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
+#: includes/class-zinn-order-updates-abilities.php:75
 #: includes/class-zinn-order-updates-admin.php:34
 #: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:45
@@ -36,6 +37,74 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 #: zinn-order-updates.php
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-abilities.php:76
+msgid "Read and send SMS and WhatsApp order updates for this store."
+msgstr "এই স্টোরের জন্য SMS এবং WhatsApp অর্ডার আপডেট পড়ুন এবং পাঠান।"
+
+#: includes/class-zinn-order-updates-abilities.php:91
+msgid "The WooCommerce order ID."
+msgstr "WooCommerce অর্ডার আইডি।"
+
+#: includes/class-zinn-order-updates-abilities.php:97
+msgid "Get order messages"
+msgstr "অর্ডারের বার্তা পান"
+
+#: includes/class-zinn-order-updates-abilities.php:98
+msgid "Lists every SMS or WhatsApp update for one order, newest first, with its outcome. The phone number is masked."
+msgstr "একটি অর্ডারের জন্য প্রতিটি SMS বা WhatsApp আপডেট নতুন থেকে শুরু করে ফলাফলের সাথে তালিকাভুক্ত করে। ফোন নম্বরটি মাস্ক করা রয়েছে।"
+
+#: includes/class-zinn-order-updates-abilities.php:130
+msgid "Send an order update"
+msgstr "অর্ডারের আপডেট পাঠান"
+
+#: includes/class-zinn-order-updates-abilities.php:131
+msgid "Sends one approved order update (never free text) to the shopper of the order, only if they agreed to receive it. Reusing a request_id never sends twice."
+msgstr "অর্ডারের ক্রেতা যদি তা গ্রহণ করতে সম্মত হন, তবে কেবল তখনই তাকে একটি অনুমোদিত অর্ডার আপডেট পাঠানো হয় (কখনোই উন্মুক্ত টেক্সট নয়)। কোনো request_id পুনরায় ব্যবহার করলে তা কখনোই দ্বিতীয়বার পাঠানো হয় না।"
+
+#: includes/class-zinn-order-updates-abilities.php:140
+msgid "Which approved update to send."
+msgstr "কোন অনুমোদিত আপডেটটি পাঠাতে হবে।"
+
+#: includes/class-zinn-order-updates-abilities.php:145
+msgid "A unique ID for this send (8 to 64 letters, digits, dots, dashes or underscores). Send the same ID again to retry safely."
+msgstr "এই প্রেরণের জন্য একটি অনন্য আইডি (৮ থেকে ৬৪টি অক্ষর, সংখ্যা, ডট, ড্যাশ বা আন্ডারস্কোর)। নিরাপদে পুনঃচেষ্টা করতে একই আইডি আবার পাঠান।"
+
+#: includes/class-zinn-order-updates-abilities.php:150
+msgid "Optional https tracking link for a shipped update."
+msgstr "পাঠানো আপডেটের জন্য ঐচ্ছিক https ট্র্যাকিং লিঙ্ক।"
+
+#: includes/class-zinn-order-updates-abilities.php:181
+msgid "Get connection health"
+msgstr "সংযোগের স্থিতি জানুন"
+
+#: includes/class-zinn-order-updates-abilities.php:182
+msgid "Shows whether this store is connected to Zinn® Campaigns and what Zinn® Campaigns sees for it."
+msgstr "এই স্টোরটি Zinn® Campaigns-এর সাথে সংযুক্ত কিনা এবং Zinn® Campaigns এর জন্য কী দেখতে পায় তা দেখায়।"
+
+#: includes/class-zinn-order-updates-abilities.php:250
+msgid "Choose one of the approved order updates."
+msgstr "অনুমোদিত অর্ডার আপডেটের একটি বেছে নিন।"
+
+#: includes/class-zinn-order-updates-abilities.php:253
+msgid "The request ID must be 8 to 64 letters, digits, dots, dashes or underscores."
+msgstr "অনুরোধ আইডিটি ৮ থেকে ৬৪টি অক্ষর, সংখ্যা, ডট, ড্যাশ বা আন্ডারস্কোর হতে হবে।"
+
+#: includes/class-zinn-order-updates-abilities.php:292
+msgid "Connect this store to Zinn® Campaigns first."
+msgstr "প্রথমে এই স্টোরটি Zinn® Campaigns-এর সাথে সংযুক্ত করুন।"
+
+#: includes/class-zinn-order-updates-abilities.php:296
+msgid "There is no order with that ID on this store."
+msgstr "এই স্টোরে সেই আইডিযুক্ত কোনো অর্ডার নেই।"
+
+#: includes/class-zinn-order-updates-abilities.php:309
+msgid "Zinn® Campaigns could not be reached. Try again in a minute."
+msgstr "Zinn® Campaigns-এর সাথে যোগাযোগ করা যায়নি। এক মিনিট পর আবার চেষ্টা করুন।"
+
+#: includes/class-zinn-order-updates-abilities.php:317
+msgid "Zinn® Campaigns refused the request."
+msgstr "Zinn® Campaigns অনুরোধটি প্রত্যাখ্যান করেছে।"
 
 #: includes/class-zinn-order-updates-admin.php:35
 msgid "Order Updates"
@@ -407,7 +476,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "এই সাইন-আপ ফর্মটি প্রদর্শন করতে এই স্টোরটিকে Zinn® Campaigns-এর সাথে সংযুক্ত করুন।"
 
 #: includes/class-zinn-order-updates-optin.php:255
-#: includes/class-zinn-order-updates-preferences.php:349
+#: includes/class-zinn-order-updates-preferences.php:389
 msgid "Mobile number"
 msgstr "মোবাইল নম্বর"
 
@@ -453,127 +522,127 @@ msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "আমরা আপনার নিবন্ধন সংরক্ষণ করতে পারিনি। অনুগ্রহ করে আপনার নম্বরটি পরীক্ষা করুন এবং আবার চেষ্টা করুন।"
 
 #. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
-#: includes/class-zinn-order-updates-preferences.php:73
+#: includes/class-zinn-order-updates-preferences.php:98
 msgctxt "my account endpoint slug"
 msgid "messages"
 msgstr "বার্তা"
 
-#: includes/class-zinn-order-updates-preferences.php:110
+#: includes/class-zinn-order-updates-preferences.php:150
 msgid "Messages"
 msgstr "বার্তা"
 
-#: includes/class-zinn-order-updates-preferences.php:276
+#: includes/class-zinn-order-updates-preferences.php:316
 msgid "Text me updates about my orders"
 msgstr "আমার অর্ডার সম্পর্কিত আপডেট আমাকে টেক্সট মেসেজের মাধ্যমে পাঠান"
 
-#: includes/class-zinn-order-updates-preferences.php:278
+#: includes/class-zinn-order-updates-preferences.php:318
 msgid "Text me offers and news from this store"
 msgstr "এই দোকান থেকে অফার এবং খবর আমাকে এসএমএস করুন"
 
-#: includes/class-zinn-order-updates-preferences.php:280
+#: includes/class-zinn-order-updates-preferences.php:320
 msgid "Send me offers and news from this store on WhatsApp"
 msgstr "আমাকে WhatsApp-এ এই দোকানের অফার এবং খবর পাঠান"
 
-#: includes/class-zinn-order-updates-preferences.php:291
+#: includes/class-zinn-order-updates-preferences.php:331
 msgid "Order received"
 msgstr "অর্ডার গৃহীত হয়েছে"
 
-#: includes/class-zinn-order-updates-preferences.php:292
+#: includes/class-zinn-order-updates-preferences.php:332
 msgid "Payment received"
 msgstr "পেমেন্ট গৃহীত হয়েছে"
 
-#: includes/class-zinn-order-updates-preferences.php:293
+#: includes/class-zinn-order-updates-preferences.php:333
 msgid "Order on hold"
 msgstr "অর্ডার স্থগিত আছে"
 
-#: includes/class-zinn-order-updates-preferences.php:294
+#: includes/class-zinn-order-updates-preferences.php:334
 msgid "Order shipped"
 msgstr "অর্ডার পাঠানো হয়েছে"
 
-#: includes/class-zinn-order-updates-preferences.php:295
+#: includes/class-zinn-order-updates-preferences.php:335
 msgid "Order completed"
 msgstr "অর্ডার সম্পন্ন হয়েছে"
 
-#: includes/class-zinn-order-updates-preferences.php:296
+#: includes/class-zinn-order-updates-preferences.php:336
 msgid "Ready for pickup"
 msgstr "গ্রহণের জন্য প্রস্তুত"
 
-#: includes/class-zinn-order-updates-preferences.php:297
+#: includes/class-zinn-order-updates-preferences.php:337
 msgid "Payment failed"
 msgstr "পেমেন্ট ব্যর্থ হয়েছে"
 
-#: includes/class-zinn-order-updates-preferences.php:298
+#: includes/class-zinn-order-updates-preferences.php:338
 msgid "Order cancelled"
 msgstr "অর্ডার বাতিল করা হয়েছে"
 
-#: includes/class-zinn-order-updates-preferences.php:299
+#: includes/class-zinn-order-updates-preferences.php:339
 msgid "Order refunded"
 msgstr "অর্ডার প্রত্যর্পণ করা হয়েছে"
 
-#: includes/class-zinn-order-updates-preferences.php:301
+#: includes/class-zinn-order-updates-preferences.php:341
 msgid "Order update"
 msgstr "অর্ডার আপডেট"
 
-#: includes/class-zinn-order-updates-preferences.php:308
+#: includes/class-zinn-order-updates-preferences.php:348
 msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
 msgstr "আপনার বার্তা সেটিংস এই স্টোরে আপনার অর্ডারের মোবাইল নম্বরটি অন্তর্ভুক্ত করে। আপনার অর্ডারগুলোর একটির নম্বর ব্যবহার করুন।"
 
-#: includes/class-zinn-order-updates-preferences.php:318
+#: includes/class-zinn-order-updates-preferences.php:358
 msgid "Your message settings are saved."
 msgstr "আপনার বার্তার সেটিংস সংরক্ষিত হয়েছে।"
 
-#: includes/class-zinn-order-updates-preferences.php:319
+#: includes/class-zinn-order-updates-preferences.php:359
 msgid "Done. This store will not send you any more messages."
 msgstr "সম্পন্ন হয়েছে। এই দোকান আপনাকে আর কোনো বার্তা পাঠাবে না।"
 
-#: includes/class-zinn-order-updates-preferences.php:320
+#: includes/class-zinn-order-updates-preferences.php:360
 msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
 msgstr "অনুগ্রহ করে দেশের কোড সহ একটি মোবাইল নম্বর লিখুন, উদাহরণস্বরূপ +44 7700 900123।"
 
-#: includes/class-zinn-order-updates-preferences.php:321
+#: includes/class-zinn-order-updates-preferences.php:361
 msgid "We could not save your settings just now. Please try again in a minute."
 msgstr "এইমাত্র আপনার সেটিংস সংরক্ষণ করা যায়নি। অনুগ্রহ করে এক মিনিট পর আবার চেষ্টা করুন।"
 
-#: includes/class-zinn-order-updates-preferences.php:343
+#: includes/class-zinn-order-updates-preferences.php:383
 msgid "Your message settings cannot be shown just now. Please try again in a minute."
 msgstr "আপনার বার্তার সেটিংস এই মুহূর্তে দেখানো যাচ্ছে না। অনুগ্রহ করে এক মিনিট পর আবার চেষ্টা করুন।"
 
-#: includes/class-zinn-order-updates-preferences.php:351
+#: includes/class-zinn-order-updates-preferences.php:391
 msgid "Messages from this store"
 msgstr "এই স্টোরের বার্তাগুলি"
 
-#: includes/class-zinn-order-updates-preferences.php:358
+#: includes/class-zinn-order-updates-preferences.php:398
 msgid "Save"
 msgstr "সংরক্ষণ করুন"
 
-#: includes/class-zinn-order-updates-preferences.php:359
+#: includes/class-zinn-order-updates-preferences.php:399
 msgid "Stop all messages"
 msgstr "সমস্ত বার্তা বন্ধ করুন"
 
-#: includes/class-zinn-order-updates-preferences.php:361
+#: includes/class-zinn-order-updates-preferences.php:401
 msgid "Recent messages"
 msgstr "সাম্প্রতিক বার্তাসমূহ"
 
-#: includes/class-zinn-order-updates-preferences.php:364
+#: includes/class-zinn-order-updates-preferences.php:404
 msgid "This store has not sent you any messages yet."
 msgstr "এই স্টোরটি এখনও আপনাকে কোনো বার্তা পাঠায়নি।"
 
 #. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
-#: includes/class-zinn-order-updates-preferences.php:373
+#: includes/class-zinn-order-updates-preferences.php:413
 #, php-format
 msgid "%1$s, order %2$s, %3$s"
 msgstr "%1$s, অর্ডার %2$s, %3$s"
 
-#: includes/class-zinn-order-updates-preferences.php:401
+#: includes/class-zinn-order-updates-preferences.php:441
 msgid "Sign in to manage the messages this store sends you."
 msgstr "এই স্টোর আপনাকে যে বার্তাগুলি পাঠায় তা পরিচালনা করতে সাইন ইন করুন।"
 
-#: includes/class-zinn-order-updates-preferences.php:504
-#: includes/class-zinn-order-updates-preferences.php:518
+#: includes/class-zinn-order-updates-preferences.php:544
+#: includes/class-zinn-order-updates-preferences.php:558
 msgid "Zinn® message settings"
 msgstr "Zinn® বার্তা সেটিংস"
 
-#: includes/class-zinn-order-updates-preferences.php:519
+#: includes/class-zinn-order-updates-preferences.php:559
 msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
 msgstr "সাইন ইন করা ক্রেতাকে আপনার দোকান থেকে পাঠানো টেক্সট মেসেজ পরিবর্তন করতে, সবগুলো বন্ধ করতে এবং সর্বশেষ ২০টি দেখার অনুমতি দেয়।"
 

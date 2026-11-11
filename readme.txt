@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.8
+Stable tag: 0.2.9
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,12 @@ My Account "Messages" tab (and the "Zinn® message settings" block): only for a 
 * **Shopper read** (`POST /v1/store-connect/shopper`, when the panel opens): that shopper's phone number. The answer is their consent settings for your store and the last 20 texts your store sent them; nothing from any other store is shown.
 * **Consent** (`POST /v1/store-connect/consents`, when they save): only the settings they changed, with the wording shown and its language. Stop all messages withdraws every one. Changing the number withdraws the old number's consents.
 
+WordPress Abilities (WordPress 6.9 and later): nothing is sent until a signed-in user, or an AI assistant or MCP client acting for one, runs an ability. Then:
+
+* **Get order messages** (`GET /v1/store-connect/orders/{order_id}/messages`, only for a user who may edit orders, only for one of this store's orders): the order ID. The answer is that order's updates and their outcome, with the phone number masked.
+* **Send an order update** (`POST /v1/store-connect/orders/{order_id}/updates`, only for a user who may edit orders): the order ID, which approved update to send, a request ID and, if given, a tracking link. Zinn® Campaigns sends it only to that order's own shopper, only if they agreed to receive it.
+* **Get connection health** (only for an administrator): the same status read as the Order Updates screen (`GET /v1/store-connect/status`).
+
 Help (Order Updates → Help) sends nothing until you press "Agree and continue" there; who agreed and when is recorded on your site. Then:
 
 * **Ask the Zinn® AI** (`POST /v1/public/support/deflect`, when you press Ask): your question, your admin language and the name of this plugin. The answer and matching help articles come back. **That solved it** (`POST /v1/public/support/deflect/{id}/solved`) records only that the answer helped.
@@ -78,6 +84,9 @@ Yes. Press Connect and you can create one on the way.
 Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status, total and the link to their order), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.9 =
+* WordPress Abilities (WordPress 6.9 and later): an AI assistant or an MCP client on your site can read an order's messages and send an approved order update, only for a user who may edit orders, and read the connection's health, only for an administrator. A send still goes only to the order's own shopper and only if they agreed to receive it; reusing a request ID never sends twice.
 
 = 0.2.8 =
 * My Account "Messages" tab: its web address is now in your store's own language for every shopper, so on a multilingual store a shopper browsing in another language no longer gets "page not found" from the tab.

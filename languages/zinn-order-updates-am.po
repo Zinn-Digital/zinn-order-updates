@@ -11,6 +11,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: zinn-order-updates.php
+#: includes/class-zinn-order-updates-abilities.php:75
 #: includes/class-zinn-order-updates-admin.php:34
 #: includes/class-zinn-order-updates-admin.php:128
 #: includes/class-zinn-order-updates-help.php:45
@@ -36,6 +37,74 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 #: zinn-order-updates.php
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-order-updates-abilities.php:76
+msgid "Read and send SMS and WhatsApp order updates for this store."
+msgstr "ለዚህ መደብር የኤስኤምኤስ (SMS) እና የዋትስኣፕ (WhatsApp) የትዕዛዝ ዝማኔዎችን ያንብቡ እና ይላኩ።"
+
+#: includes/class-zinn-order-updates-abilities.php:91
+msgid "The WooCommerce order ID."
+msgstr "የWooCommerce ትዕዛዝ መታወቂያ (ID)።"
+
+#: includes/class-zinn-order-updates-abilities.php:97
+msgid "Get order messages"
+msgstr "የትዕዛዝ መልዕክቶችን ያግኙ"
+
+#: includes/class-zinn-order-updates-abilities.php:98
+msgid "Lists every SMS or WhatsApp update for one order, newest first, with its outcome. The phone number is masked."
+msgstr "ለአንድ ትዕዛዝ የተላኩ እያንዳንዱን የኤስኤምኤስ ወይም የWhatsApp ዝማኔዎች ከአዲሱ ጀምሮ ከውጤቱ ጋር ይዘረዝራል። ስልክ ቁጥሩ ተደብቋል።"
+
+#: includes/class-zinn-order-updates-abilities.php:130
+msgid "Send an order update"
+msgstr "የትዕዛዝ ዝማኔ ይላኩ"
+
+#: includes/class-zinn-order-updates-abilities.php:131
+msgid "Sends one approved order update (never free text) to the shopper of the order, only if they agreed to receive it. Reusing a request_id never sends twice."
+msgstr "ገዢው ለመቀበል ከተስማማ ብቻ አንድ የጸደቀ የትዕዛዝ ዝማኔ (በፍጹም ነጻ ጽሑፍ አይደለም) ወደ ትዕዛዙ ገዢ ይልካል። request_id ን ደግመው መጠቀም በፍጹም ሁለት ጊዜ አይልክም።"
+
+#: includes/class-zinn-order-updates-abilities.php:140
+msgid "Which approved update to send."
+msgstr "የትኛው የጸደቀ ዝማኔ እንደሚላክ።"
+
+#: includes/class-zinn-order-updates-abilities.php:145
+msgid "A unique ID for this send (8 to 64 letters, digits, dots, dashes or underscores). Send the same ID again to retry safely."
+msgstr "ለዚህ መላክ ልዩ መለያ (ከ8 እስከ 64 ፊደላት፣ አሃዞች፣ ነጥቦች፣ ሰረዞች ወይም የስር መስመሮች)። ደህንነቱ በተጠበቀ ሁኔታ እንደገና ለመሞከር ተመሳሳዩን መለያ መልሰው ይላኩ።"
+
+#: includes/class-zinn-order-updates-abilities.php:150
+msgid "Optional https tracking link for a shipped update."
+msgstr "ለተላከ ዝማኔ አማራጭ የ https መከታተያ አገናኝ።"
+
+#: includes/class-zinn-order-updates-abilities.php:181
+msgid "Get connection health"
+msgstr "የግንኙነት ሁኔታን ያግኙ"
+
+#: includes/class-zinn-order-updates-abilities.php:182
+msgid "Shows whether this store is connected to Zinn® Campaigns and what Zinn® Campaigns sees for it."
+msgstr "ይህ መደብር ከZinn® Campaigns ጋር መገናኘቱን እና Zinn® Campaigns ለእርሱ ምን እንደሚያይ ያሳያል።"
+
+#: includes/class-zinn-order-updates-abilities.php:250
+msgid "Choose one of the approved order updates."
+msgstr "ከተፈቀዱት የትዕዛዝ ማሻሻያዎች አንዱን ይምረጡ።"
+
+#: includes/class-zinn-order-updates-abilities.php:253
+msgid "The request ID must be 8 to 64 letters, digits, dots, dashes or underscores."
+msgstr "የጥያቄው መታወቂያ (ID) ከ8 እስከ 64 ፊደላት፣ አሃዞች፣ ነጥቦች፣ ሰረዞች ወይም የስር ሰረዞች መሆን አለበት።"
+
+#: includes/class-zinn-order-updates-abilities.php:292
+msgid "Connect this store to Zinn® Campaigns first."
+msgstr "መጀመሪያ ይህንን መደብር ከZinn® Campaigns ጋር ያገናኙ።"
+
+#: includes/class-zinn-order-updates-abilities.php:296
+msgid "There is no order with that ID on this store."
+msgstr "በዚህ መደብር ላይ በዚህ መታወቂያ የተመዘገበ ምንም ትዕዛዝ የለም።"
+
+#: includes/class-zinn-order-updates-abilities.php:309
+msgid "Zinn® Campaigns could not be reached. Try again in a minute."
+msgstr "Zinn® Campaignsን ማግኘት አልተቻለም። ከአንድ ደቂቃ በኋላ እንደገና ይሞክሩ።"
+
+#: includes/class-zinn-order-updates-abilities.php:317
+msgid "Zinn® Campaigns refused the request."
+msgstr "Zinn® Campaigns ጥያቄውን አልተቀበለውም።"
 
 #: includes/class-zinn-order-updates-admin.php:35
 msgid "Order Updates"
@@ -407,7 +476,7 @@ msgid "Connect this store to Zinn® Campaigns to show this sign-up form."
 msgstr "ይህን የመመዝገቢያ ቅጽ ለማሳየት ይህንን መደብር ከZinn® Campaigns ጋር ያገናኙ።"
 
 #: includes/class-zinn-order-updates-optin.php:255
-#: includes/class-zinn-order-updates-preferences.php:349
+#: includes/class-zinn-order-updates-preferences.php:389
 msgid "Mobile number"
 msgstr "የሞባይል ስልክ ቁጥር"
 
@@ -453,127 +522,127 @@ msgid "We could not save your sign-up. Please check your number and try again."
 msgstr "ምዝገባዎን ማስቀመጥ አልቻልንም። እባክዎ ቁጥርዎን ያረጋግጡና እንደገና ይሞክሩ።"
 
 #. translators: URL slug of the My Account tab where shoppers manage their text messages. Lower case, no spaces.
-#: includes/class-zinn-order-updates-preferences.php:73
+#: includes/class-zinn-order-updates-preferences.php:98
 msgctxt "my account endpoint slug"
 msgid "messages"
 msgstr "መልዕክቶች"
 
-#: includes/class-zinn-order-updates-preferences.php:110
+#: includes/class-zinn-order-updates-preferences.php:150
 msgid "Messages"
 msgstr "መልዕክቶች"
 
-#: includes/class-zinn-order-updates-preferences.php:276
+#: includes/class-zinn-order-updates-preferences.php:316
 msgid "Text me updates about my orders"
 msgstr "ስለ ትዕዛዞቼ ዝማኔዎችን በጽሑፍ መልእክት ላኩልኝ"
 
-#: includes/class-zinn-order-updates-preferences.php:278
+#: includes/class-zinn-order-updates-preferences.php:318
 msgid "Text me offers and news from this store"
 msgstr "ከዚህ መደብር ቅናሾችን እና ዜናዎችን በጽሁፍ መልእክት ላኩልኝ"
 
-#: includes/class-zinn-order-updates-preferences.php:280
+#: includes/class-zinn-order-updates-preferences.php:320
 msgid "Send me offers and news from this store on WhatsApp"
 msgstr "ከዚህ መደብር የቀረቡ ቅናሾችንና ዜናዎችን በWhatsApp ይላኩልኝ"
 
-#: includes/class-zinn-order-updates-preferences.php:291
+#: includes/class-zinn-order-updates-preferences.php:331
 msgid "Order received"
 msgstr "ትዕዛዝ ደርሷል"
 
-#: includes/class-zinn-order-updates-preferences.php:292
+#: includes/class-zinn-order-updates-preferences.php:332
 msgid "Payment received"
 msgstr "ክፍያ ደርሷል"
 
-#: includes/class-zinn-order-updates-preferences.php:293
+#: includes/class-zinn-order-updates-preferences.php:333
 msgid "Order on hold"
 msgstr "ትዕዛዝ ተይዟል"
 
-#: includes/class-zinn-order-updates-preferences.php:294
+#: includes/class-zinn-order-updates-preferences.php:334
 msgid "Order shipped"
 msgstr "ትዕዛዝ ተልኳል"
 
-#: includes/class-zinn-order-updates-preferences.php:295
+#: includes/class-zinn-order-updates-preferences.php:335
 msgid "Order completed"
 msgstr "ትዕዛዝ ተጠናቋል"
 
-#: includes/class-zinn-order-updates-preferences.php:296
+#: includes/class-zinn-order-updates-preferences.php:336
 msgid "Ready for pickup"
 msgstr "ለመውሰድ ዝግጁ"
 
-#: includes/class-zinn-order-updates-preferences.php:297
+#: includes/class-zinn-order-updates-preferences.php:337
 msgid "Payment failed"
 msgstr "ክፍያው አልተሳካም"
 
-#: includes/class-zinn-order-updates-preferences.php:298
+#: includes/class-zinn-order-updates-preferences.php:338
 msgid "Order cancelled"
 msgstr "ትዕዛዙ ተሰርዟል"
 
-#: includes/class-zinn-order-updates-preferences.php:299
+#: includes/class-zinn-order-updates-preferences.php:339
 msgid "Order refunded"
 msgstr "ትዕዛዝ ተመላሽ ተደርጓል"
 
-#: includes/class-zinn-order-updates-preferences.php:301
+#: includes/class-zinn-order-updates-preferences.php:341
 msgid "Order update"
 msgstr "የትዕዛዝ ማዘመኛ"
 
-#: includes/class-zinn-order-updates-preferences.php:308
+#: includes/class-zinn-order-updates-preferences.php:348
 msgid "Your message settings cover the mobile number on your orders with this store. Use the number from one of your orders."
 msgstr "የመልእክት ቅንብሮችዎ በዚህ መደብር ባሉዎት ትዕዛዞች ላይ ያለውን የሞባይል ቁጥር ያካትታሉ። ከአንደኛው ትዕዛዝዎ የተገኘውን ቁጥር ይጠቀሙ።"
 
-#: includes/class-zinn-order-updates-preferences.php:318
+#: includes/class-zinn-order-updates-preferences.php:358
 msgid "Your message settings are saved."
 msgstr "የመልእክት ቅንብሮችዎ ተቀምጠዋል።"
 
-#: includes/class-zinn-order-updates-preferences.php:319
+#: includes/class-zinn-order-updates-preferences.php:359
 msgid "Done. This store will not send you any more messages."
 msgstr "ተከናውኗል። ይህ መደብር ከዚያ በኋላ ምንም መልዕክቶች አይልክልዎትም።"
 
-#: includes/class-zinn-order-updates-preferences.php:320
+#: includes/class-zinn-order-updates-preferences.php:360
 msgid "Please enter a mobile number with its country code, for example +44 7700 900123."
 msgstr "እባክዎ የተንቀሳቃሽ ስልክ ቁጥር ከአገር ኮድ ጋር ያስገቡ፣ ለምሳሌ +44 7700 900123።"
 
-#: includes/class-zinn-order-updates-preferences.php:321
+#: includes/class-zinn-order-updates-preferences.php:361
 msgid "We could not save your settings just now. Please try again in a minute."
 msgstr "ቅንብሮችዎን አሁን ማስቀመጥ አልተቻለም። እባክዎ ከአንድ ደቂቃ በኋላ እንደገና ይሞክሩ።"
 
-#: includes/class-zinn-order-updates-preferences.php:343
+#: includes/class-zinn-order-updates-preferences.php:383
 msgid "Your message settings cannot be shown just now. Please try again in a minute."
 msgstr "የመልእክትዎ ቅንብሮች አሁን ሊታዩ አይችሉም። እባክዎ ከአንድ ደቂቃ በኋላ እንደገና ይሞክሩ።"
 
-#: includes/class-zinn-order-updates-preferences.php:351
+#: includes/class-zinn-order-updates-preferences.php:391
 msgid "Messages from this store"
 msgstr "ከዚህ መደብር የተላኩ መልዕክቶች"
 
-#: includes/class-zinn-order-updates-preferences.php:358
+#: includes/class-zinn-order-updates-preferences.php:398
 msgid "Save"
 msgstr "አስቀምጥ"
 
-#: includes/class-zinn-order-updates-preferences.php:359
+#: includes/class-zinn-order-updates-preferences.php:399
 msgid "Stop all messages"
 msgstr "ሁሉንም መልዕክቶች ያቁሙ"
 
-#: includes/class-zinn-order-updates-preferences.php:361
+#: includes/class-zinn-order-updates-preferences.php:401
 msgid "Recent messages"
 msgstr "የቅርብ ጊዜ መልዕክቶች"
 
-#: includes/class-zinn-order-updates-preferences.php:364
+#: includes/class-zinn-order-updates-preferences.php:404
 msgid "This store has not sent you any messages yet."
 msgstr "ይህ መደብር እስካሁን ምንም መልእክት አልላከልዎትም።"
 
 #. translators: 1: what the message was about, e.g. "Order shipped", 2: the order number, 3: the date it was sent.
-#: includes/class-zinn-order-updates-preferences.php:373
+#: includes/class-zinn-order-updates-preferences.php:413
 #, php-format
 msgid "%1$s, order %2$s, %3$s"
 msgstr "%1$s፣ ትዕዛዝ %2$s፣ %3$s"
 
-#: includes/class-zinn-order-updates-preferences.php:401
+#: includes/class-zinn-order-updates-preferences.php:441
 msgid "Sign in to manage the messages this store sends you."
 msgstr "ይህ መደብር የሚልክልዎትን መልዕክቶች ለማስተዳደር ይግቡ።"
 
-#: includes/class-zinn-order-updates-preferences.php:504
-#: includes/class-zinn-order-updates-preferences.php:518
+#: includes/class-zinn-order-updates-preferences.php:544
+#: includes/class-zinn-order-updates-preferences.php:558
 msgid "Zinn® message settings"
 msgstr "የZinn® መልእክት ቅንብሮች"
 
-#: includes/class-zinn-order-updates-preferences.php:519
+#: includes/class-zinn-order-updates-preferences.php:559
 msgid "Lets a signed-in shopper change the text messages your store sends them, stop them all, and see the last 20."
 msgstr "የገባ ገዢ ሱቅዎ የሚልክላቸውን የጽሑፍ መልዕክቶች እንዲቀይር፣ ሁሉንም እንዲያቆም እና የመጨረሻዎቹን 20 እንዲያይ ያስችለዋል።"
 
