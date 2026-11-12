@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Order Updates
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-order-updates
  * Description:       SMS and WhatsApp order updates for your store, sent through Zinn® Campaigns under your store's own name. Connect in one click; no keys to paste.
- * Version:           0.2.9
+ * Version:           0.2.10
  * Requires at least: 6.6
  * Requires PHP:      7.4
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ZINN_ORDER_UPDATES_VERSION', '0.2.9' );
+define( 'ZINN_ORDER_UPDATES_VERSION', '0.2.10' );
 define( 'ZINN_ORDER_UPDATES_FILE', __FILE__ );
 
 /**

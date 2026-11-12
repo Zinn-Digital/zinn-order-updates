@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.9
+Stable tag: 0.2.10
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,9 @@ Yes. Press Connect and you can create one on the way.
 Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status, total and the link to their order), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.10 =
+* Shows the Zinn® Pro Membership offer in the plugin's Zinn® panel.
 
 = 0.2.9 =
 * WordPress Abilities (WordPress 6.9 and later): an AI assistant or an MCP client on your site can read an order's messages and send an approved order update, only for a user who may edit orders, and read the connection's health, only for an administrator. A send still goes only to the order's own shopper and only if they agreed to receive it; reusing a request ID never sends twice.

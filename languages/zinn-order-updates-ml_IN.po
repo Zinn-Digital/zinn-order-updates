@@ -647,47 +647,57 @@ msgid "Lets a signed-in shopper change the text messages your store sends them, 
 msgstr "ലോഗിൻ ചെയ്‌ത ഒരു ഉപഭോക്താവിന് നിങ്ങളുടെ സ്റ്റോർ അയയ്‌ക്കുന്ന ടെക്‌സ്‌റ്റ് മെസേജുകൾ മാറ്റാനും, അവയെല്ലാം നിർത്താനും, അവസാനത്തെ 20 എണ്ണം കാണാനും അനുവദിക്കുന്നു."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-order-updates-promo.php:349
-#: includes/class-zinn-order-updates-promo.php:407
+#: includes/class-zinn-order-updates-promo.php:363
+#: includes/class-zinn-order-updates-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — ഗൈഡുകളും സേവനങ്ങളും"
 
-#: includes/class-zinn-order-updates-promo.php:364
+#: includes/class-zinn-order-updates-promo.php:378
 msgid "User guides"
 msgstr "ഉപയോക്തൃ ഗൈഡുകൾ"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-order-updates-promo.php:414
+#: includes/class-zinn-order-updates-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%s ഉപയോക്തൃ ഗൈഡ് വായിക്കുക"
 
-#: includes/class-zinn-order-updates-promo.php:422
+#: includes/class-zinn-order-updates-promo.php:436
 msgid "Hide this"
 msgstr "ഇത് മറയ്ക്കുക"
 
-#: includes/class-zinn-order-updates-promo.php:535
+#: includes/class-zinn-order-updates-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro അംഗത്വം: ഓരോ Pro പ്ലഗിനും, ഒരൊറ്റ ലൈസൻസ്"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-order-updates-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache, Zinn® Backups എന്നിവയുടെ Pro പതിപ്പുകളും, ഞങ്ങൾ അടുത്തതായി പുറത്തിറക്കുന്ന ഓരോ Pro പ്ലഗിന്നുകളും പ്രതിവർഷം %s മുതൽ. രണ്ടാമതൊരു അംഗത്വം Zinn® Chat Pro ചേർക്കുന്നു."
+
+#: includes/class-zinn-order-updates-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress-നായുള്ള Zinn® ഹോസ്റ്റിംഗ്"
 
-#: includes/class-zinn-order-updates-promo.php:536
+#: includes/class-zinn-order-updates-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, ദൈനംദിന ബാക്കപ്പുകൾ, സൗജന്യ മൈഗ്രേഷൻ, ഒന്നിലധികം സൈറ്റുകൾ കൈകാര്യം ചെയ്യുന്ന ആളുകൾക്കായി നിർമ്മിച്ച ഒരു നിയന്ത്രണ പാനൽ."
 
-#: includes/class-zinn-order-updates-promo.php:542
+#: includes/class-zinn-order-updates-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "Zinn® മാർക്കറ്റ്പ്ലേസ്"
 
-#: includes/class-zinn-order-updates-promo.php:543
+#: includes/class-zinn-order-updates-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "ഇരുപക്ഷത്തിനും പൂർണ്ണ തൃപ്തിയാകുന്നതുവരെ പണം സുരക്ഷിതമായി സൂക്ഷിച്ചുകൊണ്ട്, നിലവിലുള്ള സൈറ്റുകൾ, ഡൊമെയ്‌നുകൾ, ലിങ്ക് പ്ലേസ്‌മെന്റുകൾ എന്നിവ വാങ്ങുകയും വിൽക്കുകയും ചെയ്യുക."
 
-#: includes/class-zinn-order-updates-promo.php:590
+#: includes/class-zinn-order-updates-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ഇത് ഉപജീവനമാർഗ്ഗമാക്കിയ ആളുകളെ നിയമിക്കുക"
 
-#: includes/class-zinn-order-updates-promo.php:591
+#: includes/class-zinn-order-updates-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ഞങ്ങളുടെ ആഗോള ഫ്രീലാൻസ് വിപണി: എഴുത്തുകാർ, ഡിസൈനർമാർ, ഡെവലപ്പർമാർ, എസ്ഇഒ വിദഗ്ദ്ധർ എന്നിവരിൽ നിന്നുള്ള പതിനായിരത്തിലധികം റെഡിമെയ്ഡ് സേവനങ്ങൾ ബ്രൗസ് ചെയ്യുക, അല്ലെങ്കിൽ ഒരു പ്രോജക്റ്റ് പോസ്റ്റ് ചെയ്ത് ലേലം വിളിക്കാൻ അവരെ അനുവദിക്കുക."
 
