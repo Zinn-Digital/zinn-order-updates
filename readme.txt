@@ -7,7 +7,7 @@ Tags: woocommerce, sms, whatsapp, order notifications, order status
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.10
+Stable tag: 0.2.11
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,10 @@ Zinn® Campaigns sends your store's SMS and WhatsApp order updates in your store
 * **Diagnostics only with your consent.** Nothing is sent until you agree on the Help screen. Each diagnostics block is shown in full and sent only when you tick it; the store's token is never one of them.
 * **A sign-up form on any page.** Add the "Zinn® SMS and WhatsApp sign-up" block (in the Zinn Digital® category of the block inserter, also inside Page Builder Sandwich) or the `[zinn_ou_opt_in channel="sms"]` shortcode (`sms`, `whatsapp` or `both`). Visitors give their mobile number and tick an unticked box to get offers and news; it is a marketing opt-in only and never signs anyone up for order updates. With Page Builder Sandwich Pro forms, add the "Zinn® SMS offers consent" or "Zinn® WhatsApp offers consent" field next to a phone field and a ticked box records the same opt-in.
 * **Remembers each order's language.** At checkout the plugin stores the shopper's language on the order (from Tranzly, WPML, Polylang, TranslatePress, the shopper's account or the site language), so order updates can be sent in the language they bought in.
+
+= Source code =
+
+The complete source is public at https://github.com/Zinn-Digital/zinn-order-updates
 
 == Installation ==
 
@@ -84,6 +88,9 @@ Yes. Press Connect and you can create one on the way.
 Only for a shopper who ticks the "Send me order updates by SMS" box at checkout, and only once the store is connected: their consent, then each status change of that order (first name, billing phone, language, order number, status, total and the link to their order), so Zinn® Campaigns can text them. Orders without the tick send nothing. A support ticket carries only what you type and the diagnostics blocks you tick.
 
 == Changelog ==
+
+= 0.2.11 =
+* The readme links the plugin's public source repository.
 
 = 0.2.10 =
 * Shows the Zinn® Pro Membership offer in the plugin's Zinn® panel.
