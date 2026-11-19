@@ -33,7 +33,10 @@ final class Zinn_Order_Updates_Optin {
 	public const RETRY     = 'zinn_order_updates_consent_retry';
 	public const RESULT    = 'zinn_ou_optin';
 	public const NONCE     = '_zinn_ou_nonce';
-	public const WORDING_V = '1';
+	/** The form's `action` and nonce field: in the visitor's HTML, so they name no brand. */
+	public const FORM_ACTION = 'order_msg_signup';
+	public const FORM_NONCE  = '_order_msg_nonce';
+	public const WORDING_V   = '1';
 	/** PBS form fields with these names (type consent or checkbox) are our consent element. */
 	public const PBS_FIELDS = array(
 		'zinn_ou_sms'      => 'sms',
@@ -51,8 +54,11 @@ final class Zinn_Order_Updates_Optin {
 	public static function register(): void {
 		add_filter( 'block_categories_all', array( self::class, 'categories' ), 10, 1 );
 		add_shortcode( self::SHORTCODE, array( self::class, 'shortcode' ) );
-		add_action( 'admin_post_nopriv_' . self::ACTION, array( self::class, 'handle' ) );
-		add_action( 'admin_post_' . self::ACTION, array( self::class, 'handle_signed_in' ) );
+		// The old action stays hooked: a page cached before 0.2.12 still posts it.
+		foreach ( array( self::FORM_ACTION, self::ACTION ) as $action ) {
+			add_action( 'admin_post_nopriv_' . $action, array( self::class, 'handle' ) );
+			add_action( 'admin_post_' . $action, array( self::class, 'handle_signed_in' ) );
+		}
 		add_action( self::RETRY, array( self::class, 'retry' ), 10, 2 );
 		add_action( 'enqueue_block_editor_assets', array( self::class, 'editor_data' ) );
 		self::register_block();
@@ -240,18 +246,18 @@ final class Zinn_Order_Updates_Optin {
 	public static function form( string $channel ): string {
 		if ( '' === Zinn_Order_Updates_Api::token() ) {
 			return current_user_can( 'manage_options' )
-				? '<p class="zinn-ou-opt-in-notice">' . esc_html__( 'Connect this store to Zinn® Campaigns to show this sign-up form.', 'zinn-order-updates' ) . '</p>'
+				? '<p class="order-msg-signup-notice">' . esc_html__( 'Connect this store to Zinn® Campaigns to show this sign-up form.', 'zinn-order-updates' ) . '</p>'
 				: '';
 		}
 		$channel = in_array( $channel, self::CHANNELS, true ) ? $channel : 'sms';
 		$post_id = (int) get_the_ID();
 		$ts      = time();
-		$id      = 'zinn-ou-opt-in-' . $post_id;
+		$id      = 'order-msg-signup-' . $post_id;
 		// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- a read-only result code for display, set by our own redirect.
 		$result = isset( $_GET[ self::RESULT ] ) ? sanitize_key( wp_unslash( (string) $_GET[ self::RESULT ] ) ) : '';
-		$out    = '<form id="' . esc_attr( $id ) . '" class="zinn-ou-opt-in" method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '">';
+		$out    = '<form id="' . esc_attr( $id ) . '" class="order-msg-signup" method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '">';
 		$msg    = self::message( $result );
-		$out   .= '<p class="zinn-ou-opt-in-message" role="status" aria-live="polite">' . esc_html( $msg ) . '</p>';
+		$out   .= '<p class="order-msg-signup-message" role="status" aria-live="polite">' . esc_html( $msg ) . '</p>';
 		$out   .= '<p><label for="' . esc_attr( $id ) . '-phone">' . esc_html__( 'Mobile number', 'zinn-order-updates' ) . '</label> ';
 		$out   .= '<input id="' . esc_attr( $id ) . '-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" required placeholder="+44 7700 900123" /></p>';
 		if ( 'both' === $channel ) {
@@ -265,12 +271,12 @@ final class Zinn_Order_Updates_Optin {
 		}
 		$out .= '<p><label><input type="checkbox" name="agree" value="1" required /> ' . esc_html( $wording ) . '</label></p>';
 		$out .= '<p style="position:absolute;inset-inline-start:-9999px" aria-hidden="true"><label>' . esc_html__( 'Leave this empty', 'zinn-order-updates' ) . ' <input type="text" name="website" tabindex="-1" autocomplete="off" /></label></p>';
-		$out .= '<input type="hidden" name="action" value="' . esc_attr( self::ACTION ) . '" />';
+		$out .= '<input type="hidden" name="action" value="' . esc_attr( self::FORM_ACTION ) . '" />';
 		$out .= '<input type="hidden" name="mode" value="' . esc_attr( $channel ) . '" />';
 		$out .= '<input type="hidden" name="post" value="' . esc_attr( (string) $post_id ) . '" />';
 		$out .= '<input type="hidden" name="ts" value="' . esc_attr( (string) $ts ) . '" />';
 		$out .= '<input type="hidden" name="token" value="' . esc_attr( self::token( $post_id, $ts ) ) . '" />';
-		$out .= is_user_logged_in() ? wp_nonce_field( self::ACTION, self::NONCE, true, false ) : '';
+		$out .= is_user_logged_in() ? wp_nonce_field( self::ACTION, self::FORM_NONCE, true, false ) : '';
 		$out .= '<input type="hidden" name="lang" value="' . esc_attr( Zinn_Order_Updates_Locale::resolve() ) . '" />';
 		$out .= '<p><button type="submit">' . esc_html__( 'Sign up', 'zinn-order-updates' ) . '</button></p>';
 		return $out . '</form>';
@@ -428,14 +434,22 @@ final class Zinn_Order_Updates_Optin {
 	 * a nonce and the plain `read` capability (any account on this site) come first.
 	 */
 	public static function handle_signed_in(): void {
-		$nonce = isset( $_POST[ self::NONCE ] ) ? sanitize_text_field( wp_unslash( (string) $_POST[ self::NONCE ] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- this IS the nonce, verified next in signed_in_ok().
-		if ( ! self::signed_in_ok( $nonce ) ) {
+		if ( ! self::signed_in_ok( self::posted_nonce() ) ) {
 			// phpcs:ignore WordPress.Security.NonceVerification.Missing -- the nonce just failed; the page id only picks where to send them back.
 			$post = isset( $_POST['post'] ) ? absint( wp_unslash( $_POST['post'] ) ) : 0;
-			wp_safe_redirect( add_query_arg( self::RESULT, 'expired', $post > 0 ? (string) get_permalink( $post ) : home_url( '/' ) ) . '#zinn-ou-opt-in-' . $post );
+			wp_safe_redirect( add_query_arg( self::RESULT, 'expired', $post > 0 ? (string) get_permalink( $post ) : home_url( '/' ) ) . '#order-msg-signup-' . $post );
 			exit;
 		}
 		self::handle();
+	}
+
+	/**
+	 * The nonce a signed-in form posted: the current field, or the field a page cached before
+	 * 0.2.12 still carries, so that visitor is not told their form "expired".
+	 */
+	public static function posted_nonce(): string {
+		$field = isset( $_POST[ self::FORM_NONCE ] ) ? self::FORM_NONCE : self::NONCE; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- picks which nonce field to verify next.
+		return isset( $_POST[ $field ] ) ? sanitize_text_field( wp_unslash( (string) $_POST[ $field ] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- this IS the nonce, verified next in signed_in_ok().
 	}
 
 	/**
@@ -461,7 +475,7 @@ final class Zinn_Order_Updates_Optin {
 		$result = self::process( $in, time() );
 		$post   = (int) $in['post'];
 		$back   = $post > 0 ? (string) get_permalink( $post ) : home_url( '/' );
-		wp_safe_redirect( add_query_arg( self::RESULT, $result, $back ) . '#zinn-ou-opt-in-' . $post );
+		wp_safe_redirect( add_query_arg( self::RESULT, $result, $back ) . '#order-msg-signup-' . $post );
 		exit;
 	}
 

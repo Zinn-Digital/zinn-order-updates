@@ -23,13 +23,15 @@ defined( 'ABSPATH' ) || exit;
  */
 final class Zinn_Order_Updates_Preferences {
 
-	public const ENDPOINT  = 'messages';
-	public const BLOCK     = 'zinn-ou/preferences';
-	public const ACTION    = 'zinn_ou_prefs';
-	public const RESULT    = 'zinn_ou_prefs';
-	public const WORDING_V = 'prefs-1';
-	private const HANDLE   = 'zinn-ou-preferences-block';
-	private const FLUSHED  = 'zinn_order_updates_messages_rewrite';
+	public const ENDPOINT = 'messages';
+	public const BLOCK    = 'zinn-ou/preferences';
+	public const ACTION   = 'zinn_ou_prefs';
+	/** The form's `action`: in the visitor's HTML, so it names no brand (footprint gate). */
+	public const FORM_ACTION = 'order_msg_prefs';
+	public const RESULT      = 'zinn_ou_prefs';
+	public const WORDING_V   = 'prefs-1';
+	private const HANDLE     = 'zinn-ou-preferences-block';
+	private const FLUSHED    = 'zinn_order_updates_messages_rewrite';
 
 	/** Option: the tab's URL slug, saved at the rewrite flush so the link and the rule never differ. */
 	public const SLUG_OPTION = 'zinn_order_updates_messages_slug';
@@ -48,6 +50,8 @@ final class Zinn_Order_Updates_Preferences {
 		add_filter( 'woocommerce_account_menu_items', array( self::class, 'menu' ) );
 		add_filter( 'woocommerce_endpoint_' . self::ENDPOINT . '_title', array( self::class, 'title' ) );
 		add_action( 'woocommerce_account_' . self::ENDPOINT . '_endpoint', array( self::class, 'account_page' ) );
+		add_action( 'admin_post_' . self::FORM_ACTION, array( self::class, 'handle' ) );
+		// A page cached before 0.2.12 still posts the old action and field names.
 		add_action( 'admin_post_' . self::ACTION, array( self::class, 'handle' ) );
 		add_action( 'enqueue_block_editor_assets', array( self::class, 'editor_data' ) );
 		add_action( 'init', array( self::class, 'register_block' ) );
@@ -361,7 +365,7 @@ final class Zinn_Order_Updates_Preferences {
 			'error'    => __( 'We could not save your settings just now. Please try again in a minute.', 'zinn-order-updates' ),
 			'unproven' => self::unproven_text(),
 		);
-		return isset( $text[ $result ] ) ? '<p class="zinn-ou-prefs__notice" role="status">' . esc_html( $text[ $result ] ) . '</p>' : '';
+		return isset( $text[ $result ] ) ? '<p class="order-msg-prefs__notice" role="status">' . esc_html( $text[ $result ] ) . '</p>' : '';
 	}
 
 	/**
@@ -375,7 +379,7 @@ final class Zinn_Order_Updates_Preferences {
 	public static function panel( string $phone, ?array $shopper, string $result = '', bool $proven = true ): string {
 		$shopper = $proven ? $shopper : array();
 		$on      = self::current( $shopper );
-		$html    = '<div class="zinn-ou-prefs">' . self::notice( $result );
+		$html    = '<div class="order-msg-prefs">' . self::notice( $result );
 		if ( ! $proven && '' !== $phone && 'unproven' !== $result ) {
 			$html .= '<p>' . esc_html( self::unproven_text() ) . '</p>';
 		}
@@ -384,26 +388,26 @@ final class Zinn_Order_Updates_Preferences {
 			return $html;
 		}
 		$html .= '<form method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '">';
-		$html .= '<input type="hidden" name="action" value="' . esc_attr( self::ACTION ) . '" />';
-		$html .= wp_nonce_field( self::ACTION, '_zinn_ou_prefs_nonce', true, false );
-		$html .= '<p><label for="zinn-ou-prefs-phone">' . esc_html__( 'Mobile number', 'zinn-order-updates' ) . '</label> ';
-		$html .= '<input type="tel" id="zinn-ou-prefs-phone" name="zinn_ou_phone" autocomplete="tel" dir="ltr" value="' . esc_attr( $phone ) . '" /></p>';
+		$html .= '<input type="hidden" name="action" value="' . esc_attr( self::FORM_ACTION ) . '" />';
+		$html .= wp_nonce_field( self::ACTION, '_order_msg_prefs_nonce', true, false );
+		$html .= '<p><label for="order-msg-prefs-phone">' . esc_html__( 'Mobile number', 'zinn-order-updates' ) . '</label> ';
+		$html .= '<input type="tel" id="order-msg-prefs-phone" name="order_msg_phone" autocomplete="tel" dir="ltr" value="' . esc_attr( $phone ) . '" /></p>';
 		$html .= '<fieldset><legend>' . esc_html__( 'Messages from this store', 'zinn-order-updates' ) . '</legend>';
 		foreach ( self::TOGGLES as $key ) {
-			$id    = 'zinn-ou-prefs-' . str_replace( ':', '-', $key );
-			$html .= '<p><input type="checkbox" id="' . esc_attr( $id ) . '" name="zinn_ou_on[]" value="' . esc_attr( $key ) . '"' . ( $on[ $key ] ? ' checked="checked"' : '' ) . ' /> ';
+			$id    = 'order-msg-prefs-' . str_replace( ':', '-', $key );
+			$html .= '<p><input type="checkbox" id="' . esc_attr( $id ) . '" name="order_msg_on[]" value="' . esc_attr( $key ) . '"' . ( $on[ $key ] ? ' checked="checked"' : '' ) . ' /> ';
 			$html .= '<label for="' . esc_attr( $id ) . '">' . esc_html( self::label( $key ) ) . '</label></p>';
 		}
 		$html    .= '</fieldset>';
-		$html    .= '<p><button type="submit" name="zinn_ou_do" value="save" class="button">' . esc_html__( 'Save', 'zinn-order-updates' ) . '</button> ';
-		$html    .= '<button type="submit" name="zinn_ou_do" value="stop" class="button">' . esc_html__( 'Stop all messages', 'zinn-order-updates' ) . '</button></p>';
+		$html    .= '<p><button type="submit" name="order_msg_do" value="save" class="button">' . esc_html__( 'Save', 'zinn-order-updates' ) . '</button> ';
+		$html    .= '<button type="submit" name="order_msg_do" value="stop" class="button">' . esc_html__( 'Stop all messages', 'zinn-order-updates' ) . '</button></p>';
 		$html    .= '</form>';
 		$html    .= '<h3>' . esc_html__( 'Recent messages', 'zinn-order-updates' ) . '</h3>';
 		$messages = (array) ( $shopper['messages'] ?? array() );
 		if ( array() === $messages ) {
 			$html .= '<p>' . esc_html__( 'This store has not sent you any messages yet.', 'zinn-order-updates' ) . '</p>';
 		} else {
-			$html .= '<ul class="zinn-ou-prefs__history">';
+			$html .= '<ul class="order-msg-prefs__history">';
 			foreach ( $messages as $m ) {
 				$at    = strtotime( (string) ( $m['sent_at'] ?? '' ) );
 				$when  = $at ? wp_date( (string) get_option( 'date_format', 'Y-m-d' ), $at ) : '';
@@ -438,7 +442,7 @@ final class Zinn_Order_Updates_Preferences {
 		unset( $attributes );
 		$user = get_current_user_id();
 		if ( $user <= 0 ) {
-			return '<p class="zinn-ou-prefs"><a href="' . esc_url( wp_login_url( (string) get_permalink() ) ) . '">' . esc_html__( 'Sign in to manage the messages this store sends you.', 'zinn-order-updates' ) . '</a></p>';
+			return '<p class="order-msg-prefs"><a href="' . esc_url( wp_login_url( (string) get_permalink() ) ) . '">' . esc_html__( 'Sign in to manage the messages this store sends you.', 'zinn-order-updates' ) . '</a></p>';
 		}
 		$phone  = self::phone( $user );
 		$own    = self::own_orders( $user );
@@ -459,6 +463,24 @@ final class Zinn_Order_Updates_Preferences {
 	}
 
 	/**
+	 * A posted field by its name (`order_msg_*`), or by the name a page cached before 0.2.12 used
+	 * (`zinn_ou_*`). The visitor's HTML names no brand; an old cached form still saves.
+	 *
+	 * @param array<string, mixed> $post   The unslashed form post.
+	 * @param string               $name   The field, without its prefix.
+	 * @param string               $before `_` for the nonce field.
+	 * @return mixed|null
+	 */
+	private static function field( array $post, string $name, string $before = '' ) {
+		foreach ( array( 'order_msg_', 'zinn_ou_' ) as $prefix ) {
+			if ( isset( $post[ $before . $prefix . $name ] ) ) {
+				return $post[ $before . $prefix . $name ];
+			}
+		}
+		return null;
+	}
+
+	/**
 	 * The gate and the save, pure of the redirect: where to send the shopper back to. Signed-in,
 	 * `read` and a good nonce, or nothing happens (D78081).
 	 *
@@ -466,14 +488,18 @@ final class Zinn_Order_Updates_Preferences {
 	 * @param string               $back Where the form was.
 	 */
 	public static function submit( array $post, string $back ): string {
-		$user = get_current_user_id();
-		if ( $user <= 0 || ! current_user_can( 'read' ) || ! isset( $post['_zinn_ou_prefs_nonce'] ) || ! wp_verify_nonce( sanitize_text_field( (string) $post['_zinn_ou_prefs_nonce'] ), self::ACTION ) ) {
+		$user  = get_current_user_id();
+		$nonce = self::field( $post, 'prefs_nonce', '_' );
+		if ( $user <= 0 || ! current_user_can( 'read' ) || null === $nonce || ! wp_verify_nonce( sanitize_text_field( (string) $nonce ), self::ACTION ) ) {
 			return $back;
 		}
+		$phone  = self::field( $post, 'phone' );
+		$do     = self::field( $post, 'do' );
+		$on     = self::field( $post, 'on' );
 		$in     = array(
-			'phone' => isset( $post['zinn_ou_phone'] ) ? sanitize_text_field( (string) $post['zinn_ou_phone'] ) : '',
-			'do'    => isset( $post['zinn_ou_do'] ) ? sanitize_key( (string) $post['zinn_ou_do'] ) : 'save',
-			'on'    => isset( $post['zinn_ou_on'] ) ? array_map( 'sanitize_text_field', array_map( 'strval', (array) $post['zinn_ou_on'] ) ) : array(),
+			'phone' => null !== $phone ? sanitize_text_field( (string) $phone ) : '',
+			'do'    => null !== $do ? sanitize_key( (string) $do ) : 'save',
+			'on'    => null !== $on ? array_map( 'sanitize_text_field', array_map( 'strval', (array) $on ) ) : array(),
 		);
 		$result = self::save( $user, $in, determine_locale() );
 		return add_query_arg( self::RESULT, $result, $back );
